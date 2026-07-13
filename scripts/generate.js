@@ -307,7 +307,7 @@ async function main() {
   console.log("=".repeat(60));
   console.log("  🤖 AI 新闻日报生成器");
   console.log("=".repeat(60));
-  console.log(`  查询日期: ${targetDate}（前天）`);
+  console.log(`  查询日期: ${targetDate}（昨天）`);
   console.log(`  生成日期: ${today}`);
   console.log(`  新闻源数: ${RSS_FEEDS.length}`);
   console.log("=".repeat(60));
