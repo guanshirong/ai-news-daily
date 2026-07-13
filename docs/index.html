@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="last-updated" content="">
+  <meta name="color-scheme" content="dark">
+  <title>🤖 AI 新闻日报</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+</head>
+<body>
+  <!-- 顶栏 -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <div class="logo">
+          <span class="logo-icon">🤖</span>
+          <div>
+            <h1>AI 新闻日报</h1>
+            <p class="subtitle">每天早上8点自动更新 · 多源验证 · 一句话总结</p>
+          </div>
+        </div>
+        <div class="header-meta" id="headerMeta">
+          <span class="badge badge-live" id="liveBadge">● LIVE</span>
+          <span class="last-update" id="lastUpdate">加载中...</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 主内容 -->
+  <main class="container">
+    <!-- 加载状态 -->
+    <div class="loading" id="loading">
+      <div class="spinner"></div>
+      <p>加载日报数据...</p>
+    </div>
+
+    <!-- 错误状态 -->
+    <div class="error-state" id="errorState" style="display:none;">
+      <p>⚠️ 无法加载数据，请稍后再试</p>
+    </div>
+
+    <!-- 空状态 -->
+    <div class="empty-state" id="emptyState" style="display:none;">
+      <p>📭 日报数据将在首次自动运行后出现</p>
+      <p class="hint">每天早上 8:00 (北京时间) 更新</p>
+    </div>
+
+    <!-- 日报列表 -->
+    <div class="reports" id="reports"></div>
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>由 <strong>Claude API</strong> + <strong>GitHub Actions</strong> 驱动 · 全自动运行 · 无需人工干预</p>
+    </div>
+  </footer>
+
+  <script src="data/reports.js"></script>
+  <script>
+  // ============================================================
+  // 渲染引擎
+  // ============================================================
+
+  const loading = document.getElementById('loading');
+  const errorState = document.getElementById('errorState');
+  const emptyState = document.getElementById('emptyState');
+  const reportsEl = document.getElementById('reports');
+  const lastUpdate = document.getElementById('lastUpdate');
+  const liveBadge = document.getElementById('liveBadge');
+
+  /** 可信度星级 */
+  function stars(n) {
+    return '⭐'.repeat(Math.max(0, Math.min(5, n))) + '☆'.repeat(Math.max(0, 5 - Math.min(5, n)));
+  }
+
+  /** 重要程度颜色 */
+  function importanceColor(level) {
+    return { high: '#ff6b6b', medium: '#ffd93d', low: '#6bcb77' }[level] || '#888';
+  }
+
+  /** 分类图标 */
+  function categoryIcon(cat) {
+    const map = {
+      '模型发布': '🧠', '商业动态': '💼', '政策监管': '⚖️',
+      '学术突破': '🔬', '产业应用': '🏭', '资本市场': '📈'
+    };
+    return map[cat] || '📌';
+  }
+
+  /** 格式化日期 */
+  function formatDate(dateStr) {
+    if (!dateStr) return '';
+    const d = new Date(dateStr);
+    return d.toLocaleDateString('zh-CN', { year:'numeric', month:'long', day:'numeric', weekday:'short' });
+  }
+
+  /** 渲染所有报告 */
+  function render() {
+    loading.style.display = 'none';
+
+    if (typeof REPORTS === 'undefined') {
+      errorState.style.display = 'block';
+      return;
+    }
+
+    if (!REPORTS || REPORTS.length === 0) {
+      emptyState.style.display = 'block';
+      return;
+    }
+
+    // 更新头部
+    const latest = REPORTS[0];
+    lastUpdate.textContent = `最新: ${formatDate(latest.date)} · 查 ${latest.queryDate}`;
+    liveBadge.style.display = 'inline-block';
+
+    // 渲染报告卡片
+    reportsEl.innerHTML = REPORTS.map((report, idx) => {
+      const headlinesHtml = (report.headlines || []).length > 0
+        ? report.headlines.map(h => `
+          <article class="news-item ${h.importance || 'medium'}">
+            <div class="news-header">
+              <span class="importance-dot" style="background:${importanceColor(h.importance)}" title="${h.importance || 'medium'}"></span>
+              <span class="category-tag">${categoryIcon(h.category)} ${h.category || '综合'}</span>
+              <span class="credibility" title="来源可信度">${stars(h.credibility || 3)}</span>
+            </div>
+            <h3 class="news-title">${escHtml(h.title)}</h3>
+            <p class="news-summary">${escHtml(h.summary)}</p>
+            ${h.sourceUrls && h.sourceUrls.length > 0 ? `
+              <div class="news-sources">
+                📎 ${h.sourceUrls.map((url, i) => `<a href="${escHtml(url)}" target="_blank" rel="noopener">${escHtml((h.sources || [])[i] || '来源')}</a>`).join(' · ')}
+              </div>` : ''}
+          </article>
+        `).join('')
+        : '<p class="no-news">📭 当日无显著AI新闻</p>';
+
+      const signalsHtml = (report.signals || []).length > 0
+        ? report.signals.map(s => `<span class="signal-tag">🔮 ${escHtml(s)}</span>`).join('')
+        : '';
+
+      return `
+        <section class="report-card ${idx === 0 ? 'latest' : ''}">
+          <div class="report-header">
+            <div class="report-date">
+              <h2>${formatDate(report.queryDate)}</h2>
+              ${idx === 0 ? '<span class="new-badge">NEW</span>' : ''}
+            </div>
+            <div class="report-meta">
+              <span>生成于 ${formatDate(report.date)}</span>
+              <span>${report.headlines.length} 条新闻 · ${report.sourceCount || 0} 个来源</span>
+            </div>
+          </div>
+
+          ${report.summary ? `<p class="day-summary">📋 ${escHtml(report.summary)}</p>` : ''}
+
+          <div class="news-list">
+            ${headlinesHtml}
+          </div>
+
+          ${signalsHtml ? `<div class="signals">${signalsHtml}</div>` : ''}
+        </section>
+      `;
+    }).join('');
+  }
+
+  function escHtml(str) {
+    if (!str) return '';
+    const div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+  }
+
+  // 启动
+  try {
+    render();
+  } catch (e) {
+    console.error(e);
+    loading.style.display = 'none';
+    errorState.style.display = 'block';
+    errorState.querySelector('p').textContent = '⚠️ 渲染失败: ' + e.message;
+  }
+  </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "ai-news-daily",
+  "version": "1.0.0",
+  "description": "每日AI新闻自动汇总站 - 每天早上8点自动搜索、验证、总结AI新闻",
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate.js",
+    "dev": "npx serve docs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "rss-parser": "^3.13.0"
+  }
+}

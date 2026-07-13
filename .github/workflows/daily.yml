@@ -1,0 +1,59 @@
+name: 🤖 AI 新闻日报
+
+on:
+  schedule:
+    # 每天 8:03 AM 北京时间 = 0:03 AM UTC
+    - cron: "3 0 * * *"
+  workflow_dispatch: # 支持手动触发
+    inputs:
+      model:
+        description: "Claude 模型"
+        required: false
+        default: "claude-sonnet-4-20250514"
+        type: choice
+        options:
+          - claude-sonnet-4-20250514
+          - claude-haiku-4-5-20251001
+          - claude-opus-4-8-20250514
+
+permissions:
+  contents: write # 允许推送更改
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: 📥 检出仓库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 🔧 设置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: 📦 安装依赖
+        run: npm ci
+
+      - name: 🤖 生成日报
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_MODEL: ${{ inputs.model || 'claude-sonnet-4-20250514' }}
+        run: npm run generate
+
+      - name: 📝 提交更新
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "📰 自动日报: ${{ env.TARGET_DATE || 'daily' }}"
+          commit_author: "AI News Bot 🤖 <bot@ai-news.local>"
+          file_pattern: "docs/"
+          commit_options: "--allow-empty"
+
+      - name: 📊 构建日志
+        run: |
+          echo "✅ 日报生成完成"
+          echo "📅 生成时间: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
