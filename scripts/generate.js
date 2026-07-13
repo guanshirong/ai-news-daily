@@ -1,12 +1,11 @@
 /**
  * AI 新闻日报生成器
- * 每天运行：抓取 RSS → Claude 筛选验证 → 生成结构化日报 → 更新网站
+ * 每天运行：抓取 RSS → DeepSeek 筛选验证 → 生成结构化日报 → 更新网站
  *
  * 用法: node scripts/generate.js
- * 环境变量: ANTHROPIC_API_KEY (必需)
+ * 环境变量: DEEPSEEK_API_KEY (必需)
  */
 
-import Anthropic from "@anthropic-ai/sdk";
 import RssParser from "rss-parser";
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "fs";
 import { join, dirname } from "path";
@@ -33,8 +32,9 @@ const RSS_FEEDS = [
   { name: "ZDNet AI", url: "https://www.zdnet.com/topic/artificial-intelligence/rss.xml" },
 ];
 
-/** Claude 模型选择 */
-const MODEL = process.env.CLAUDE_MODEL || "claude-sonnet-4-20250514";
+/** DeepSeek 模型 */
+const MODEL = process.env.DEEPSEEK_MODEL || "deepseek-chat";
+const DEEPSEEK_BASE = "https://api.deepseek.com/v1";
 
 /** 搜索目标：前天（UTC+8） */
 function getTargetDate() {
@@ -110,18 +110,14 @@ async function fetchAllFeeds() {
 }
 
 // ============================================================
-// 步骤2: 用 Claude 筛选、验证、总结
+// 步骤2: 用 DeepSeek 筛选、验证、总结
 // ============================================================
 
-async function summarizeWithClaude(items, targetDate) {
-  const anthropic = new Anthropic({
-    apiKey: process.env.ANTHROPIC_API_KEY,
-  });
-
+async function summarizeWithDeepSeek(items, targetDate) {
   // 预处理：按日期筛选，保留最近3天的
   const recentItems = items.filter((item) => daysFrom(item.pubDate, targetDate) <= 3);
 
-  // 去重（按标题相似度简单处理 — 完全相同标题去重）
+  // 去重（按标题前60字符）
   const seen = new Set();
   const uniqueItems = recentItems.filter((item) => {
     const key = item.title.slice(0, 60).toLowerCase();
@@ -137,7 +133,7 @@ async function summarizeWithClaude(items, targetDate) {
     return null;
   }
 
-  // 构建 Claude 的输入
+  // 构建新闻列表文本
   const newsList = uniqueItems
     .map(
       (item, i) =>
@@ -163,8 +159,8 @@ async function summarizeWithClaude(items, targetDate) {
       "title": "新闻标题（中文翻译）",
       "summary": "2-3句话中文概括核心内容",
       "importance": "high | medium | low",
-      "sources": ["原始来源名称", ...],
-      "sourceUrls": ["原始链接", ...],
+      "sources": ["原始来源名称"],
+      "sourceUrls": ["原始链接"],
       "credibility": 5,
       "category": "模型发布 | 商业动态 | 政策监管 | 学术突破 | 产业应用 | 资本市场"
     }
@@ -180,25 +176,36 @@ async function summarizeWithClaude(items, targetDate) {
 - 忽略与AI无关的新闻
 - 如果没有足够的高质量新闻，宁可少报也不凑数`;
 
-  console.log(`  🤖 调用 Claude (${MODEL}) 进行分析...`);
+  console.log(`  🤖 调用 DeepSeek (${MODEL}) 进行分析...`);
 
-  const msg = await anthropic.messages.create({
-    model: MODEL,
-    max_tokens: 4096,
-    system: systemPrompt,
-    messages: [
-      {
-        role: "user",
-        content: `以下是 ${targetDate} 前后AI领域的新闻列表。请筛选、验证并生成结构化日报：\n\n${newsList}`,
-      },
-    ],
+  const response = await fetch(`${DEEPSEEK_BASE}/chat/completions`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${process.env.DEEPSEEK_API_KEY}`,
+    },
+    body: JSON.stringify({
+      model: MODEL,
+      messages: [
+        { role: "system", content: systemPrompt },
+        {
+          role: "user",
+          content: `以下是 ${targetDate} 前后AI领域的新闻列表。请筛选、验证并生成结构化日报：\n\n${newsList}`,
+        },
+      ],
+      max_tokens: 4096,
+      temperature: 0.3,
+    }),
   });
 
-  // 解析 Claude 的响应
-  const text = msg.content
-    .filter((block) => block.type === "text")
-    .map((block) => block.text)
-    .join("");
+  if (!response.ok) {
+    const errBody = await response.text();
+    console.error(`  ❌ DeepSeek API 错误 (${response.status}): ${errBody.slice(0, 300)}`);
+    return null;
+  }
+
+  const data = await response.json();
+  const text = data.choices?.[0]?.message?.content || "";
 
   // 尝试提取 JSON（处理可能的 markdown 代码块包裹）
   let jsonStr = text.trim();
@@ -209,7 +216,7 @@ async function summarizeWithClaude(items, targetDate) {
 
   try {
     const report = JSON.parse(jsonStr);
-    console.log(`  ✅ Claude 分析完成，生成 ${report.headlines?.length || 0} 条新闻`);
+    console.log(`  ✅ DeepSeek 分析完成，生成 ${report.headlines?.length || 0} 条新闻`);
     return report;
   } catch (err) {
     console.error(`  ❌ JSON 解析失败: ${err.message}`);
@@ -306,8 +313,8 @@ async function main() {
   console.log("=".repeat(60));
 
   // 检查 API Key
-  if (!process.env.ANTHROPIC_API_KEY) {
-    console.error("❌ 错误: 未设置 ANTHROPIC_API_KEY 环境变量");
+  if (!process.env.DEEPSEEK_API_KEY) {
+    console.error("❌ 错误: 未设置 DEEPSEEK_API_KEY 环境变量");
     process.exit(1);
   }
 
@@ -316,12 +323,12 @@ async function main() {
   const items = await fetchAllFeeds();
   console.log(`  📦 总计抓取 ${items.length} 条新闻\n`);
 
-  // 步骤2: Claude 分析
-  console.log("🧠 步骤 2/3: Claude 分析与验证...");
-  const report = await summarizeWithClaude(items, targetDate);
+  // 步骤2: DeepSeek 分析
+  console.log("🧠 步骤 2/3: DeepSeek 分析与验证...");
+  const report = await summarizeWithDeepSeek(items, targetDate);
 
   if (!report) {
-    console.log("\n⚠️ Claude 分析失败，生成空报告");
+    console.log("\n⚠️ DeepSeek 分析失败，生成空报告");
   }
 
   // 步骤3: 更新网站

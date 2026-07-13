@@ -5,19 +5,9 @@ on:
     # 每天 8:03 AM 北京时间 = 0:03 AM UTC
     - cron: "3 0 * * *"
   workflow_dispatch: # 支持手动触发
-    inputs:
-      model:
-        description: "Claude 模型"
-        required: false
-        default: "claude-sonnet-4-20250514"
-        type: choice
-        options:
-          - claude-sonnet-4-20250514
-          - claude-haiku-4-5-20251001
-          - claude-opus-4-8-20250514
 
 permissions:
-  contents: write # 允许推送更改
+  contents: write # 允许推送更改到仓库
 
 jobs:
   generate:
@@ -41,14 +31,13 @@ jobs:
 
       - name: 🤖 生成日报
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          CLAUDE_MODEL: ${{ inputs.model || 'claude-sonnet-4-20250514' }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: npm run generate
 
       - name: 📝 提交更新
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "📰 自动日报: ${{ env.TARGET_DATE || 'daily' }}"
+          commit_message: "📰 自动日报"
           commit_author: "AI News Bot 🤖 <bot@ai-news.local>"
           file_pattern: "docs/"
           commit_options: "--allow-empty"
