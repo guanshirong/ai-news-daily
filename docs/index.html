@@ -112,32 +112,20 @@
     return d.toLocaleDateString('zh-CN', { year:'numeric', month:'long', day:'numeric', weekday:'short' });
   }
 
-  /** Vercel API 中继地址 */
-  const API_URL = 'https://ai-news-daily-silk.vercel.app/api/toggle';
+  /** GitHub API 直连 — 已验证国内可访问 */
+  const GITHUB_API = 'https://api.github.com/repos/guanshirong/ai-news-daily/contents/docs/config.json';
 
   /** 本地缓存的配置 */
   let toggleConfig = null;
 
-  /** 加载更新开关状态 — Worker 优先，config.json 兜底 */
+  /** 加载配置和开关状态 */
   async function loadToggle() {
-    // 尝试从 Worker 读取（实时、准确）
-    try {
-      const resp = await fetch(API_URL, { signal: AbortSignal.timeout(5000) });
-      if (resp.ok) {
-        toggleConfig = await resp.json();
-        updateToggleUI(toggleConfig.active);
-        return;
-      }
-    } catch (e) {
-      console.warn('Worker 不可达，回退到本地 config.json:', e.message);
-    }
-
-    // 回退：直接读 config.json（无 token，仅能显示状态不能操作）
     try {
       const resp = await fetch('config.json?t=' + Date.now());
       toggleConfig = await resp.json();
       updateToggleUI(toggleConfig.active);
     } catch (e) {
+      console.error('加载配置失败:', e);
       toggleLabel.textContent = '未知';
     }
   }
@@ -153,31 +141,58 @@
     }
   }
 
-  /** 点击切换开关 — 通过 Worker 中继 */
+  /** 点击切换开关 — 直连 GitHub API */
   toggleSwitch.addEventListener('click', async () => {
-    if (!toggleConfig) return;
+    if (!toggleConfig || !toggleConfig.github_token) {
+      showToast('❌ 缺少 GitHub Token，请在 config.json 中配置', 'error');
+      return;
+    }
 
+    const newActive = !toggleConfig.active;
     toggleSwitch.disabled = true;
     toggleLabel.textContent = '切换中...';
 
     try {
-      const resp = await fetch(API_URL, {
-        method: 'POST',
-        signal: AbortSignal.timeout(10000),
+      const headers = {
+        'Authorization': 'Bearer ' + toggleConfig.github_token,
+        'Content-Type': 'application/json'
+      };
+
+      // 获取文件 SHA
+      const getResp = await fetch(GITHUB_API, { headers });
+      if (!getResp.ok) throw new Error('获取文件失败 (' + getResp.status + ')');
+      const fileData = await getResp.json();
+
+      // 构建新内容
+      const newConfig = {
+        active: newActive,
+        lastToggled: new Date().toISOString().split('T')[0],
+        github_token: toggleConfig.github_token
+      };
+      const contentStr = JSON.stringify(newConfig, null, 2) + '\n';
+      const base64 = btoa(unescape(encodeURIComponent(contentStr)));
+
+      // 更新文件
+      const putResp = await fetch(GITHUB_API, {
+        method: 'PUT',
+        headers,
+        body: JSON.stringify({
+          message: (newActive ? '✅ 开启' : '⏸️ 关闭') + '自动更新',
+          content: base64,
+          sha: fileData.sha
+        })
       });
 
-      if (!resp.ok) {
-        const err = await resp.json().catch(() => ({}));
-        throw new Error(err.error || `HTTP ${resp.status}`);
-      }
+      if (!putResp.ok) throw new Error('更新失败 (' + putResp.status + ')');
 
-      const result = await resp.json();
-      toggleConfig = result;
-      updateToggleUI(result.active);
-      showToast(result.active ? '✅ 自动更新已开启' : '⏸️ 自动更新已关闭', 'success');
+      // 成功
+      toggleConfig.active = newActive;
+      toggleConfig.lastToggled = newConfig.lastToggled;
+      updateToggleUI(newActive);
+      showToast(newActive ? '✅ 自动更新已开启' : '⏸️ 自动更新已关闭', 'success');
 
     } catch (err) {
-      console.error('切换失败:', err);
+      console.error(err);
       updateToggleUI(toggleConfig.active);
       showToast('❌ 切换失败: ' + err.message, 'error');
     } finally {
