@@ -22,6 +22,14 @@
           </div>
         </div>
         <div class="header-meta" id="headerMeta">
+          <a class="toggle-switch" id="toggleSwitch"
+             href="https://github.com/guanshirong/ai-news-daily/edit/main/docs/config.json"
+             target="_blank" title="点击跳转 GitHub 编辑开关">
+            <span class="toggle-track">
+              <span class="toggle-knob"></span>
+            </span>
+            <span class="toggle-label" id="toggleLabel">自动更新</span>
+          </a>
           <span class="status-indicator" id="statusIndicator">
             <span class="status-dot offline"></span>
             <span class="status-text">未启动</span>
@@ -75,6 +83,9 @@
   const lastUpdate = document.getElementById('lastUpdate');
   const statusDot = document.querySelector('.status-dot');
   const statusText = document.querySelector('.status-text');
+  const toggleSwitch = document.getElementById('toggleSwitch');
+  const toggleLabel = document.getElementById('toggleLabel');
+  const toggleTrack = document.querySelector('.toggle-track');
 
   /** 可信度星级 */
   function stars(n) {
@@ -100,6 +111,23 @@
     if (!dateStr) return '';
     const d = new Date(dateStr);
     return d.toLocaleDateString('zh-CN', { year:'numeric', month:'long', day:'numeric', weekday:'short' });
+  }
+
+  /** 加载更新开关状态 */
+  async function loadToggle() {
+    try {
+      const resp = await fetch('config.json?t=' + Date.now());
+      const config = await resp.json();
+      if (config.active) {
+        toggleTrack.classList.add('on');
+        toggleLabel.textContent = '已开启';
+      } else {
+        toggleTrack.classList.remove('on');
+        toggleLabel.textContent = '已关闭';
+      }
+    } catch (e) {
+      toggleLabel.textContent = '未知';
+    }
   }
 
   /** 渲染所有报告 */
@@ -191,6 +219,7 @@
 
   // 启动
   try {
+    loadToggle();
     render();
   } catch (e) {
     console.error(e);
