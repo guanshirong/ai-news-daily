@@ -36,10 +36,10 @@ const RSS_FEEDS = [
 const MODEL = process.env.DEEPSEEK_MODEL || "deepseek-chat";
 const DEEPSEEK_BASE = "https://api.deepseek.com/v1";
 
-/** 搜索目标：前天（UTC+8） */
+/** 搜索目标：昨天 */
 function getTargetDate() {
   const now = new Date();
-  const target = new Date(now.getTime() - 2 * 24 * 60 * 60 * 1000);
+  const target = new Date(now.getTime() - 1 * 24 * 60 * 60 * 1000);
   return target.toISOString().split("T")[0]; // YYYY-MM-DD
 }
 
