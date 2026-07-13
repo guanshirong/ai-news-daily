@@ -99,14 +99,21 @@ a:hover { text-decoration: underline; }
   display: flex;
   align-items: center;
   gap: 8px;
-  text-decoration: none !important;
   cursor: pointer;
   padding: 4px 10px 4px 4px;
   border-radius: 20px;
+  background: none;
+  border: none;
+  color: inherit;
+  font-family: inherit;
   transition: background 0.2s;
 }
 .toggle-switch:hover {
   background: var(--bg);
+}
+.toggle-switch:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
 }
 
 .toggle-track {

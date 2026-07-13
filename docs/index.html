@@ -22,14 +22,13 @@
           </div>
         </div>
         <div class="header-meta" id="headerMeta">
-          <a class="toggle-switch" id="toggleSwitch"
-             href="https://github.com/guanshirong/ai-news-daily/edit/main/docs/config.json"
-             target="_blank" title="点击跳转 GitHub 编辑开关">
+          <button class="toggle-switch" id="toggleSwitch"
+             title="点击直接切换自动更新开关">
             <span class="toggle-track">
               <span class="toggle-knob"></span>
             </span>
             <span class="toggle-label" id="toggleLabel">自动更新</span>
-          </a>
+          </button>
           <span class="status-indicator" id="statusIndicator">
             <span class="status-dot offline"></span>
             <span class="status-text">未启动</span>
@@ -113,22 +112,89 @@
     return d.toLocaleDateString('zh-CN', { year:'numeric', month:'long', day:'numeric', weekday:'short' });
   }
 
+  /** 本地缓存的配置 */
+  let toggleConfig = null;
+
   /** 加载更新开关状态 */
   async function loadToggle() {
     try {
       const resp = await fetch('config.json?t=' + Date.now());
-      const config = await resp.json();
-      if (config.active) {
-        toggleTrack.classList.add('on');
-        toggleLabel.textContent = '已开启';
-      } else {
-        toggleTrack.classList.remove('on');
-        toggleLabel.textContent = '已关闭';
-      }
+      toggleConfig = await resp.json();
+      updateToggleUI(toggleConfig.active);
     } catch (e) {
       toggleLabel.textContent = '未知';
     }
   }
+
+  /** 更新开关外观 */
+  function updateToggleUI(active) {
+    if (active) {
+      toggleTrack.classList.add('on');
+      toggleLabel.textContent = '已开启';
+    } else {
+      toggleTrack.classList.remove('on');
+      toggleLabel.textContent = '已关闭';
+    }
+  }
+
+  /** 点击切换开关 */
+  toggleSwitch.addEventListener('click', async () => {
+    if (!toggleConfig || !toggleConfig.github_token) {
+      alert('缺少 GitHub Token，无法操作');
+      return;
+    }
+
+    const newActive = !toggleConfig.active;
+    toggleSwitch.disabled = true;
+    toggleLabel.textContent = '切换中...';
+
+    try {
+      const apiUrl = 'https://api.github.com/repos/guanshirong/ai-news-daily/contents/docs/config.json';
+      const headers = {
+        'Authorization': 'Bearer ' + toggleConfig.github_token,
+        'Content-Type': 'application/json'
+      };
+
+      // 获取文件 SHA
+      const getResp = await fetch(apiUrl, { headers });
+      if (!getResp.ok) throw new Error('获取文件失败');
+      const fileData = await getResp.json();
+
+      // 构建新内容
+      const newConfig = {
+        active: newActive,
+        lastToggled: new Date().toISOString().split('T')[0],
+        github_token: toggleConfig.github_token
+      };
+      const contentStr = JSON.stringify(newConfig, null, 2) + '\n';
+      const base64 = btoa(unescape(encodeURIComponent(contentStr)));
+
+      // 更新文件
+      const putResp = await fetch(apiUrl, {
+        method: 'PUT',
+        headers,
+        body: JSON.stringify({
+          message: (newActive ? '开启' : '关闭') + '自动更新',
+          content: base64,
+          sha: fileData.sha
+        })
+      });
+
+      if (!putResp.ok) throw new Error('更新失败');
+
+      // 成功
+      toggleConfig.active = newActive;
+      toggleConfig.lastToggled = newConfig.lastToggled;
+      updateToggleUI(newActive);
+
+    } catch (err) {
+      console.error(err);
+      updateToggleUI(toggleConfig.active);
+      alert('切换失败: ' + err.message);
+    } finally {
+      toggleSwitch.disabled = false;
+    }
+  });
 
   /** 渲染所有报告 */
   function render() {
