@@ -443,6 +443,38 @@ a:hover { text-decoration: underline; }
   }
 }
 
+/* --- Toast 通知 --- */
+.toast {
+  position: fixed;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-20px);
+  background: var(--bg-card);
+  color: var(--text);
+  padding: 12px 28px;
+  border-radius: 24px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: 1px solid var(--border);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+  z-index: 999;
+  opacity: 0;
+  transition: opacity 0.25s, transform 0.25s;
+  pointer-events: none;
+}
+.toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+.toast-success {
+  border-color: var(--green);
+  color: var(--green);
+}
+.toast-error {
+  border-color: var(--red);
+  color: var(--red);
+}
+
 /* --- 打印 --- */
 @media print {
   body { background: #fff; color: #000; }

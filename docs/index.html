@@ -65,7 +65,7 @@
   <!-- 页脚 -->
   <footer class="site-footer">
     <div class="container">
-      <p>由 <strong>Claude API</strong> + <strong>GitHub Actions</strong> 驱动 · 全自动运行 · 无需人工干预</p>
+      <p>由 <strong>DeepSeek API</strong> + <strong>GitHub Actions</strong> 驱动 · 全自动运行 · 无需人工干预</p>
     </div>
   </footer>
 
@@ -112,11 +112,27 @@
     return d.toLocaleDateString('zh-CN', { year:'numeric', month:'long', day:'numeric', weekday:'short' });
   }
 
+  /** Worker 中继地址 */
+  const WORKER_URL = 'https://ai-news-toggle.2408595157.workers.dev';
+
   /** 本地缓存的配置 */
   let toggleConfig = null;
 
-  /** 加载更新开关状态 */
+  /** 加载更新开关状态 — Worker 优先，config.json 兜底 */
   async function loadToggle() {
+    // 尝试从 Worker 读取（实时、准确）
+    try {
+      const resp = await fetch(WORKER_URL, { signal: AbortSignal.timeout(5000) });
+      if (resp.ok) {
+        toggleConfig = await resp.json();
+        updateToggleUI(toggleConfig.active);
+        return;
+      }
+    } catch (e) {
+      console.warn('Worker 不可达，回退到本地 config.json:', e.message);
+    }
+
+    // 回退：直接读 config.json（无 token，仅能显示状态不能操作）
     try {
       const resp = await fetch('config.json?t=' + Date.now());
       toggleConfig = await resp.json();
@@ -137,60 +153,33 @@
     }
   }
 
-  /** 点击切换开关 */
+  /** 点击切换开关 — 通过 Worker 中继 */
   toggleSwitch.addEventListener('click', async () => {
-    if (!toggleConfig || !toggleConfig.github_token) {
-      alert('缺少 GitHub Token，无法操作');
-      return;
-    }
+    if (!toggleConfig) return;
 
-    const newActive = !toggleConfig.active;
     toggleSwitch.disabled = true;
     toggleLabel.textContent = '切换中...';
 
     try {
-      const apiUrl = 'https://api.github.com/repos/guanshirong/ai-news-daily/contents/docs/config.json';
-      const headers = {
-        'Authorization': 'Bearer ' + toggleConfig.github_token,
-        'Content-Type': 'application/json'
-      };
-
-      // 获取文件 SHA
-      const getResp = await fetch(apiUrl, { headers });
-      if (!getResp.ok) throw new Error('获取文件失败');
-      const fileData = await getResp.json();
-
-      // 构建新内容
-      const newConfig = {
-        active: newActive,
-        lastToggled: new Date().toISOString().split('T')[0],
-        github_token: toggleConfig.github_token
-      };
-      const contentStr = JSON.stringify(newConfig, null, 2) + '\n';
-      const base64 = btoa(unescape(encodeURIComponent(contentStr)));
-
-      // 更新文件
-      const putResp = await fetch(apiUrl, {
-        method: 'PUT',
-        headers,
-        body: JSON.stringify({
-          message: (newActive ? '开启' : '关闭') + '自动更新',
-          content: base64,
-          sha: fileData.sha
-        })
+      const resp = await fetch(WORKER_URL + '/toggle', {
+        method: 'POST',
+        signal: AbortSignal.timeout(10000),
       });
 
-      if (!putResp.ok) throw new Error('更新失败');
+      if (!resp.ok) {
+        const err = await resp.json().catch(() => ({}));
+        throw new Error(err.error || `HTTP ${resp.status}`);
+      }
 
-      // 成功
-      toggleConfig.active = newActive;
-      toggleConfig.lastToggled = newConfig.lastToggled;
-      updateToggleUI(newActive);
+      const result = await resp.json();
+      toggleConfig = result;
+      updateToggleUI(result.active);
+      showToast(result.active ? '✅ 自动更新已开启' : '⏸️ 自动更新已关闭', 'success');
 
     } catch (err) {
-      console.error(err);
+      console.error('切换失败:', err);
       updateToggleUI(toggleConfig.active);
-      alert('切换失败: ' + err.message);
+      showToast('❌ 切换失败: ' + err.message, 'error');
     } finally {
       toggleSwitch.disabled = false;
     }
@@ -281,6 +270,19 @@
     const div = document.createElement('div');
     div.textContent = str;
     return div.innerHTML;
+  }
+
+  /** Toast 通知 */
+  function showToast(msg, type) {
+    const toast = document.createElement('div');
+    toast.className = 'toast toast-' + (type || 'info');
+    toast.textContent = msg;
+    document.body.appendChild(toast);
+    requestAnimationFrame(() => toast.classList.add('show'));
+    setTimeout(() => {
+      toast.classList.remove('show');
+      setTimeout(() => toast.remove(), 300);
+    }, 3000);
   }
 
   // 启动

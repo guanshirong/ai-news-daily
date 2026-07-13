@@ -1,0 +1,7 @@
+name = "ai-news-toggle"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+[vars]
+GITHUB_REPO = "guanshirong/ai-news-daily"
+CORS_ORIGIN = "https://guanshirong.github.io"
