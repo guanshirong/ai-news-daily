@@ -22,8 +22,11 @@
           </div>
         </div>
         <div class="header-meta" id="headerMeta">
-          <span class="badge badge-live" id="liveBadge">● LIVE</span>
-          <span class="last-update" id="lastUpdate">加载中...</span>
+          <span class="status-indicator" id="statusIndicator">
+            <span class="status-dot offline"></span>
+            <span class="status-text">未启动</span>
+          </span>
+          <span class="last-update" id="lastUpdate">—</span>
         </div>
       </div>
     </div>
@@ -70,7 +73,8 @@
   const emptyState = document.getElementById('emptyState');
   const reportsEl = document.getElementById('reports');
   const lastUpdate = document.getElementById('lastUpdate');
-  const liveBadge = document.getElementById('liveBadge');
+  const statusDot = document.querySelector('.status-dot');
+  const statusText = document.querySelector('.status-text');
 
   /** 可信度星级 */
   function stars(n) {
@@ -112,10 +116,22 @@
       return;
     }
 
-    // 更新头部
+    // 更新头部状态
     const latest = REPORTS[0];
+    const lastGen = new Date(latest.generated || latest.date);
+    const hoursAgo = (Date.now() - lastGen.getTime()) / (1000 * 60 * 60);
+
+    if (hoursAgo <= 26) {
+      // 24h 内更新过 → 正常运行
+      statusDot.className = 'status-dot live';
+      statusText.textContent = '运行中';
+    } else {
+      // 超过 24h → 可能离线
+      statusDot.className = 'status-dot stale';
+      statusText.textContent = '待更新';
+    }
+
     lastUpdate.textContent = `最新: ${formatDate(latest.date)} · 查 ${latest.queryDate}`;
-    liveBadge.style.display = 'inline-block';
 
     // 渲染报告卡片
     reportsEl.innerHTML = REPORTS.map((report, idx) => {
