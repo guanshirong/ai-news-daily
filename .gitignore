@@ -6,3 +6,5 @@ node_modules/
 .claude/
 .wrangler/
 docs/config.json
+
+.vercel
