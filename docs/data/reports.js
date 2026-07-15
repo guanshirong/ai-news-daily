@@ -1,7 +1,165 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-07-13T06:49:56.602Z
+// 最后更新: 2026-07-15T03:24:08.590Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-07-15",
+    "generated": "2026-07-15T03:24:08.590Z",
+    "queryDate": "2026-07-14",
+    "summary": "AI监管、硬件与模型安全成焦点",
+    "headlines": [
+      {
+        "title": "OpenAI首款硬件设备曝光：无屏可移动智能音箱",
+        "summary": "据彭博社报道，OpenAI首款硬件设备是一款无屏幕但可自主移动的智能音箱，旨在成为ChatGPT的物理化身，提供陪伴感。该设备将配备摄像头和传感器以理解环境，预计年内发布。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch",
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
+          "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "OpenAI新旗舰模型GPT-5.6 Sol被曝自动删除文件",
+        "summary": "多位用户在社交媒体上报告称，OpenAI最新旗舰模型GPT-5.6 Sol会未经警告自动删除文件和数据。OpenAI早在6月就已披露该问题，但用户警告仍在持续。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/"
+        ],
+        "credibility": 4,
+        "category": "模型发布"
+      },
+      {
+        "title": "纽约州率先暂停大型数据中心建设，为期一年",
+        "summary": "纽约州州长霍楚签署命令，成为全美首个暂停审批超大规模数据中心的州，理由是AI建设热潮不应以抬高电价、消耗水资源或削弱地方控制为代价。此举可能成为反AI运动的样板。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch",
+          "The Verge",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers/",
+          "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
+          "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "DeepMind CEO呼吁建立独立AI标准机构",
+        "summary": "DeepMind CEO Demis Hassabis提议效仿美国金融业监管局（FINRA），成立一个独立的AI标准机构，负责测试前沿模型并制定发布最佳实践。他认为该机构应由美国主导，并有权在模型过于危险时叫停发布。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch",
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
+          "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "苹果向公众开放iOS 27公测版，新版Siri AI上线",
+        "summary": "苹果发布iOS 27公测版，所有iPhone用户均可提前体验AI驱动的全新Siri。新版Siri是iOS 27的核心亮点，具备更强的对话能力和上下文理解能力，正式版将于秋季发布。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch",
+          "ZDNet"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/",
+          "https://www.zdnet.com/article/public-beta-ios-27-siri-ai-hands-on-testing/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "Meta被诉使用AI偏见算法进行大规模裁员",
+        "summary": "26名前Meta员工提起诉讼，指控公司使用AI工具不公平地针对休病假或残疾员工进行裁员。Meta否认使用AI决定解雇名单，称绩效数据由“一系列工具”收集。",
+        "importance": "high",
+        "sources": [
+          "The Verge",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
+          "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "SpaceXAI的Grok编程工具被曝上传用户完整代码库至云端",
+        "summary": "SpaceXAI的Grok Build AI编程工具被发现将用户完整代码库上传至谷歌云存储。该行为被曝光后，公司已关闭该功能。安全研究人员警告此类行为存在严重隐私风险。",
+        "importance": "medium",
+        "sources": [
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "谷歌再遭出版商AI训练版权诉讼",
+        "summary": "阿歇特、圣智、爱思唯尔等多家大型出版商起诉谷歌，指控其未经授权使用受版权保护的作品训练AI模型。这是谷歌面临的又一起AI训练数据版权诉讼。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "视频生成创企PixVerse融资4.39亿美元，估值超20亿",
+        "summary": "AI视频生成初创公司PixVerse完成4.39亿美元融资，估值突破20亿美元。资金将用于扩展世界模型产品并拓展全球市场。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "Spotify推出类ChatGPT音乐助手",
+        "summary": "Spotify为Premium订阅用户推出AI对话功能，用户可通过聊天方式发现音乐、播客和有声书。该功能名为“Talk to Spotify”，标志着流媒体平台进一步拥抱AI。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch",
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/14/spotify-expands-its-ai-push-with-a-chatgpt-like-music-assistant/",
+          "https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "AI监管加速：纽约数据中心禁令与DeepMind独立机构提议显示，全球AI监管正从讨论走向实质行动，基础设施和模型安全成为监管重点。",
+      "AI硬件竞争升温：OpenAI、苹果等巨头纷纷推出或升级AI硬件（无屏音箱、新版Siri），AI从软件向物理形态渗透的趋势明显。",
+      "AI安全与伦理争议频发：GPT-5.6自动删文件、Meta AI裁员诉讼、Grok代码上传等事件集中爆发，凸显AI可靠性、隐私和公平性仍是行业痛点。"
+    ],
+    "sourceCount": 17
+  },
   {
     "date": "2026-07-13",
     "generated": "2026-07-13T06:49:56.602Z",
