@@ -1,7 +1,162 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-07-15T03:24:08.590Z
+// 最后更新: 2026-07-16T03:30:00.198Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-07-16",
+    "generated": "2026-07-16T03:30:00.198Z",
+    "queryDate": "2026-07-15",
+    "summary": "AI竞争白热化，微软、OpenAI、Anthropic各出奇招",
+    "headlines": [
+      {
+        "title": "微软训练销售团队贬低OpenAI和Anthropic，力推自家AI模型",
+        "summary": "据报道，微软正在培训其销售人员，向客户宣传其内部AI模型比OpenAI和Anthropic的模型更高效、更具成本效益。此举凸显了微软与这两家主要AI合作伙伴之间日益激烈的竞争关系。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "OpenAI发布Codex专用键盘，硬件布局初现端倪",
+        "summary": "在陷入与苹果的硬件法律纠纷之际，OpenAI出人意料地发布了一款售价230美元的发光键盘，专为其编程应用Codex设计。该键盘旨在帮助用户监控多个智能体线程，是OpenAI在硬件领域的首次尝试。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
+          "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch",
+          "https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "Apple Intelligence获准在中国上线，将采用阿里巴巴通义千问AI",
+        "summary": "苹果的AI功能套件Apple Intelligence已获得中国监管机构批准，将通过与阿里巴巴的通义千问AI合作在中国市场推出。此举是苹果在关键市场推进AI战略的重要一步。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "Anthropic与黑石集团押注AI服务化，成立合资公司Ode",
+        "summary": "Anthropic与黑石、高盛等投资巨头共同支持成立合资公司Ode，旨在向企业派驻工程师，加速企业AI应用落地。这标志着AI行业正从单纯提供模型转向提供深度实施服务。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/15/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise/",
+          "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "黑客入侵揭示AI音乐生成器Suno从YouTube等平台抓取数据训练",
+        "summary": "一名黑客利用员工凭证入侵Suno，获取的源代码显示该公司从YouTube、Deezer等平台抓取了数百万首歌曲和歌词用于训练其AI模型。此事件再次引发关于AI训练数据版权和“合理使用”边界的激烈讨论。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/",
+          "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "OpenAI构建LLM超级黑客“GPT-Red”以提升模型安全性",
+        "summary": "OpenAI开发了一个名为GPT-Red的LLM超级黑客，作为其其他模型的“陪练”，以增强它们抵御网络攻击的能力。OpenAI声称，通过让最新旗舰模型GPT-5.6与GPT-Red对抗训练，使其成为迄今为止最安全的模型。",
+        "importance": "medium",
+        "sources": [
+          "MIT Technology Review"
+        ],
+        "sourceUrls": [
+          "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/"
+        ],
+        "credibility": 5,
+        "category": "学术突破"
+      },
+      {
+        "title": "xAI起诉用户利用Grok生成儿童性虐待内容",
+        "summary": "埃隆·马斯克旗下的xAI公司起诉一名南卡罗来纳州男子，指控其故意使用Grok AI聊天机器人绕过安全措施，生成儿童性虐待材料（CSAM）。这是AI公司针对用户滥用行为采取法律行动的一个标志性案例。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "印度AI编程初创公司Emergent获1.3亿美元C轮融资，晋升独角兽",
+        "summary": "成立仅一年多的印度AI编程初创公司Emergent宣布完成1.3亿美元C轮融资，估值达到独角兽级别。该公司目前拥有超过20万付费客户，年化收入达1.2亿美元，显示出AI编程工具的强劲市场需求。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/"
+        ],
+        "credibility": 5,
+        "category": "资本市场"
+      },
+      {
+        "title": "Thinking Machines发布首个开放模型Inkling，挑战通用AI模式",
+        "summary": "AI基础设施公司Thinking Machines发布了其首个公开模型Inkling，该模型旨在挑战“一刀切”的通用AI模式。这是该公司在低调建设一年半后，首次向外界展示其技术实力。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/"
+        ],
+        "credibility": 5,
+        "category": "模型发布"
+      },
+      {
+        "title": "微软利用AI发现创纪录的570个安全漏洞",
+        "summary": "微软在7月的“补丁星期二”中修复了创纪录的570个安全漏洞，公司表示这得益于AI技术的应用。然而，同一天也曝出一个新的Windows零日漏洞，凸显了安全攻防的持续博弈。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI",
+          "ZDNet AI",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/",
+          "https://www.zdnet.com/article/microsoft-patches-570-vulnerabilities-exploited-zero-days/",
+          "https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "AI巨头竞争白热化：微软、OpenAI、Anthropic等头部玩家在模型、硬件、企业服务、安全等各维度全面开战，市场格局加速演变。",
+      "AI安全与伦理问题凸显：从Suno数据版权争议到xAI起诉用户生成CSAM，再到OpenAI用AI对抗AI安全，行业正面临日益严峻的合规与伦理挑战。",
+      "AI企业服务深化：Anthropic与黑石成立合资公司、印度AI编程公司快速成为独角兽，表明AI正从提供工具向提供深度实施服务和解决方案转型。"
+    ],
+    "sourceCount": 15
+  },
   {
     "date": "2026-07-15",
     "generated": "2026-07-15T03:24:08.590Z",
