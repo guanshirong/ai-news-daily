@@ -1,7 +1,153 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-07-16T03:30:00.198Z
+// 最后更新: 2026-07-18T03:22:03.938Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-07-18",
+    "generated": "2026-07-18T03:22:03.938Z",
+    "queryDate": "2026-07-17",
+    "summary": "AI行业资本、法律与安全事件密集爆发",
+    "headlines": [
+      {
+        "title": "Databricks估值达1880亿美元，巩固AI领域地位",
+        "summary": "Databricks估值飙升至1880亿美元，成功转型为AI公司，并发布研究显示开源权重模型在编程任务中可大幅降低成本。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/"
+        ],
+        "credibility": 5,
+        "category": "资本市场"
+      },
+      {
+        "title": "苹果起诉OpenAI，可能扰乱其IPO计划",
+        "summary": "苹果对OpenAI提起商业秘密诉讼，指控其系统性挖角超过400名前苹果员工，并涉及首席硬件官的不当行为。该诉讼可能对OpenAI的IPO计划造成重大影响。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
+          "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "旧金山要求苹果和谷歌下架AI“脱衣”应用",
+        "summary": "旧金山地区检察官正式要求苹果和谷歌从其应用商店中移除AI“脱衣”应用，并指出这些平台可能从中获利数百万美元。此举标志着对AI滥用行为的监管进一步收紧。",
+        "importance": "high",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "Patreon联手Cloudflare主动屏蔽AI爬虫",
+        "summary": "Patreon不再依赖robots.txt，转而与Cloudflare合作主动阻止AI模型未经授权抓取创作者内容。这反映了内容平台对AI训练数据使用的防御策略升级。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "GPU金融家转向推理芯片，达成4亿美元交易",
+        "summary": "首笔GPU融资机构完成一笔4亿美元的芯片抵押贷款，将投资重点转向AI推理芯片。这标志着AI基础设施投资从训练向推理的转变。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/"
+        ],
+        "credibility": 5,
+        "category": "资本市场"
+      },
+      {
+        "title": "TikTok测试AI肖像检测工具",
+        "summary": "TikTok开始测试一项可选工具，可扫描AI生成的肖像并允许创作者向平台举报。该工具目前仅对部分美国创作者开放，旨在应对深度伪造问题。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "AI驱动内存短缺冲击印度智能手机市场",
+        "summary": "AI热潮导致内存芯片需求激增，进而引发印度智能手机市场放缓。报道分析了AI如何重塑消费电子产品的定价、需求和企业策略。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "Agility Robotics在特斯拉后院开设机器人培训中心",
+        "summary": "Agility Robotics在加州弗里蒙特开设新的Digit机器人培训中心，该地点紧邻特斯拉工厂。此举显示了人形机器人领域的竞争加剧。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "Moonshot开源Kimi K3模型在基准测试中超越Anthropic Fable 5",
+        "summary": "中国AI公司Moonshot发布开源模型Kimi K3，在特定基准测试中表现优于Anthropic的Fable 5模型。这显示了中国AI公司在开源领域的竞争力。",
+        "importance": "medium",
+        "sources": [
+          "ZDNet AI"
+        ],
+        "sourceUrls": [
+          "https://www.zdnet.com/article/ai-model-release-tracker/"
+        ],
+        "credibility": 4,
+        "category": "模型发布"
+      },
+      {
+        "title": "Vertu推出6880美元AI代理手机，面向高管市场",
+        "summary": "奢侈手机品牌Vertu推出一款售价6880美元的折叠手机，内置AI代理功能。TechCrunch评测了其AI工作流、电池续航和安全性能。",
+        "importance": "low",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "AI巨头法律纠纷加剧：苹果起诉OpenAI及旧金山要求下架AI脱衣应用，表明监管和法律风险成为AI行业核心议题。",
+      "AI基础设施投资转向推理：首笔GPU融资机构转向推理芯片，标志着AI投资从训练算力向推理部署的转变。",
+      "内容平台主动防御AI爬虫：Patreon等平台从被动防御转向主动屏蔽AI爬虫，数据主权和创作者权益保护成为焦点。"
+    ],
+    "sourceCount": 11
+  },
   {
     "date": "2026-07-16",
     "generated": "2026-07-16T03:30:00.198Z",
