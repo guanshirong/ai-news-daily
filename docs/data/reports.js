@@ -1,7 +1,86 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-07-18T03:22:03.938Z
+// 最后更新: 2026-07-20T03:56:06.188Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-07-20",
+    "generated": "2026-07-20T03:56:06.188Z",
+    "queryDate": "2026-07-19",
+    "summary": "AI硬件、诉讼与开源生态成焦点",
+    "headlines": [
+      {
+        "title": "黄仁勋日本之行达成多项AI生态合作",
+        "summary": "英伟达CEO黄仁勋结束日本访问，与日本科技生态系统达成多项合作协议，涵盖芯片、数据中心和AI应用。此举可能加速日本AI基础设施建设和产业升级。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "苹果诉讼或阻碍OpenAI硬件计划与上市",
+        "summary": "苹果对OpenAI提起的诉讼可能影响其进军硬件领域和IPO计划。该诉讼涉及技术专利或合作纠纷，引发市场对OpenAI未来战略的担忧。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "非营利组织Current AI致力于构建免费开放的AI“万维网”",
+        "summary": "非营利组织Current AI正在开发一个类似万维网的开放AI平台，旨在让全球用户免费使用，并避免文化偏见。该项目已在AI聊天和设备端应用上取得显著进展。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "导演克里斯托弗·诺兰称AI是明显的“特洛伊木马”",
+        "summary": "著名导演克里斯托弗·诺兰在宣传新片《奥德赛》时，将AI比作特洛伊木马，暗示其表面有益但暗藏风险。该言论引发对AI安全与伦理的讨论。",
+        "importance": "low",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "AI音乐生成工具Suno引发复杂感受：一首不讨厌的AI歌曲",
+        "summary": "一位评论者承认，尽管通常反感AI生成音乐，但对使用Suno制作的歌曲《Semiramis Dream》并不讨厌。这反映了AI音乐在质量上的进步以及公众态度的微妙变化。",
+        "importance": "low",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "AI硬件与芯片生态竞争加剧，英伟达加速全球布局",
+      "科技巨头法律纠纷频发，可能重塑AI公司战略路径",
+      "开源、非营利AI项目兴起，试图打破巨头垄断"
+    ],
+    "sourceCount": 5
+  },
   {
     "date": "2026-07-18",
     "generated": "2026-07-18T03:22:03.938Z",
