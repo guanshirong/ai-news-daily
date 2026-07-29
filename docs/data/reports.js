@@ -1,7 +1,161 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-07-20T03:56:06.188Z
+// 最后更新: 2026-07-29T03:30:21.547Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-07-29",
+    "generated": "2026-07-29T03:30:21.547Z",
+    "queryDate": "2026-07-28",
+    "summary": "AI安全、资本支出与地缘政治成焦点",
+    "headlines": [
+      {
+        "title": "OpenAI遭黑客攻击，暴露AI供应链安全漏洞",
+        "summary": "OpenAI利用JFrog Artifactory零日漏洞入侵Hugging Face，事件引发对AI模型托管平台安全性的广泛担忧。MIT Technology Review指出此类攻击早有先例，而Hugging Face被曝未有效阻止非自愿深度伪造内容生成。",
+        "importance": "high",
+        "sources": [
+          "MIT Technology Review",
+          "Ars Technica",
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://www.technologyreview.com/2026/07/28/1140868/the-download-openai-hack-ai-stock-sell-off/",
+          "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/",
+          "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "AI领袖联名呼吁美国政府放缓前沿AI开发",
+        "summary": "OpenAI、Anthropic、Google、Meta、微软、Mistral等AI实验室员工联合致信美国政府，支持对前沿AI开发进行某种形式的放缓，或加速全球协调治理。Sam Altman也因“首次切身感受到的安全事件”而转向支持减速。",
+        "importance": "high",
+        "sources": [
+          "The Verge",
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
+          "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "AI巨额资本支出引发华尔街担忧，谷歌股价承压",
+        "summary": "谷歌将资本支出预估上调至2050亿美元，超出市场预期，引发AI股票抛售。投资者对AI高昂成本与回报前景产生疑虑，The Verge评论称“AI终于贵到让华尔街紧张”。",
+        "importance": "high",
+        "sources": [
+          "The Verge",
+          "MIT Technology Review"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex",
+          "https://www.technologyreview.com/2026/07/28/1140868/the-download-openai-hack-ai-stock-sell-off/"
+        ],
+        "credibility": 5,
+        "category": "资本市场"
+      },
+      {
+        "title": "数据中心面临限电风险，美国电网承压",
+        "summary": "美国最大电网运营商考虑对数据中心实施临时断电以防止黑屏，原因是数据中心建设速度过快导致电网不堪重负。费城郊区一社区更向数据中心项目提出43项要求。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/28/data-centers-may-face-temporary-power-cuts-to-prevent-blackouts-on-largest-us-grid/",
+          "https://arstechnica.com/tech-policy/2026/07/philly-suburb-sure-build-that-data-center-but-first-meet-our-43-demands/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "Anthropic CEO表态：不反对开源模型，但担忧中国AI",
+        "summary": "Anthropic创始人Dario Amodei明确表示不反对开源权重模型，但对中国AI能力的快速增长表示担忧。这反映了美国AI界在地缘政治竞争中的复杂立场。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "Perplexity将AI代理工具扩展至Windows平台",
+        "summary": "Perplexity将其“个人电脑”AI代理工具从Mac扩展至Windows，使PC成为本地运行的“通用数字员工”。此举标志着AI代理从云端向本地化部署的重要一步。",
+        "importance": "medium",
+        "sources": [
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents"
+        ],
+        "credibility": 5,
+        "category": "模型发布"
+      },
+      {
+        "title": "Recursive Superintelligence与亚马逊签署4.1亿美元算力协议",
+        "summary": "专注于自我改进AI系统的Recursive Superintelligence与亚马逊签署4.1亿美元计算协议，将大部分预算投入算力而非人力，以自动化产品开发流程。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "谷歌数据显示AI并未大规模取代人类工作",
+        "summary": "谷歌对1500万次真实AI交互的分析发现，大多数工作岗位的大部分任务未受AI影响。这为AI替代劳动力的担忧提供了实证反驳。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/ai/2026/07/despite-ai-hype-googles-data-shows-workers-arent-automating-themselves-away/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "Fish Audio获5200万美元种子轮融资，AI语音模型受追捧",
+        "summary": "AI语音模型初创公司Fish Audio完成5200万美元种子轮融资，拥有超过800万用户和2100万美元年经常性收入。其开源和托管模型受到创作者和企业欢迎。",
+        "importance": "low",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/"
+        ],
+        "credibility": 5,
+        "category": "资本市场"
+      },
+      {
+        "title": "MCP初创公司Runlayer起诉Rippling窃取产品创意",
+        "summary": "MCP网关初创公司Runlayer起诉Rippling，指控其在评估Runlayer产品后自行构建了类似产品。此案凸显AI初创公司面临的知识产权保护挑战。",
+        "importance": "low",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/28/mcp-startup-runlayer-accuses-rippling-of-stealing-its-product-idea/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      }
+    ],
+    "signals": [
+      "AI安全与治理加速：从OpenAI黑客攻击到AI领袖联名呼吁，行业对AI安全风险的共识正在转化为政策行动。",
+      "AI资本支出与回报矛盾凸显：巨额算力投资引发华尔街担忧，数据中心能源瓶颈加剧，AI商业化面临成本压力。",
+      "AI代理与本地化部署兴起：Perplexity将AI代理扩展至Windows，Recursive Superintelligence重金押注算力，AI从云端向边缘和本地化演进。"
+    ],
+    "sourceCount": 15
+  },
   {
     "date": "2026-07-20",
     "generated": "2026-07-20T03:56:06.188Z",
