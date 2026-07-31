@@ -1,7 +1,155 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-07-29T03:30:21.547Z
+// 最后更新: 2026-07-31T03:44:36.668Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-07-31",
+    "generated": "2026-07-31T03:44:36.668Z",
+    "queryDate": "2026-07-30",
+    "summary": "AI行业动态密集：模型、投资、安全与监管并进",
+    "headlines": [
+      {
+        "title": "法官裁定特朗普政府缺乏证据将Anthropic列为供应链风险",
+        "summary": "联邦法官表示，特朗普政府未能提供足够证据证明Anthropic构成供应链风险，这对其AI技术的政府禁令提出质疑。该裁决可能影响美国政府对AI公司的监管力度。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "Google DeepMind发布Gemini Robotics 2，可控制整个人形机器人",
+        "summary": "Google DeepMind宣布其最新AI模型Gemini Robotics 2能够控制完整的人形机器人，而不仅仅是上半身。该模型支持全身控制，标志着机器人AI技术的重大进步。",
+        "importance": "high",
+        "sources": [
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body"
+        ],
+        "credibility": 5,
+        "category": "模型发布"
+      },
+      {
+        "title": "微软公开与OpenAI和Anthropic竞争加剧",
+        "summary": "微软在周三向华尔街展示其自研AI模型和工具，明确表示将与OpenAI和Anthropic直接竞争。这一战略转变表明微软正减少对外部AI技术的依赖，加强自身AI能力建设。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "Okta以约2亿美元收购AI安全初创公司Permiso",
+        "summary": "Okta收购了AI安全公司Permiso，以增强其身份威胁检测能力，帮助企业保护AI代理和非人类身份。该交易反映了企业安全领域对AI安全解决方案的迫切需求。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "LinkedIn新增“疑似AI垃圾内容”举报按钮",
+        "summary": "LinkedIn推出新功能，允许用户标记“疑似AI垃圾内容”的帖子，并计划用校对工具替代其AI写作功能。此举旨在减少平台上的低质量AI生成内容，提升用户体验。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch",
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop/",
+          "https://www.theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "Nscale收购Anyscale，强化AI计算栈布局",
+        "summary": "英国AI云服务商Nscale收购软件初创公司Anyscale，以增强其跨数据中心和服务器扩展AI工作负载的能力。该交易是AI基础设施领域整合趋势的一部分。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "研究揭示LLM存在根本性安全缺陷，易受攻击",
+        "summary": "研究人员在ICML会议上指出，由于工作原理的根本缺陷，大型语言模型无法完全抵御黑客攻击。这一发现对AI安全领域具有重大影响，引发对AI系统可靠性的担忧。",
+        "importance": "high",
+        "sources": [
+          "MIT Technology Review"
+        ],
+        "sourceUrls": [
+          "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/"
+        ],
+        "credibility": 5,
+        "category": "学术突破"
+      },
+      {
+        "title": "Tim Cook暗示iCloud Plus将推出AI高级付费层级",
+        "summary": "苹果CEO Tim Cook在财报电话会议上表示，用户可能愿意为更多AI使用量付费，并暗示iCloud Plus将提供升级选项。这可能成为苹果AI服务变现的新途径。",
+        "importance": "medium",
+        "sources": [
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "Friend AI可穿戴设备重新发布，价格翻倍并新增语音功能",
+        "summary": "AI可穿戴设备Friend重新推出，新增了语音交互功能，但价格翻倍。该产品此前因营销争议而备受关注，此次回归试图以新功能吸引用户。",
+        "importance": "low",
+        "sources": [
+          "TechCrunch",
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/30/friend-the-lonely-ai-wearable-returns-with-a-new-voice-and-a-much-bigger-price-tag/",
+          "https://www.theverge.com/gadgets/973163/friend-re-launches-its-ai-pendant-with-a-speaker-that-talks-to-you-for-twice-the-price"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "新MCP规范旨在解决企业采用的主要障碍",
+        "summary": "新的MCP（模型上下文协议）规范进行了无状态改造，以支持企业级扩展，并新增政策确保功能不会突然移除。该更新有望推动AI代理在企业中的更广泛采用。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/ai/2026/07/with-a-stateless-makeover-new-mcp-spec-targets-enterprise-scale/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "AI安全与监管成为焦点：从Anthropic的供应链风险裁决到LLM根本性安全缺陷的研究，凸显AI安全的重要性。",
+      "AI基础设施整合加速：Nscale收购Anyscale、Okta收购Permiso等交易显示AI计算和安全领域正在整合。",
+      "AI应用商业化探索：苹果考虑AI付费层级、LinkedIn治理AI内容等表明AI应用正走向成熟和商业化。"
+    ],
+    "sourceCount": 12
+  },
   {
     "date": "2026-07-29",
     "generated": "2026-07-29T03:30:21.547Z",
