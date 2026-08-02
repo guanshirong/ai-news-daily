@@ -1,7 +1,125 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-07-31T03:44:36.668Z
+// 最后更新: 2026-08-02T03:44:51.996Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-08-02",
+    "generated": "2026-08-02T03:44:51.996Z",
+    "queryDate": "2026-08-01",
+    "summary": "AI监管、应用争议与产业动态并存",
+    "headlines": [
+      {
+        "title": "法院驳回xAI请求，明尼苏达州“脱衣”应用禁令继续生效",
+        "summary": "明尼苏达州禁止“脱衣”应用的法律在xAI的诉讼中得以维持，法院驳回了xAI的禁令请求。该法律针对利用AI生成虚假裸照的应用，xAI认为其过于宽泛，但法院支持了州政府的立场。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "Reddit CEO质疑谷歌AI概览价值，或终止许可协议",
+        "summary": "Reddit股价下跌，CEO对谷歌AI概览带来的流量价值表示怀疑，并暗示可能重新评估与谷歌的许可协议。这反映了内容平台与AI搜索引擎之间日益紧张的商业关系。",
+        "importance": "high",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "Sam Altman再次倡导用ChatGPT辅助育儿",
+        "summary": "OpenAI CEO Sam Altman在社交媒体上分享了一个他认为“很酷”的育儿用例，即使用ChatGPT帮助父母应对育儿问题。这一言论引发了关于AI在家庭角色中的伦理讨论。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "YouTuber Hank Green公开承认AI使用过度，称“不健康”",
+        "summary": "知名YouTuber Hank Green为过度使用AI工具道歉，称与LLM交互带来的多巴胺刺激对个人和世界都不健康。这一事件引发了对AI成瘾性和健康影响的公众讨论。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "Fenix Flexin新歌被质疑为AI生成，引发音乐产业争议",
+        "summary": "说唱歌手Fenix Flexin的歌曲《Rubberz》登上Billboard Hot 100第58名，但被听众和评论家质疑是AI生成的“slop”。封面艺术也被认为几乎肯定由AI制作，这再次引发了对AI在音乐创作中角色的讨论。",
+        "importance": "medium",
+        "sources": [
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "法院命令Waymo停止在圣莫尼卡夜间充电，因噪音扰民",
+        "summary": "由于居民投诉噪音，法院裁定Waymo必须停止在圣莫尼卡进行夜间充电操作。这凸显了自动驾驶汽车部署中与社区生活协调的挑战。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/tech-policy/2026/08/after-noise-complaints-judge-orders-waymo-to-stop-overnight-charging-in-santa-monica/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "Windows安装文件因AI功能而膨胀，小容量硬盘用户受影响",
+        "summary": "微软Windows的ISO下载文件越来越大，部分原因是内置了更多AI功能。这导致小容量固态硬盘用户面临存储压力，也反映了AI功能正成为操作系统标配的趋势。",
+        "importance": "low",
+        "sources": [
+          "ZDNet"
+        ],
+        "sourceUrls": [
+          "https://www.zdnet.com/article/windows-installation-files-getting-bigger-blame-ai/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "AI在F1赛车中的应用：人的参与仍是竞争优势关键",
+        "summary": "阿斯顿·马丁F1车队的高管和合作伙伴表示，AI和数据技术的价值释放依赖于专业人员的“手工技艺”。在F1这样的高竞争领域，人机协作是取得优势的核心。",
+        "importance": "low",
+        "sources": [
+          "ZDNet"
+        ],
+        "sourceUrls": [
+          "https://www.zdnet.com/article/ai-in-formula-one-competitive-advantage-is-all-about-the-human-in-the-loop/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "AI监管与法律挑战增多，涉及内容生成和自动驾驶等领域",
+      "AI在内容创作（音乐、育儿）中的伦理和健康影响引发公众讨论",
+      "AI功能正深度融入操作系统和行业应用，但人机协作和成本问题凸显"
+    ],
+    "sourceCount": 8
+  },
   {
     "date": "2026-07-31",
     "generated": "2026-07-31T03:44:36.668Z",
