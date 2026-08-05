@@ -1,7 +1,159 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-08-02T03:44:51.996Z
+// 最后更新: 2026-08-05T03:25:34.544Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-08-05",
+    "generated": "2026-08-05T03:25:34.544Z",
+    "queryDate": "2026-08-04",
+    "summary": "AI算力需求激增，开源模型安全引关注",
+    "headlines": [
+      {
+        "title": "Anthropic与AI云初创公司Volta签署100亿美元协议",
+        "summary": "Anthropic近期频繁达成云合作，最新与AI云初创公司Volta签署100亿美元协议，以扩大其AI算力基础设施。此举反映了领先AI实验室对算力的巨大需求。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "德州暂停数据中心接入电网，要求进行审计",
+        "summary": "由于AI数据中心需求激增，德州州长下令暂停新数据中心接入电网，并要求进行审计。此举可能减缓新设施的审批，反映出AI算力扩张与能源供应之间的紧张关系。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch",
+          "The Verge",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/",
+          "https://www.theverge.com/policy/975071/texas-data-center-audit",
+          "https://arstechnica.com/ai/2026/08/texas-halts-data-center-connections-to-power-grid-amid-overwhelming-demand/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "开放权重AI模型追赶前沿，但安全差距依然存在",
+        "summary": "SaferAI报告指出，Z.ai的开放权重模型GLM-5.2接近前沿能力，但缺乏关键安全缓解措施，引发对强大开放模型可能超越治理和保障的担忧。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/"
+        ],
+        "credibility": 5,
+        "category": "学术突破"
+      },
+      {
+        "title": "苹果称更多前员工可能将机密数据带给OpenAI",
+        "summary": "苹果在对OpenAI的商业机密调查中扩大范围，声称更多前员工可能保留或访问了机密信息。OpenAI则公开回应称苹果的诉讼“草率、激进且奇怪地针对个人”。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch",
+          "The Verge",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
+          "https://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages",
+          "https://arstechnica.com/tech-policy/2026/08/openai-says-apples-trade-secrets-lawsuit-is-aggressive-and-oddly-personal/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "AMD数据中心业务蓬勃发展，游戏业务退居其次",
+        "summary": "受AI算力需求驱动，AMD最新财报显示数据中心收入同比增长107%至67亿美元，而游戏业务相对疲软。这凸显了AI对芯片公司业务结构的深刻影响。",
+        "importance": "medium",
+        "sources": [
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen"
+        ],
+        "credibility": 5,
+        "category": "资本市场"
+      },
+      {
+        "title": "SpaceX作为AI公司的收入超过航天业务",
+        "summary": "SpaceX的AI收入同比增长三倍至26亿美元，主要来自向其他AI公司提供算力的交易。这表明SpaceX在AI基础设施领域的角色日益重要。",
+        "importance": "medium",
+        "sources": [
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "Nvidia主导的开放安全AI联盟一周内取得进展",
+        "summary": "由Nvidia牵头、已有超过120家公司加入的开放安全AI联盟，在成立一周内就提出了防御AI代理的提案。这显示了行业对AI安全的快速响应。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "Spotify与Merlin合作扩展AI混音和翻唱项目",
+        "summary": "Spotify宣布独立音乐版权代理机构Merlin加入其AI混音和翻唱产品，该付费工具将允许粉丝创作AI生成的翻唱和混音，同时确保版权方受益。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "Runware推出模块化数据中心Sonic Inference Pod",
+        "summary": "AI基础设施公司Runware发布了名为Sonic Inference Pod的模块化数据中心，探索便携式数据中心的未来，以应对AI算力部署的灵活性需求。",
+        "importance": "low",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "AI发现漏洞的速度超过人类修复能力，企业安全团队需适应",
+        "summary": "AI在发现安全漏洞方面效率极高，但修复速度跟不上，且依赖AI可能引入更多新漏洞。企业安全团队需要调整策略以应对这一挑战。",
+        "importance": "medium",
+        "sources": [
+          "ZDNet"
+        ],
+        "sourceUrls": [
+          "https://www.zdnet.com/article/ai-is-finding-bugs-faster-than-humans-can-fix-them-how-enterprise-security-teams-must-adapt/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "AI算力需求激增，数据中心能源供应成为瓶颈，引发政策干预",
+      "开放权重模型能力快速提升，但安全治理滞后，引发行业关注",
+      "AI巨头通过大规模云合作和自建基础设施争夺算力资源"
+    ],
+    "sourceCount": 14
+  },
   {
     "date": "2026-08-02",
     "generated": "2026-08-02T03:44:51.996Z",
