@@ -1,7 +1,163 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-08-11T02:21:14.307Z
+// 最后更新: 2026-08-12T02:37:05.843Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-08-12",
+    "generated": "2026-08-12T02:37:05.843Z",
+    "queryDate": "2026-08-11",
+    "summary": "AI巨头竞速、高管变动与安全治理并进",
+    "headlines": [
+      {
+        "title": "谷歌Gemini应用用户突破10亿，成为谷歌史上增长最快产品",
+        "summary": "谷歌CEO桑达尔·皮查伊宣布Gemini月活用户达到10亿，成为谷歌历史上增长最快的产品。数据显示63%的用户使用语音功能，Gemini每天生成超过1.5亿张图片。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch",
+          "The Verge",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
+          "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
+          "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "OpenAI长期COO Brad Lightcap离职创业",
+        "summary": "OpenAI前COO、现任特别项目负责人Brad Lightcap在任职八年后宣布离职，将开始“新的事业”。他在内部备忘录中表示将从不同角度继续支持OpenAI的使命。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch",
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/",
+          "https://www.theverge.com/ai-artificial-intelligence/978048/brad-lightcap-openai-executive-departure"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "Anthropic将为其AI生成的文本和图像添加水印",
+        "summary": "Anthropic宣布将为其AI模型生成的文本和图像嵌入机器可读的水印和数字签名元数据，以符合欧洲AI透明度法规。该措施将扩展到旧版模型。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch",
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/",
+          "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "Anthropic未发布模型在黎曼猜想上取得进展",
+        "summary": "Anthropic的一个未发布模型在数学领域最著名的未解难题之一——黎曼猜想上取得了超出预期的进展，尽管尚未解决该问题。这引发了关于AI在数学研究领域潜力的讨论。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch",
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/11/an-unreleased-anthropic-model-made-progress-on-one-of-maths-biggest-unsolved-problems/",
+          "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun"
+        ],
+        "credibility": 5,
+        "category": "学术突破"
+      },
+      {
+        "title": "OpenAI完成70亿美元员工股票出售",
+        "summary": "据报道，OpenAI已完成一笔70亿美元的员工股票出售（tender offer），为员工提供流动性。此举反映了公司估值的持续增长和资本市场对AI领域的热情。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "General Catalyst领投成立仅两个月的River AI 11亿美元融资",
+        "summary": "由xAI联合创始人Igor Babuschkin创立的River AI公司，在成立仅两个月后便获得由General Catalyst领投的11亿美元融资。该公司专注于个人智能体（personal agents）的愿景。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "Spotify将标记“AI Persona”档案并排除其音乐推荐",
+        "summary": "Spotify宣布将推出“AI Persona”标签，用于标识由AI生成身份的艺术家档案，并默认将其音乐从编辑、算法和个性化推荐中排除。该变更将于9月中旬开始实施。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch",
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/11/spotify-will-label-ai-persona-profiles-and-exclude-their-music-from-recommendations/",
+          "https://www.theverge.com/entertainment/977815/spotify-ai-persona-label-recommendations"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "OpenAI发布ChatGPT Linux桌面应用",
+        "summary": "OpenAI终于为Linux操作系统推出了专用的ChatGPT桌面应用，扩大了其用户覆盖面。此举被视为对Linux用户群体日益增长需求的回应。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "Zoom漏洞被AI提示词攻击利用，已修复",
+        "summary": "研究人员使用不到20个公开AI模型的提示词，发现了一个名为“Zoomsday”的Zoom严重安全漏洞，该漏洞可允许攻击者在会议期间劫持设备。Zoom已发布补丁修复。",
+        "importance": "medium",
+        "sources": [
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "苹果开发iPhone照片真实性验证功能，对抗深度伪造",
+        "summary": "苹果正在开发一项iOS功能，可通过在拍摄时嵌入来源元数据来验证照片是否由iPhone拍摄。该功能将有助于用户识别深度伪造内容。",
+        "importance": "low",
+        "sources": [
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/977921/apple-reference-image-iphone-metadata"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "AI应用用户规模爆发：Gemini和ChatGPT双双突破10亿用户，AI助手成为主流应用",
+      "AI安全与透明度成为焦点：Anthropic引入水印、Spotify标记AI内容、苹果验证照片真实性，行业加强AI内容治理",
+      "AI人才与资本流动加速：OpenAI高管离职创业、River AI获巨额融资，AI领域创业和投资热度持续高涨"
+    ],
+    "sourceCount": 16
+  },
   {
     "date": "2026-08-11",
     "generated": "2026-08-11T02:21:14.307Z",
