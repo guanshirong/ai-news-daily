@@ -1,7 +1,161 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-08-12T02:37:05.843Z
+// 最后更新: 2026-08-13T02:39:16.077Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-08-13",
+    "generated": "2026-08-13T02:39:16.077Z",
+    "queryDate": "2026-08-12",
+    "summary": "AI融资热潮持续，数据使用争议升温",
+    "headlines": [
+      {
+        "title": "AI编程公司Cognition据悉洽谈以400亿美元估值融资",
+        "summary": "Cognition在几个月前刚以260亿美元估值融资10亿美元，现又洽谈新一轮巨额融资，估值达400亿美元。这反映了资本市场对AI编程工具的高度热情。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "Lovable确认以133亿美元估值再融资4亿美元",
+        "summary": "AI应用构建平台Lovable在6月达到5亿美元年化收入后，确认以133亿美元估值完成新一轮4亿美元融资。这显示了AI应用开发工具市场的快速增长。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "OpenAI支持的Thrive Holdings融资20亿美元，推动企业AI应用",
+        "summary": "Thrive Holdings以120亿美元估值从软银、D1 Capital Partners和Altimeter Capital等投资者处融资20亿美元。该公司专注于将AI引入企业，体现了企业级AI市场的持续升温。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "亚马逊默认使用Twitch主播内容训练AI，引发争议",
+        "summary": "亚马逊宣布将默认使用Twitch主播的直播内容训练AI，除非用户主动选择退出。Twitch首席产品官表示，如果采用选择加入机制，没人会同意。此举引发用户强烈不满，多个来源报道了此事。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/",
+          "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
+          "https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "Anthropic新水印系统引发用户不满",
+        "summary": "Anthropic为Claude引入新的水印系统，可识别AI生成内容，但用户担心这会导致他们在工作或课堂上使用AI被察觉。社交媒体上出现大量抱怨，认为该系统侵犯隐私。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "AI先驱呼吁保持开放，应对安全担忧",
+        "summary": "在Ai4大会上，Geoffrey Hinton、李飞飞和吴恩达三位AI先驱就AI安全、开源和监管展开辩论。他们主张在安全担忧下保持开放，并讨论美国如何应对中国在AI领域的进展。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "AI代码测试初创公司Blacksmith估值一年内飙升近10倍",
+        "summary": "Blacksmith的估值在不到一年内从约5500万美元跃升至5.5亿美元，收入增长超过十倍。这反映了AI编程和软件验证领域的投资热潮。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "谷歌发布Pixel 11系列及多项Gemini AI功能",
+        "summary": "在Made by Google 2026活动上，谷歌发布了Pixel 11系列手机、Pixel Watch 5、Pixel Tag追踪器，并展示了大量Gemini AI功能。硬件升级有限，但AI体验成为重点。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI",
+          "Ars Technica",
+          "ZDNet AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/",
+          "https://www.theverge.com/tech/978094/pixel-watch-5-hands-on-made-by-google-gemini-wearables-smartwatch",
+          "https://arstechnica.com/gadgets/2026/08/google-reveals-2026-hardware-lineup-pixel-11-pixel-watch-5-and-pixel-tag/",
+          "https://www.zdnet.com/article/everything-announced-at-made-by-google-2026-pixel-11-pro-fold-pixel-watch-5/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "新字体ShieldFont可对抗AI数据抓取",
+        "summary": "研究人员开发了一种名为ShieldFont的字体，能让AI爬虫将网页内容视为乱码，同时保持人类可读。这为网站所有者提供了一种新的工具来阻止AI训练数据抓取。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers/"
+        ],
+        "credibility": 4,
+        "category": "学术突破"
+      },
+      {
+        "title": "AI工具在20个提示内发现Zoom严重漏洞",
+        "summary": "研究人员利用一个公开的AI工具，在不到20个提示的情况下发现了Zoom屏幕共享功能中的严重漏洞，可被利用劫持设备。这展示了AI在网络安全领域的潜力。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/security/2026/08/researchers-found-a-way-to-hijack-devices-through-zoom-screen-sharing/"
+        ],
+        "credibility": 4,
+        "category": "学术突破"
+      }
+    ],
+    "signals": [
+      "AI编程工具融资热潮持续，估值飙升，显示资本市场对AI应用层的高度信心",
+      "AI数据使用争议加剧，从Twitch训练到水印系统，用户隐私和内容权利成为焦点",
+      "AI安全与开放之争成为行业核心议题，先驱人物呼吁在监管与开放间寻求平衡"
+    ],
+    "sourceCount": 15
+  },
   {
     "date": "2026-08-12",
     "generated": "2026-08-12T02:37:05.843Z",
