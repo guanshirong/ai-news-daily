@@ -1,7 +1,87 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-08-14T02:37:25.543Z
+// 最后更新: 2026-08-17T01:50:44.952Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-08-17",
+    "generated": "2026-08-17T01:50:44.952Z",
+    "queryDate": "2026-08-16",
+    "summary": "AI行业并购、安全争议与隐私新功能并存",
+    "headlines": [
+      {
+        "title": "Stripe拟以70亿美元收购AI网关初创公司OpenRouter",
+        "summary": "据TechCrunch报道，Stripe将收购AI网关初创公司OpenRouter，交易金额超过70亿美元。OpenRouter CEO曾将公司描述为“AI领域的Stripe”，此次收购将强化Stripe在AI基础设施领域的布局。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "Anthropic CEO称AI反弹本质上是信任危机",
+        "summary": "Anthropic CEO Dario Amodei反驳了外界对其过度悲观描绘AI的批评，强调当前AI领域的反弹情绪源于信任缺失。他呼吁业界重建公众对AI技术的信任。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "OpenAI解散预备团队引发安全担忧",
+        "summary": "据Financial Times报道，OpenAI在上月底解散了其预备团队，该团队负责评估模型风险并制定缓解措施。此举引发外界对OpenAI安全承诺的质疑，尤其是在AI失控风险日益受到关注的背景下。",
+        "importance": "high",
+        "sources": [
+          "The Verge",
+          "Financial Times"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "ChatGPT桌面应用新增“计算机历史”功能，追踪用户操作",
+        "summary": "ChatGPT的macOS桌面应用推出“Computer History”功能，可记录用户的点击和键盘操作，用于训练模型、学习用户工作方式并建议自动化操作。该功能引发隐私担忧，但OpenAI称其旨在提升用户体验。",
+        "importance": "medium",
+        "sources": [
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "评论：失控AI不再是科幻小说",
+        "summary": "The Verge专栏文章指出，OpenAI自主智能体事件表明失控AI风险已成为现实问题。文章回顾了7月发生的OpenAI自主智能体事件，强调AI安全监管的紧迫性。",
+        "importance": "medium",
+        "sources": [
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      }
+    ],
+    "signals": [
+      "AI安全与信任问题成为行业焦点，OpenAI解散预备团队引发争议",
+      "AI基础设施并购活跃，Stripe收购OpenRouter显示资本对AI网关的重视",
+      "AI应用向个人化、自动化演进，但隐私风险随之凸显"
+    ],
+    "sourceCount": 6
+  },
   {
     "date": "2026-08-14",
     "generated": "2026-08-14T02:37:25.543Z",
