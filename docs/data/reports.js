@@ -1,7 +1,153 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-08-17T01:50:44.952Z
+// 最后更新: 2026-08-18T01:45:34.562Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-08-18",
+    "generated": "2026-08-18T01:45:34.562Z",
+    "queryDate": "2026-08-17",
+    "summary": "AI资本热潮持续，多家公司获巨额融资",
+    "headlines": [
+      {
+        "title": "Anthropic年化收入飙升至650亿美元",
+        "summary": "Anthropic的年化收入在两个月内增加了180亿美元，达到650亿美元，显示出其AI模型业务的强劲增长。这一数字反映了市场对Anthropic产品的巨大需求。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "AI自动化初创公司Relay关闭，员工加入谷歌Chrome团队",
+        "summary": "AI自动化初创公司Relay宣布关闭，其创始人Jacob Bank表示团队将加入谷歌Chrome团队，专注于在Chrome中集成AI功能。此举表明谷歌正在加强其浏览器中的AI能力。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "亚马逊被曝销毁珍稀书籍以训练AI",
+        "summary": "据调查，亚马逊正在销毁珍稀书籍，用于训练其AI模型，因为这些书籍包含独特的数据。这一行为引发了关于版权和文化遗产保护的争议。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
+          "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "Groq融资3.5亿美元，从AI芯片转向Neocloud",
+        "summary": "Groq以35亿美元估值融资3.5亿美元，用于从AI芯片制造商转型为Neocloud服务提供商，并扩大其基于Nvidia芯片的数据中心。这表明AI基础设施领域的竞争正在加剧。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/"
+        ],
+        "credibility": 5,
+        "category": "资本市场"
+      },
+      {
+        "title": "Nvidia投资15亿美元于软银数据中心开发商，确保芯片用于OpenAI项目",
+        "summary": "Nvidia向软银的数据中心开发商投资15亿美元，以确保其芯片用于OpenAI的数据中心项目。这一投资加强了Nvidia在AI基础设施领域的地位。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/"
+        ],
+        "credibility": 5,
+        "category": "资本市场"
+      },
+      {
+        "title": "Wispr融资2.8亿美元，估值达20亿美元，拓展语音识别之外业务",
+        "summary": "语音识别公司Wispr以20亿美元估值融资2.8亿美元，计划利用资金拓展会议记录等新领域。这表明AI语音应用市场正在扩大。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/"
+        ],
+        "credibility": 5,
+        "category": "资本市场"
+      },
+      {
+        "title": "Anthropic解释Claude文本隐形水印的工作原理",
+        "summary": "Anthropic宣布将采用SynthID-Text技术为Claude生成的文本添加隐形水印，以遵守欧洲的AI透明度规则。这一举措旨在提高AI生成内容的可追溯性。",
+        "importance": "medium",
+        "sources": [
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "科学家将DNA转化为存储设备，功耗降低100倍",
+        "summary": "研究人员将合成DNA与半导体结合，创造出一种超低功耗的存储设备，能够同时存储和处理信息。这项生物混合技术有望大幅提升AI系统的能效。",
+        "importance": "medium",
+        "sources": [
+          "ScienceDaily"
+        ],
+        "sourceUrls": [
+          "https://www.sciencedaily.com/releases/2026/08/260816044853.htm"
+        ],
+        "credibility": 4,
+        "category": "学术突破"
+      },
+      {
+        "title": "企业AI代理采用率今年增长三倍，可衡量ROI显现",
+        "summary": "根据Salesforce的Agentic Enterprise Index，企业采用AI代理的比例今年增长了三倍，并且出现了可衡量的投资回报。这表明AI代理正在从实验走向实际应用。",
+        "importance": "high",
+        "sources": [
+          "ZDNet"
+        ],
+        "sourceUrls": [
+          "https://www.zdnet.com/article/ai-agent-adoption-tripled-measurable-roi/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "Nvidia披露持有SpaceX 210亿美元股份",
+        "summary": "Nvidia在监管文件中披露持有SpaceX 210亿美元的股份，此前马斯克宣布与Nvidia达成独家协议，为其数据中心提供设备。这一投资凸显了AI与航天产业的交叉。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/"
+        ],
+        "credibility": 5,
+        "category": "资本市场"
+      }
+    ],
+    "signals": [
+      "AI基础设施投资持续升温，Nvidia等巨头加大布局",
+      "AI代理商业化加速，企业采用率显著提升",
+      "AI透明度与版权问题成为监管焦点"
+    ],
+    "sourceCount": 11
+  },
   {
     "date": "2026-08-17",
     "generated": "2026-08-17T01:50:44.952Z",
