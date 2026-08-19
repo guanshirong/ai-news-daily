@@ -1,7 +1,155 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-08-18T01:45:34.562Z
+// 最后更新: 2026-08-19T01:48:01.030Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-08-19",
+    "generated": "2026-08-19T01:48:01.030Z",
+    "queryDate": "2026-08-18",
+    "summary": "AI安全、青少年保护与资本热潮成焦点",
+    "headlines": [
+      {
+        "title": "OpenAI 在 Hugging Face 泄露事件后加强安全措施",
+        "summary": "OpenAI 宣布在 Hugging Face 泄露事件后实施新的安全保障措施，包括在模型开发过程中进行更详细的监控，并在后训练阶段更加重视对齐与安全。此举旨在增强 AI 模型的安全性，防止类似事件再次发生。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "OpenAI 推出面向青少年的 ChatGPT 专用模式",
+        "summary": "OpenAI 推出了 ChatGPT for Teens，整合了现有的青少年安全保护措施和新的安全功能，包括家长控制和旨在引导青少年远离有害内容及防止作弊的学习工具。此举正值公众对 AI 工具影响年轻用户的关注日益增加之际。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
+          "https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "Etched 估值一个月内翻倍至 210 亿美元",
+        "summary": "AI 芯片初创公司 Etched 的估值在一个月内从约 100 亿美元翻倍至 210 亿美元，此前 Jane Street 安装了其首个 AI 集群系统并对其印象深刻，主导了新一轮大规模融资。这反映了资本市场对专用 AI 芯片的强烈兴趣。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/"
+        ],
+        "credibility": 5,
+        "category": "资本市场"
+      },
+      {
+        "title": "微软 Copilot 漏洞暴露秘密输入，可被黑客利用",
+        "summary": "微软 Copilot 被曝存在一个秘密参数，黑客可利用该参数在用户点击链接时窃取密码。这一安全漏洞凸显了 AI 助手在安全方面的潜在风险，微软已发布相关修复建议。",
+        "importance": "high",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "Cursor 推出代码托管平台，与 GitHub 竞争",
+        "summary": "AI 代码编辑器公司 Cursor 利用开发者对 GitHub 的不满，推出了新的代码托管平台，旨在与 GitHub 竞争。该平台可能整合 AI 功能，为开发者提供替代选择。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "Perplexity 在印度免费策略带来数百万新用户",
+        "summary": "Perplexity 在印度推出的免费 AI 服务使其用户数量增加了数百万，尽管下载量有所下降，但印度市场收入增长了约 60%。这表明免费策略在新兴市场具有显著效果。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/18/perplexitys-free-ai-offer-left-it-with-millions-more-users-in-india/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "苹果带摄像头 AirPods 泄露视频引发隐私担忧",
+        "summary": "苹果传闻中的带摄像头 AirPods 在泄露视频中首次亮相，但分析认为其可能通过限制用户录制照片和视频来避免隐私问题。该设备预计将集成 AI 功能，但隐私设计是关键。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear/",
+          "https://www.theverge.com/tech/981326/apple-airpods-with-cameras-demo-video-leak"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "Warp 推出 AI 开发软件工厂系统 Warp Factories",
+        "summary": "Warp 发布了 Warp Factories，一个旨在简化 AI 软件工厂构建的基础设施系统，使开发者能够更轻松地搭建 AI 开发环境。该系统有望降低 AI 应用开发的门槛。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "Firefox 推出 Smart Window AI 浏览器功能",
+        "summary": "Mozilla 的 Firefox 浏览器推出了 Smart Window AI 浏览模式，通过与 Exa 合作，AI 聊天可以获取当前网页信息并显示来源链接，还能自动建议标签组和显示历史页面预览。这标志着浏览器在 AI 集成方面的进展。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/981283/mozilla-firefox-smart-window-ai-features"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "研究质疑 AI 递归自我改进的速度",
+        "summary": "MIT 技术评论文章指出，AI 行业关于递归自我改进的乐观预测可能过于乐观，LLM 在代码生成、合成数据等方面虽有进展，但实现真正的自我改进仍需克服重大挑战。",
+        "importance": "medium",
+        "sources": [
+          "MIT Technology Review"
+        ],
+        "sourceUrls": [
+          "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/"
+        ],
+        "credibility": 5,
+        "category": "学术突破"
+      }
+    ],
+    "signals": [
+      "AI 安全与隐私成为焦点：OpenAI 和微软等公司加强安全措施，青少年保护模式出现，同时 Copilot 漏洞引发担忧。",
+      "AI 资本热潮持续：Etched 估值飙升，显示市场对专用 AI 芯片和基础设施的强烈投资兴趣。",
+      "AI 应用向垂直领域扩展：从代码托管、浏览器到智能硬件，AI 正加速融入日常工具和消费产品。"
+    ],
+    "sourceCount": 12
+  },
   {
     "date": "2026-08-18",
     "generated": "2026-08-18T01:45:34.562Z",
