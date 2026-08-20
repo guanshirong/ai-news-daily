@@ -1,7 +1,153 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-08-19T01:48:01.030Z
+// 最后更新: 2026-08-20T01:46:37.940Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-08-20",
+    "generated": "2026-08-20T01:46:37.940Z",
+    "queryDate": "2026-08-19",
+    "summary": "AI巨头竞逐企业市场，行业面临安全与信任挑战",
+    "headlines": [
+      {
+        "title": "Stripe收购OpenRouter：支付巨头布局AI模型路由",
+        "summary": "Stripe以“奇点”为名收购AI模型路由初创公司OpenRouter，但实际意图是深化AI基础设施布局，为开发者提供更便捷的模型访问和支付解决方案。此举标志着支付巨头加速切入AI生态。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "OpenAI与Anthropic展开企业客户隐私保护竞赛",
+        "summary": "OpenAI推出新的客户隐私保护措施，旨在与Anthropic争夺企业市场。两家公司竞相提供更强的数据安全保障，以吸引对隐私敏感的企业客户。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "SpaceX被曝洽购AI编程公司Cognition，CEO否认",
+        "summary": "有报道称SpaceX正在洽谈收购AI编程初创公司Cognition，但Cognition CEO否认了这一消息。此前SpaceX已收购Cursor，显示出其在企业AI领域的扩张野心。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "消费者对AI的疑虑未消，硅谷面临信任危机",
+        "summary": "尽管AI技术日益普及，但消费者对其的警惕性不降反升。硅谷发现，广泛采用并未带来普遍接受，AI公司需要更多努力赢得公众信任。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "Google推出AI学习工具，强化Gemini教育场景",
+        "summary": "Google在Search和Gemini中推出新的学习工具，包括学生中心和学习笔记本功能，旨在吸引学生用户，与OpenAI等竞争对手争夺教育市场。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch",
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
+          "https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "OpenAI限制网络安全项目访问，引发研究人员不满",
+        "summary": "OpenAI收回了部分研究人员对其“可信访问”网络安全项目的访问权限，该项目旨在让安全专家使用先进模型报告漏洞。此举引发争议，可能影响OpenAI与安全社区的关系。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "OpenAI放缓AI开发速度，聚焦安全与IPO准备",
+        "summary": "OpenAI宣布放缓部分AI开发进度，以加强安全措施。此举正值其IPO前夕，面临来自Anthropic和开源模型的激烈竞争，显示出在速度与安全之间的权衡。",
+        "importance": "high",
+        "sources": [
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "Meta发布Mac版AI助手，扩大桌面端覆盖",
+        "summary": "Meta推出Mac版AI聊天机器人应用，用户可共享屏幕内容以获得建议和回答。此举是Meta在AI助手领域与OpenAI、Google竞争的最新举措。",
+        "importance": "medium",
+        "sources": [
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/982270/meta-ai-mac-app"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "Nvidia与华尔街合作，将算力作为资产类别",
+        "summary": "Nvidia与Goldman Sachs和BlackRock合作，推动将GPU算力视为可投资资产类别。这一金融创新可能改变AI基础设施的投资方式，但也引发争议。",
+        "importance": "high",
+        "sources": [
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/981668/nvidias-goldman-blackrock-gpu-compute-asset"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "Meta为“脱衣”应用投放广告，涉及深度伪造女性政客",
+        "summary": "Meta被曝为承诺“脱衣”女性政客照片的应用投放广告，其中包含深度伪造内容。此举引发严重伦理和法律问题，凸显AI内容审核的漏洞。",
+        "importance": "high",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/ai/2026/08/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      }
+    ],
+    "signals": [
+      "AI巨头加速企业市场争夺，隐私保护成为竞争焦点",
+      "AI安全与信任问题凸显，企业面临监管与公众压力",
+      "算力金融化趋势显现，GPU成为新兴资产类别"
+    ],
+    "sourceCount": 11
+  },
   {
     "date": "2026-08-19",
     "generated": "2026-08-19T01:48:01.030Z",
