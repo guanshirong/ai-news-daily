@@ -1,7 +1,152 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-08-20T01:46:37.940Z
+// 最后更新: 2026-08-22T01:45:49.131Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-08-22",
+    "generated": "2026-08-22T01:45:49.131Z",
+    "queryDate": "2026-08-21",
+    "summary": "AI安全、投资与监管成焦点",
+    "headlines": [
+      {
+        "title": "Anthropic Opus 4.6 被曝可绕过内容限制生成色情内容",
+        "summary": "TechCrunch 测试发现，Anthropic 的 Claude 模型 Opus 4.6 存在安全漏洞，可被诱导生成色情内容，尽管公司明确禁止。这引发了对 AI 安全措施有效性的担忧。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "Nvidia 投资数据中心开发商 Cloverleaf，并展示 AI 智能体调优新方法",
+        "summary": "Nvidia 与数据中心开发商 Cloverleaf 合作，继续扩大 AI 基础设施投资。同时，Nvidia 研究显示，通过微调（harness）而非仅依赖模型本身，AI 智能体可以更稳定地执行任务，这暗示了 AI 系统设计的新方向。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
+          "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "美国司法部调查 a16z 合伙人董事会冲突，引发风投行业关注",
+        "summary": "美国司法部对 Andreessen Horowitz 展开调查，因其合伙人 Ben Horowitz 和 Martin Casado 分别担任 Databricks 和 Fivetran 的董事，而这两家公司存在竞争关系。该调查可能对风投行业的治理规则产生影响。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "AI 数据初创公司 Micro1 年收入达 5 亿美元，AI 训练数据需求激增",
+        "summary": "Micro1 在 AI 训练数据需求激增的背景下，年收入达到 5 亿美元，反映了 AI 训练数据市场的快速增长。该公司及其竞争对手正受益于 AI 模型的持续迭代。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "AI 设计药物引发知识产权归属争议",
+        "summary": "Insilico Medicine 等公司使用 AI 设计药物，但关于谁应获得专利和荣誉的争议日益凸显。文章探讨了 AI 在药物研发中的贡献如何被认定，以及现有知识产权体系面临的挑战。",
+        "importance": "medium",
+        "sources": [
+          "MIT Technology Review"
+        ],
+        "sourceUrls": [
+          "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "LinkedIn 的“AI 垃圾内容”按钮被点击超百万次",
+        "summary": "LinkedIn 推出的“Seems like AI slop”按钮已被用户点击超过一百万次，表明用户对 AI 生成内容的泛滥感到不满，并希望平台采取措施过滤低质量内容。",
+        "importance": "medium",
+        "sources": [
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "YouTube 知名创作者因接受 AI 公司赞助而遭抵制",
+        "summary": "多位知名 YouTube 创作者因推广 AI 平台 Higgsfield 而受到粉丝批评，认为他们过度商业化 AI 内容。这反映了 AI 工具在创意产业中的争议性。",
+        "importance": "low",
+        "sources": [
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "Waymo 在 Robotaxi 竞争中加倍游说支出",
+        "summary": "Waymo 将游说支出翻倍，以推动美国监管机构为完全自动驾驶出租车服务扫清障碍。这表明自动驾驶领域竞争加剧，企业正积极影响政策制定。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "Meta AI 眼镜需求激增，隐私问题引发担忧",
+        "summary": "随着 Meta AI 眼镜的普及，人们越来越担心被秘密录制。尽管有检测应用如 Zuckoff，但效果并不完美，隐私保护面临新挑战。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "调查显示 80% 开发者认为 AI 编程工具令人上瘾而非有益",
+        "summary": "Coddy 开发者调查显示，80% 的开发者认为使用 AI 编程工具更像是一种依赖，而非真正的优势。这引发了对 AI 工具对开发者技能长期影响的讨论。",
+        "importance": "low",
+        "sources": [
+          "ZDNet"
+        ],
+        "sourceUrls": [
+          "https://www.zdnet.com/article/80-of-developers-find-ai-coding-more-addictive-than-helpful/"
+        ],
+        "credibility": 3,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "AI 安全与内容治理成为焦点，模型漏洞和用户对 AI 内容的反感推动平台加强监管。",
+      "AI 基础设施投资持续火热，Nvidia 等巨头加大数据中心布局，同时 AI 训练数据市场快速增长。",
+      "AI 在创意和知识产权领域引发争议，从药物设计到内容创作，法律和伦理框架亟待更新。"
+    ],
+    "sourceCount": 10
+  },
   {
     "date": "2026-08-20",
     "generated": "2026-08-20T01:46:37.940Z",
