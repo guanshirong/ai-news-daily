@@ -1,7 +1,86 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-08-22T01:45:49.131Z
+// 最后更新: 2026-08-23T01:55:01.306Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-08-23",
+    "generated": "2026-08-23T01:55:01.306Z",
+    "queryDate": "2026-08-22",
+    "summary": "AI安全、研究自动化与开发者成瘾引关注",
+    "headlines": [
+      {
+        "title": "OpenAI呼吁加州加强AI安全法案",
+        "summary": "OpenAI一反此前反对立场，公开支持加州SB 53法案并呼吁加强其内容，显示AI行业对安全监管态度的转变。此举可能影响其他科技公司的立场，推动更严格的AI监管。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "前沿AI实验室缺乏遏制失控模型的公开计划",
+        "summary": "一项新研究指出，主要AI实验室几乎没有公开的遏制失控模型的方案，引发对AI系统意外危险行为的担忧。研究强调AI安全准备不足，呼吁行业提高透明度。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "DeepMind校友创立的Inherent发布AI研究代理Faraday，声称超越Anthropic和OpenAI",
+        "summary": "英国AI实验室Inherent由DeepMind校友创立，其发布的AI代理Faraday在复现科学论文方面表现优于Anthropic和OpenAI的模型。该技术有望加速科研创新，但需验证其泛化能力。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/"
+        ],
+        "credibility": 4,
+        "category": "学术突破"
+      },
+      {
+        "title": "哈佛大学699美元创业训练营提供AI导师化身",
+        "summary": "哈佛商学院Foundry项目推出AI化身，在模拟路演和董事会会议中提供反馈，降低创业教育成本。此举展示AI在教育领域的创新应用，可能改变创业培训模式。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "调查显示80%开发者认为AI编程成瘾性大于帮助性",
+        "summary": "Coddy开发者调查显示，AI编程工具导致新型职业倦怠，多数开发者感到依赖而非效率提升。这引发对AI工具设计和工作流程的反思，提示需平衡效率与健康。",
+        "importance": "medium",
+        "sources": [
+          "ZDNet"
+        ],
+        "sourceUrls": [
+          "https://www.zdnet.com/article/i-cant-stop-80-of-developers-find-ai-coding-more-addictive-than-helpful/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "AI安全监管成为行业焦点，OpenAI等巨头转向支持更严格法规",
+      "AI研究自动化工具崛起，DeepMind校友创业公司挑战现有模型",
+      "AI工具对开发者心理健康的影响引发关注，成瘾性问题凸显"
+    ],
+    "sourceCount": 5
+  },
   {
     "date": "2026-08-22",
     "generated": "2026-08-22T01:45:49.131Z",
