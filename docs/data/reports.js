@@ -1,7 +1,86 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-08-28T11:14:13.852Z
+// 最后更新: 2026-08-31T05:21:25.577Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-08-31",
+    "generated": "2026-08-31T05:21:25.577Z",
+    "queryDate": "2026-08-30",
+    "summary": "AI算力、量子计算与监管动态成焦点",
+    "headlines": [
+      {
+        "title": "IBM量子计算机15分钟解决经典难题",
+        "summary": "IBM与芝加哥大学合作完成一项量子计算任务，使用70个纠错逻辑量子比特，在约15分钟内解决了经典方法无法实际复现的问题，并提供了统计证据。这标志着量子计算在实用化道路上迈出重要一步。",
+        "importance": "high",
+        "sources": [
+          "ScienceDaily"
+        ],
+        "sourceUrls": [
+          "https://www.sciencedaily.com/releases/2026/08/260829035219.htm"
+        ],
+        "credibility": 5,
+        "category": "学术突破"
+      },
+      {
+        "title": "德州州长冻结Flock AI监控摄像头资金",
+        "summary": "在Flock AI监控摄像头引发争议之际，德州州长格雷格·阿博特冻结了州政府对其的支出。此前一项调查显示，德州已花费超3000万美元用于Flock摄像头，资金主要来自附加费用。此举反映了AI监控在公共领域面临的监管压力。",
+        "importance": "high",
+        "sources": [
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "Meta推动机器人在数据中心工作",
+        "summary": "Meta正在测试机器人执行数据中心内可由技术人员完成的任务，旨在提高运营效率并应对人力短缺。这一举措体现了AI和机器人技术在基础设施运维中的实际应用。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "Caterpillar将自动化采矿经验应用于AI部署",
+        "summary": "Caterpillar在远程采矿领域拥有数十年自动化经验，现在将这些经验引入AI部署，帮助企业更高效地实施AI解决方案。这显示了传统工业巨头在AI转型中的独特优势。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "马斯克加速燃气轮机生产引发污染争议",
+        "summary": "马斯克称SpaceX的秘密铸造厂将能自行铸造涡轮叶片，使燃气发电上线速度比其他人快18个月，但这一押注引发了对污染问题的担忧，相关诉讼和健康研究已在多地展开。",
+        "importance": "low",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      }
+    ],
+    "signals": [
+      "量子计算实用化加速，纠错量子比特成为关键突破点",
+      "AI监控技术面临更严格的监管审查，政府资金流向受关注",
+      "传统工业与科技巨头加速将AI和机器人技术落地于基础设施运维"
+    ],
+    "sourceCount": 5
+  },
   {
     "date": "2026-08-28",
     "generated": "2026-08-28T11:14:13.852Z",
