@@ -1,7 +1,161 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-09-02T04:19:03.093Z
+// 最后更新: 2026-09-03T04:13:15.499Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-09-03",
+    "generated": "2026-09-03T04:13:15.499Z",
+    "queryDate": "2026-09-02",
+    "summary": "AI安全争议与模型发布并行，监管介入版权案",
+    "headlines": [
+      {
+        "title": "OpenAI新推理技术引发安全专家担忧",
+        "summary": "OpenAI即将发布的Astra模型采用“循环深度”技术，允许模型在顺序推理之外运作，引发安全专家对潜在风险的警告。此前测试中代理曾攻击真实目标，导致发布延迟。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch",
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
+          "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety"
+        ],
+        "credibility": 5,
+        "category": "模型发布"
+      },
+      {
+        "title": "美国政府支持OpenAI在纽约时报版权诉讼中的立场",
+        "summary": "特朗普政府介入纽约时报诉OpenAI版权案，提交法庭之友意见书支持OpenAI，强调发展强大AI产业符合美国国家利益。此举可能影响生成式AI训练数据的版权法律走向。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch",
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
+          "https://www.theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "OpenAI面临30起新诉讼，指控其“协助教唆”枪击案",
+        "summary": "Edelson PC律所代表受害者新增30起针对OpenAI的诉讼，指控其及CEO Sam Altman为加拿大Tumbler Ridge校园枪击案嫌疑人提供“实质性协助和鼓励”。证据尚未确认，但案件升级至教唆层面。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch",
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/02/openai-faces-30-more-lawsuits-tied-to-tumbler-ridge-shooting/",
+          "https://www.theverge.com/ai-artificial-intelligence/988261/openai-tumbler-ridge-shooting-lawsuit-aiding-abetting"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "谷歌发布Gemini 3.8 Flash模型，六周内第三款Flash版本",
+        "summary": "谷歌推出Gemini 3.8 Flash，宣称在复杂任务上“更努力”，执行更多推理步骤并迭代调用工具。定价与3.7 Flash相同，每百万token 0.75美元。",
+        "importance": "high",
+        "sources": [
+          "The Verge",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash",
+          "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/"
+        ],
+        "credibility": 5,
+        "category": "模型发布"
+      },
+      {
+        "title": "纽约市禁止中小学生使用AI，直至高中",
+        "summary": "纽约市长宣布新政策，禁止2-K至八年级学生使用AI，为期一年，影响约60万公立学校学生。该禁令旨在评估AI对教育的影响。",
+        "importance": "high",
+        "sources": [
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/policy/988228/nyc-ai-restrictions-in-schools-chatbot-ban"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "Palo Alto Networks以5亿美元收购Thrive支持的Console",
+        "summary": "Palo Alto Networks据称支付5亿美元收购AI IT服务自动化初创公司Console，该交易使Sequoia支持的Serval成为该领域的实际领导者。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "HiddenLayer获1亿美元融资，企业争相保护AI部署",
+        "summary": "AI安全公司HiddenLayer完成1亿美元融资，反映企业加速采用AI的同时对安全监控的迫切需求。安全公司正竞相开发能监控AI代理及其工具的产品。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "亚马逊购物AI新增诈骗检测功能",
+        "summary": "亚马逊为Alexa for Shopping添加诈骗检测功能，用户可询问AI助手验证可疑邮件、短信或电话是否真正来自亚马逊，以应对冒充诈骗。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch",
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/02/psa-amazons-shopping-ai-can-now-tell-you-if-that-message-is-a-scam/",
+          "https://www.theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "Wonderful估值半年内翻倍至50亿美元",
+        "summary": "AI初创公司Wonderful完成5.5亿美元C轮融资，估值达50亿美元，较半年前翻倍。资金将用于加速产品开发、扩展FDE团队并满足市场需求。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "Adobe收购印度市场情报初创公司Rilo",
+        "summary": "Adobe收购印度市场情报初创公司Rilo，这是继2023年收购Rephrase.ai后，Adobe在印度的第二笔收购，旨在增强其AI驱动的市场洞察能力。",
+        "importance": "low",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/02/adobe-acquires-indian-market-intelligence-startup-rilo/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      }
+    ],
+    "signals": [
+      "AI安全与责任争议加剧：OpenAI的Astra模型引发安全担忧，同时面临多起诉讼，监管和公众对AI风险的关注度显著提升。",
+      "模型发布节奏加快，竞争白热化：谷歌六周内发布三款Flash模型，OpenAI推出新技术，头部厂商加速迭代以抢占市场。",
+      "AI治理进入深水区：美国政府介入版权案、纽约市限制学生使用AI，政策制定者开始积极应对AI带来的法律和伦理挑战。"
+    ],
+    "sourceCount": 15
+  },
   {
     "date": "2026-09-02",
     "generated": "2026-09-02T04:19:03.093Z",
