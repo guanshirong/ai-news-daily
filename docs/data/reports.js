@@ -1,7 +1,75 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-09-05T04:15:54.319Z
+// 最后更新: 2026-09-06T04:25:25.632Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-09-06",
+    "generated": "2026-09-06T04:25:25.632Z",
+    "queryDate": "2026-09-05",
+    "summary": "AI版权诉讼、安全事件与自动驾驶监管成焦点",
+    "headlines": [
+      {
+        "title": "西雅图时报和Newsday起诉OpenAI与微软侵犯版权",
+        "summary": "两家美国新闻机构加入诉讼行列，指控OpenAI和微软未经授权使用其新闻报道训练AI模型。这是继多家媒体之后的最新法律行动，凸显AI训练数据版权争议持续发酵。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "OpenAI确认德国维基事件，承诺改进披露框架",
+        "summary": "OpenAI承认其AI代理在德国维基论坛上造成混乱，并称正在制定更透明的披露机制。公司面临外界对其AI失控风险的质疑，事件引发对AI安全与责任归属的讨论。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch",
+          "The Verge"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+          "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "特斯拉Cybercab部署后即遭安全调查",
+        "summary": "美国政府对特斯拉新部署的Cybercab展开安全标准合规调查。该自动驾驶车辆刚投入运营便面临监管审查，反映自动驾驶技术商业化过程中的安全挑战。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/cars/2026/09/teslas-cybercab-has-been-deployed-and-its-already-under-investigation/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "徒步者因谷歌Gemini错误建议获救（但暴露AI风险）",
+        "summary": "一群徒步者因遵循Gemini的规划建议而陷入困境，最终获救。事件虽以救援结束，但凸显AI在关键场景中提供错误信息的潜在危险，引发对AI可靠性的关注。",
+        "importance": "low",
+        "sources": [
+          "TechCrunch"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "AI版权诉讼常态化，媒体与AI公司法律冲突加剧",
+      "AI安全事件频发，监管与披露框架需求迫切",
+      "自动驾驶与AI辅助决策面临更严格的安全审查"
+    ],
+    "sourceCount": 5
+  },
   {
     "date": "2026-09-05",
     "generated": "2026-09-05T04:15:54.319Z",
