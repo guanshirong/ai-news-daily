@@ -1,7 +1,155 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-09-08T04:24:13.973Z
+// 最后更新: 2026-09-09T04:29:25.710Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-09-09",
+    "generated": "2026-09-09T04:29:25.710Z",
+    "queryDate": "2026-09-08",
+    "summary": "AI融资活跃，模型安全与隐私争议升温",
+    "headlines": [
+      {
+        "title": "黑客窃取Claude订阅用户的令牌，Anthropic发出警告",
+        "summary": "有Claude用户发现账户在未使用时消耗令牌，Anthropic随后警告用户注意安全。事件凸显AI服务账户安全风险。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "Cognition估值达480亿美元，AI编程市场并非赢家通吃",
+        "summary": "Cognition获得480亿美元估值，高于Cursor被SpaceX收购前的估值，表明投资者认为AI编程领域仍有多个竞争者空间。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/"
+        ],
+        "credibility": 5,
+        "category": "资本市场"
+      },
+      {
+        "title": "Meta发布个人AI代理Muse，考验用户信任",
+        "summary": "Meta推出个人AI代理Muse，需要访问用户邮件、日历、支付和健康数据，这是Meta最大的消费者AI押注，但用户对Meta数据隐私的信任成为关键问题。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+          "https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race"
+        ],
+        "credibility": 5,
+        "category": "模型发布"
+      },
+      {
+        "title": "OpenAI被指在Navier-Stokes数学难题上作弊，引发争议",
+        "summary": "OpenAI声称解决了Navier-Stokes存在性与光滑性难题，但纽约大学数学家指责其手段不正当。该问题悬而未决约90年，悬赏100万美元。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/",
+          "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution"
+        ],
+        "credibility": 4,
+        "category": "学术突破"
+      },
+      {
+        "title": "Google Cloud与Accenture合作，加速企业AI部署",
+        "summary": "Google Cloud与Accenture达成合作，利用前向部署工程师推动企业AI采用，以克服部署瓶颈，追赶竞争对手。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "Mistral融资30亿欧元，主权AI成为大生意",
+        "summary": "法国AI实验室Mistral完成30亿欧元D轮融资，估值达210亿欧元，由三星、Scaleup Europe和PSG Equity领投，显示主权AI需求增长。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/"
+        ],
+        "credibility": 5,
+        "category": "资本市场"
+      },
+      {
+        "title": "Anthropic因订阅计划误导用户面临集体诉讼",
+        "summary": "Anthropic被指控其高级订阅计划误导用户，用户声称未获得承诺的更多价值，已提起集体诉讼。Anthropic曾优先考虑重度用户，甚至切断其他应用。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/990313/anthropic-class-action-lawsuit-pricing-subscription-plans"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "Google DeepMind发布AlphaGenome Atlas，助力基因组研究",
+        "summary": "Google DeepMind推出AlphaGenome Atlas，一个AI工具，旨在帮助解开人类基因组奥秘，加速科学研究和疾病治疗。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/991180/google-launches-alpha-genome-atlas"
+        ],
+        "credibility": 5,
+        "category": "学术突破"
+      },
+      {
+        "title": "Meta广告被曝推送“脱衣”应用，涉及未成年女孩照片",
+        "summary": "Meta旗下平台广告被曝使用真实未成年女孩照片推广“脱衣”应用，Meta被指拖延移除此类广告，引发严重隐私和道德争议。",
+        "importance": "high",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/tech-policy/2026/09/real-photos-of-young-girls-were-in-nudify-app-ads-on-facebook-instagram/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "Google AI天气模型更新，提升预报准确性",
+        "summary": "Google更新其AI天气模型，使用更多原始卫星数据，与传统模型一样受益于扩展输入，提高了预报准确性。",
+        "importance": "low",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/science/2026/09/googles-ai-weather-model-now-uses-more-raw-satellite-data/"
+        ],
+        "credibility": 5,
+        "category": "学术突破"
+      }
+    ],
+    "signals": [
+      "AI安全与隐私问题凸显，包括账户令牌窃取和不当内容广告，监管压力增大。",
+      "AI编程和主权AI领域投资火热，市场估值飙升，竞争格局未定。",
+      "AI在科学领域（如数学难题、基因组学）取得突破，但伴随争议，需关注验证和伦理。"
+    ],
+    "sourceCount": 12
+  },
   {
     "date": "2026-09-08",
     "generated": "2026-09-08T04:24:13.973Z",
