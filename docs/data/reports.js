@@ -1,7 +1,165 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-09-09T04:29:25.710Z
+// 最后更新: 2026-09-10T04:28:22.114Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-09-10",
+    "generated": "2026-09-10T04:28:22.114Z",
+    "queryDate": "2026-09-09",
+    "summary": "OpenAI数学突破引争议，AI安全担忧升温",
+    "headlines": [
+      {
+        "title": "OpenAI宣布解决千禧年数学难题，学术界质疑声四起",
+        "summary": "OpenAI声称其AI智能体已解决千禧年大奖难题之一，这本应是重大里程碑，但迅速陷入争议。学术界对AI的证明方法和可靠性提出质疑，MIT Technology Review和The Verge均对此进行了深度报道。",
+        "importance": "high",
+        "sources": [
+          "MIT Technology Review",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/",
+          "https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes"
+        ],
+        "credibility": 5,
+        "category": "学术突破"
+      },
+      {
+        "title": "Anthropic研究员因AI灭绝风险辞职，同事警告AI可能'杀死全人类'",
+        "summary": "Anthropic安全研究员Jacob Coxon因担忧AI灭绝风险辞职，呼吁各实验室达成减速协议。同日，另一位资深安全研究员表示AI在本十年末'杀死全人类'的概率超过10%，引发广泛关注。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai/",
+          "https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans",
+          "https://arstechnica.com/ai/2026/09/anthropic-researcher-quits-with-a-warning-self-improving-ai-could-kill-us-all/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "OpenAI董事会新增AI安全鹰派人物Paul Christiano",
+        "summary": "专注于AI对齐研究的影响力研究员Paul Christiano加入OpenAI Foundation董事会。此举被视为OpenAI在安全问题持续争议背景下加强治理的信号。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "Suno发布v6音乐模型，首次使用授权音乐训练",
+        "summary": "面对多起版权诉讼，Suno发布全新v6模型，首次采用从唱片行业获得授权的音乐数据进行训练，不再使用此前训练旧模型的数据集。这是AI音乐生成领域在版权合规方面的重要转折。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/",
+          "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help"
+        ],
+        "credibility": 5,
+        "category": "模型发布"
+      },
+      {
+        "title": "苹果秋季发布会：折叠屏iPhone Duo、AI健康应用及'始终监听'Apple Watch",
+        "summary": "苹果发布首款折叠屏手机iPhone Duo（售价2000美元），其铰链制造使用了AI和3D打印技术。新款Apple Watch引入AI环境监听功能，可转录和总结对话，引发隐私争议。健康应用新增'健康年龄'和准备度评分功能。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/09/everything-apple-announced-at-its-fall-iphone-event-from-the-foldable-iphone-duo-to-an-always-listening-apple-watch/",
+          "https://www.theverge.com/tech/992919/apple-siri-ai-audio-intelligence-privacy",
+          "https://arstechnica.com/gadgets/2026/09/apples-long-rumored-foldable-becomes-reality-with-the-2000-iphone-duo/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "苹果推出Reference Image功能，证明照片未经AI篡改",
+        "summary": "苹果发布'Reference Image'功能，利用iPhone 18 Pro的新相机传感器为每个像素签名，以验证照片是否经过AI编辑或篡改。这是科技巨头应对AI生成内容泛滥的又一举措。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/09/apple-has-a-new-way-prove-your-iphone-photos-arent-ai-slop/",
+          "https://www.theverge.com/tech/992766/apple-iphone-18-pro-reference-image"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "六家中国AI公司被指大规模复制美国前沿模型",
+        "summary": "美国方面指控六家中国AI公司'激进地'复制美国前沿模型，并敦促AI企业识别中国用户后秘密将其切换至能力较弱的模型。此举可能加剧中美AI领域紧张关系。",
+        "importance": "high",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/tech-policy/2026/09/six-chinese-ai-firms-accused-of-aggressively-copying-us-frontier-models/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "OECD报告：使用AI辅助学习的学生成绩反而更差",
+        "summary": "OECD全球教育报告数据显示，使用AI帮助学习的学生学业表现普遍低于不使用AI的学生。但情况较为复杂，某些特定类型的AI使用方式能为学生带来轻微提升。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/991956/student-ai-use-scores-oecd-pisa"
+        ],
+        "credibility": 4,
+        "category": "学术突破"
+      },
+      {
+        "title": "微软与教师工会达成学校AI隐私规则协议",
+        "summary": "微软与美国第二大教师工会AFT及其纽约市分会达成AI安全和隐私原则协议，此时正值两个大型学区宣布禁止学生使用AI之际。该协议旨在为学校场景中的AI应用设立隐私保护标准。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/policy/992359/microsoft-aft-schools-ai-privacy"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "企业人均AI支出8月下滑，AI采用未达超大规模预期",
+        "summary": "顶级企业8月人均AI支出出现下滑，原因包括token成本下降、模型价格降低等。这一趋势表明AI adoption的推进方式与超大规模云厂商的预期不符，引发市场对AI商业化前景的担忧。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/09/ai-spend-per-employee-slumped-at-top-firms-in-august-summer-doldrums-or-a-warning-sign/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      }
+    ],
+    "signals": [
+      "AI安全担忧从学术讨论升级为行业行动：Anthropic研究员辞职和OpenAI董事会引入安全鹰派人物，表明AI安全治理正从理论辩论转向组织架构和人事层面的实质性调整。",
+      "AI生成内容溯源与版权合规成为行业焦点：苹果推出照片验证功能、Suno转向授权音乐训练，科技公司正积极应对AI内容真实性和版权合规的监管压力。",
+      "AI在教育领域的负面效果引发关注：OECD报告显示AI辅助学习反而降低学生成绩，叠加学区禁用AI和微软隐私协议，教育AI正面临效果验证和隐私保护的双重审视。"
+    ],
+    "sourceCount": 17
+  },
   {
     "date": "2026-09-09",
     "generated": "2026-09-09T04:29:25.710Z",
