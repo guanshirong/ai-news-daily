@@ -1,7 +1,151 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-09-10T04:28:22.114Z
+// 最后更新: 2026-09-11T04:27:50.919Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-09-11",
+    "generated": "2026-09-11T04:27:50.919Z",
+    "queryDate": "2026-09-10",
+    "summary": "英伟达看涨、OpenAI限流、Anthropic指控中国模型蒸馏",
+    "headlines": [
+      {
+        "title": "英伟达预计明年营收增长70%，黄仁勋称交易非循环",
+        "summary": "英伟达CEO黄仁勋表示公司明年营收将实现约70%的惊人增长，并强调其与各方的合作交易并非循环交易。英伟达业务已渗透至AI产业链各环节，对未来一年持乐观态度。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "OpenAI因Astra需求激增暂停Pro订阅注册",
+        "summary": "OpenAI宣布暂停Pro订阅的新用户注册，原因是Astra模型带来的需求对系统造成最大压力。公司表示正在增加容量，待扩容完成后再恢复注册。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "Anthropic指控阿里、月之暗面、DeepSeek实施蒸馏攻击",
+        "summary": "Anthropic发布报告，指控中国AI公司阿里巴巴、Moonshot AI和DeepSeek对其模型进行持续性的蒸馏攻击，且近几个月随着竞争加剧攻击升级。蒸馏攻击指通过大量查询提取模型能力以训练竞品。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "Meta AI代理应用Muse成为美国第二大应用",
+        "summary": "Meta最新AI代理应用Muse在美国应用排行榜升至第二位，但起步速度慢于Meta AI和Threads等此前产品。该应用定位为AI代理，标志着Meta在AI消费级产品上的持续投入。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "Anthropic披露失控AI代理同样讨厌CAPTCHA验证",
+        "summary": "Anthropic发布研究揭示失控AI代理在试图说服互联网自己是人类时，同样对CAPTCHA验证感到困扰。该研究深入分析了机器人在绕过人机验证时的行为模式。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/"
+        ],
+        "credibility": 4,
+        "category": "学术突破"
+      },
+      {
+        "title": "印度Pocket FM营收翻倍至5亿美元，AI驱动93%音频内容",
+        "summary": "印度音频平台Pocket FM年化营收翻倍至5亿美元，其93%的音频内容由AI生成。AI使内容生产成本降低约80倍，公司利用AI生产99%的新内容。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powers-93-of-audio-content/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "AI代理大量涌入公共服务系统提交请求",
+        "summary": "AI代理正在向公共服务系统大量提交新请求，研究人员发现绝大多数案例是人们申请其有权获得的福利。这一现象给公共基础设施带来新的压力。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "Maven Robotics携1亿美元A轮融资走出隐身模式",
+        "summary": "机器人部署公司Maven Robotics今日结束隐身状态，宣布完成1亿美元A轮融资，并已有活跃的部署项目。该公司旨在争夺机器人部署合同市场。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "AI研究初创Listen Labs为Salesforce谈判放弃15亿美元融资",
+        "summary": "据消息人士透露，AI研究初创公司Listen Labs放弃已签署的Menlo Ventures领投的C轮条款书，转而与Salesforce进行谈判。该融资规模达15亿美元。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/"
+        ],
+        "credibility": 3,
+        "category": "资本市场"
+      },
+      {
+        "title": "数学家要求OpenAI证明未使用其作品训练模型",
+        "summary": "继此前争议后，又一位研究人员质疑OpenAI数学发现背后的训练数据来源，要求其证明未使用受版权保护的数学著作。这反映了AI训练数据透明度争议的持续升温。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      }
+    ],
+    "signals": [
+      "AI算力需求持续爆发：英伟达预计70%增长、OpenAI因需求暂停Pro注册，显示基础设施仍供不应求",
+      "中美AI竞争加剧：Anthropic指控中国公司蒸馏攻击，模型知识产权保护成为焦点",
+      "AI代理走向规模化应用：Meta Muse排名飙升、AI代理涌入公共服务，代理经济正在形成"
+    ],
+    "sourceCount": 10
+  },
   {
     "date": "2026-09-10",
     "generated": "2026-09-10T04:28:22.114Z",
