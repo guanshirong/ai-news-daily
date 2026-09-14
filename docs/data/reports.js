@@ -1,7 +1,73 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-09-12T04:24:57.531Z
+// 最后更新: 2026-09-14T04:45:11.443Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-09-14",
+    "generated": "2026-09-14T04:45:11.443Z",
+    "queryDate": "2026-09-13",
+    "summary": "AI末日论遭政界质疑，安全监管成政治议题",
+    "headlines": [
+      {
+        "title": "AI行业末日警告引发争议，特朗普与约翰逊称行业反应过度",
+        "summary": "Anthropic CEO Dario Amodei发表公开信呼吁“放慢前沿AI发展节奏”，OpenAI的Sam Altman和Elon Musk公开表示支持，Google DeepMind的Demis Hassabis也给予初步支持。然而，特朗普和众议院议长Mike Johnson认为AI行业在过度反应，显示政界与产业界在AI风险认知上出现明显分歧。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "奥巴马敦促民主党制定明确的AI安全防护计划",
+        "summary": "奥巴马近日表示，民主党需要将人工智能列为“核心议程”之一，并“制定非常明确的计划”来应对该技术带来的经济影响和安全担忧。此番表态表明AI监管正在成为美国党派政治的重要议题。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "AI分析40万条Reddit帖子发现Ozempic等药物隐藏副作用",
+        "summary": "研究人员利用AI分析40万条Reddit帖子，发现Ozempic、Wegovy、Mounjaro和Zepbound等药物的使用者报告了月经变化、寒战、潮热和疲劳等意外症状。研究者无法确认药物直接导致这些问题，但该模式可能揭示此前被忽视的副作用信号。",
+        "importance": "medium",
+        "sources": [
+          "ScienceDaily AI"
+        ],
+        "sourceUrls": [
+          "https://www.sciencedaily.com/releases/2026/09/260912222856.htm"
+        ],
+        "credibility": 4,
+        "category": "学术突破"
+      },
+      {
+        "title": "AI行业最新末日警告背后的深层原因分析",
+        "summary": "TechCrunch的Equity播客讨论了AI行业关于其是否对人类构成生存威胁的最新辩论。该讨论反映了业界对AI安全问题的持续关注和分歧。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      }
+    ],
+    "signals": [
+      "AI安全争论从产业界蔓延至政治舞台，特朗普与奥巴马分别代表两党就AI监管发声，AI政策正成为美国党派政治的核心议题",
+      "AI行业内部对发展速度出现明显分歧，头部AI公司CEO公开呼吁放缓前沿研究，但政界部分人士认为行业反应过度",
+      "AI在药物副作用监测等公共卫生领域展现应用潜力，社交媒体数据分析成为传统临床试验之外的有益补充"
+    ],
+    "sourceCount": 4
+  },
   {
     "date": "2026-09-12",
     "generated": "2026-09-12T04:24:57.531Z",
