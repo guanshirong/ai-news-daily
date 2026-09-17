@@ -1,7 +1,162 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-09-14T04:45:11.443Z
+// 最后更新: 2026-09-17T04:44:02.978Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-09-17",
+    "generated": "2026-09-17T04:44:02.978Z",
+    "queryDate": "2026-09-16",
+    "summary": "AI巨头竞逐智能体生态，安全与监管争议升温",
+    "headlines": [
+      {
+        "title": "谷歌开放Google Home，允许第三方AI智能体控制智能家居",
+        "summary": "谷歌推出Google Home的MCP服务器早期访问，允许Claude、ChatGPT等AI智能体通过自然语言控制联网设备、查看摄像头摘要和访问智能家居活动数据。这标志着智能家居平台首次向第三方AI智能体大规模开放。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
+          "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "Anthropic将Claude聊天与Cowork合并，推出Docs和Slides工具",
+        "summary": "Anthropic将Claude聊天和Cowork合并为统一界面，并推出Docs和Slides新工具，用户可通过Claude对话创建文档和演示文稿，支持导出、编辑和分享。功能首先面向Pro和Max订阅用户开放，直接对标谷歌Gemini的办公套件。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI",
+          "ZDNet AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
+          "https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides",
+          "https://www.zdnet.com/innovation/claude-chat-absorbs-cowork-anthropic/"
+        ],
+        "credibility": 5,
+        "category": "模型发布"
+      },
+      {
+        "title": "Anthropic与OpenAI拟内嵌安全评估员，独立性引发质疑",
+        "summary": "Anthropic和OpenAI计划在AI实验室内部嵌入独立安全评估员，研究人员对此前所未有的访问权限表示欢迎，但警告有意义的监督需要透明度、独立性和最终的外部监管。此举引发业界对AI公司自我监督有效性的广泛讨论。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+          "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "英伟达CEO黄仁勋称不需要AI监管，主张行业自行保障安全",
+        "summary": "黄仁勋公开表示AI并非某种新型的'外星思维'，而只是硬件和软件的组合，因此安全可以通过工程手段由每个AI产品制造商自行解决，无需政府监管。此番言论与近期多位AI高管呼吁监管的立场形成鲜明对比。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/",
+          "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "苹果据报计划重返服务器市场，拟与英伟达合作生产AI服务器",
+        "summary": "据The Information报道，苹果计划重返服务器业务，可能搭载M系列Ultra芯片，并可能与英伟达合作。该服务器预计2029年推出，将是苹果数十年来首款企业级服务器产品，旨在抓住AI算力需求激增的机遇。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/996321/apple-servers-ai-nvidia",
+          "https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "报告警告AI数据中心电子垃圾问题远超预期",
+        "summary": "一份新报告警告AI热潮产生的电子垃圾被严重低估，到2050年可能足以填满2300万个40英尺集装箱，若排成一列可绕地球六圈。该估算远高于此前预期，凸显AI基础设施快速扩张带来的环境挑战。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "SK海力士据报与英特尔洽谈在美国建内存芯片工厂",
+        "summary": "SK海力士据报正与英特尔洽谈在美国合作生产内存芯片，但SK海力士向TechCrunch表示尚未最终确定任何计划或安排。此举若成行，将有助于缓解AI芯片供应链紧张并推动美国本土半导体制造。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/16/sk-hynix-reportedly-in-talks-with-intel-to-build-memory-chips-in-us/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "前Infosys CEO的AI初创公司再获5300万美元融资",
+        "summary": "前Infosys首席执行官创办的AI初创公司在首轮融资后数周内再获5300万美元，这家位于帕洛阿尔托的公司表示已在成立数月内签下多份七位数企业合同。该融资反映出市场对资深企业软件背景的AI创业团队持续看好。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "亚马逊在印度推出Alexa+，支持印地语",
+        "summary": "亚马逊在印度推出Alexa+助手并支持印地语，所有客户可在早期访问阶段使用。这是亚马逊将AI助手推向新兴市场的重要一步，也体现了AI语音助手在多语言支持方面的竞争加剧。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "Snap推出Specs Intelligence AI助手，登陆iOS和Mac",
+        "summary": "Snap推出名为Specs Intelligence的新AI助手，可连接其他数字账户帮助处理工作任务和追踪旅行信息，并登陆iOS和Mac平台。该产品定位与Meta的Muse和谷歌Gemini的Spark类似，显示社交平台正加速布局AI助手赛道。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac"
+        ],
+        "credibility": 4,
+        "category": "模型发布"
+      }
+    ],
+    "signals": [
+      "AI智能体从对话走向执行：谷歌开放Google Home控制权、Anthropic推出文档工具、Snap发布AI助手，智能体正加速渗透日常生活和办公场景",
+      "AI安全治理路线分歧加剧：Anthropic和OpenAI推动内嵌评估员，黄仁勋公开反对监管，行业自我监督与外部监管的博弈进入新阶段",
+      "AI基础设施竞争向供应链纵深延伸：苹果拟重返服务器市场、SK海力士洽谈美国建厂、电子垃圾问题凸显，算力扩张的硬件和环境成本日益受到关注"
+    ],
+    "sourceCount": 15
+  },
   {
     "date": "2026-09-14",
     "generated": "2026-09-14T04:45:11.443Z",
