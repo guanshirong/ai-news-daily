@@ -1,7 +1,158 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-09-18T04:31:48.673Z
+// 最后更新: 2026-09-19T04:28:32.019Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-09-19",
+    "generated": "2026-09-19T04:28:32.019Z",
+    "queryDate": "2026-09-18",
+    "summary": "AI安全风险与监管博弈成今日主线",
+    "headlines": [
+      {
+        "title": "AI幻觉险些触发美军军事行动",
+        "summary": "据报道，一次AI系统产生的幻觉错误地将中国核部件信息呈现给美军，几乎导致美军对一艘中国船只采取军事行动。GovAI研究学者警告称，军人必须理解大语言模型固有的不确定性。该事件凸显AI在高风险军事场景中的可靠性隐患。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
+          "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "安全研究员利用Claude攻破OpenAI系统",
+        "summary": "三名独立安全研究员在72小时内利用Anthropic的Claude Opus 4.8和5成功入侵OpenAI员工账户，并访问了其内部代码仓库Monorepo。研究员在报告漏洞前完成了入侵，引发对AI辅助网络攻击能力的新担忧。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
+          "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist",
+          "https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "加州州长纽森推动AI“紧急开关”立法",
+        "summary": "加州州长纽森签署行政令，指示州政府召集专家小组，就前沿AI模型强制“紧急开关”等监管措施提出建议。此举意在让加州在AI监管领域占据领先地位。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/policy/997516/california-governor-newsom-ai-kill-switch"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "弗吉尼亚州长成立AI工作组并限制数据中心扩张",
+        "summary": "弗吉尼亚州长斯潘伯格签署第22号行政令，成立AI工作组，并采取措施让地方政府在数据中心开发中拥有更大话语权，放缓审批速度。弗吉尼亚州是全球数据中心最集中的地区。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "Anthropic运营生物学实验室开展实验",
+        "summary": "Anthropic正在运营一个进行生物学实验的实验室，此举与其研究人员此前关于AI可能毁灭人类的警告形成鲜明对比。AI领袖们一直承诺AI是治愈人类疾病的关键。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/"
+        ],
+        "credibility": 4,
+        "category": "学术突破"
+      },
+      {
+        "title": "Dario Amodei提出“放缓前沿”AI安全计划",
+        "summary": "在Anthropic研究员发出末日警告一周后，CEO Dario Amodei提出“放缓前沿”计划，主张依靠独立安全评估机构和民主国家AI实验室之间的协调来管理AI发展风险。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/video/dario-amodei-and-other-ai-leaders-want-to-pace-the-frontier-buthow/",
+          "https://techcrunch.com/podcast/automattics-33-hour-coup-and-can-ai-labs-police-themselves/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "法院文件揭露OpenAI与微软早知AI将引发网络“末日循环”",
+        "summary": "纽约时报诉OpenAI和微软案中解封的法庭文件显示，两家公司内部文件曾警告其数据抓取行为将启动一个损害网络的“末日循环”，并将训练数据抓取描述为“最大规模的劳动盗窃”。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "Manus寻求40亿美元估值融资5亿美元",
+        "summary": "Manus在年初被迫终止与Meta的合并后恢复独立运营，目前正洽谈以40亿美元估值融资5亿美元。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/18/manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes-independent-ops/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "FAA推出8.75亿美元AI工具管理空中交通拥堵",
+        "summary": "美国联邦航空管理局计划部署一套价值8.75亿美元的AI工具，用于帮助管理华盛顿特区空域交通拥堵，之后将在全国推广。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/ai/2026/09/faa-tees-up-875m-ai-tool-to-help-manage-air-traffic-congestion/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "Google推出家庭管理AI代理“CC”",
+        "summary": "Google将其CC AI代理重新定位为家庭协调工具，允许家庭成员共享邮件、日程和任务，AI可管理日历、填写表单、制作购物清单和规划餐食等。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/"
+        ],
+        "credibility": 4,
+        "category": "模型发布"
+      }
+    ],
+    "signals": [
+      "AI安全风险从理论走向现实：AI幻觉险些触发军事行动、Claude被用于攻破OpenAI系统，表明AI在高风险场景中的可靠性和安全性问题已迫在眉睫。",
+      "AI监管进入实质立法阶段：加州推动“紧急开关”立法、弗吉尼亚州限制数据中心扩张，美国州级AI监管从讨论转向具体行政行动。",
+      "AI行业内部矛盾加剧：Anthropic一边警告AI风险一边运营生物实验室，OpenAI和微软内部文件承认“末日循环”，行业在安全承诺与商业利益之间的张力持续升级。"
+    ],
+    "sourceCount": 13
+  },
   {
     "date": "2026-09-18",
     "generated": "2026-09-18T04:31:48.673Z",
