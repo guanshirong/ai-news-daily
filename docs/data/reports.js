@@ -1,7 +1,112 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-09-20T04:45:11.523Z
+// 最后更新: 2026-09-21T04:45:17.544Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-09-21",
+    "generated": "2026-09-21T04:45:17.544Z",
+    "queryDate": "2026-09-20",
+    "summary": "黄仁勋淡化AI风险，特朗普拟设AI事务专员",
+    "headlines": [
+      {
+        "title": "黄仁勋称AI末日论被夸大，认为世界末日概率为零",
+        "summary": "英伟达CEO黄仁勋在CBS《周日晨间》采访中表示，AI导致世界末日的概率为“0%”，认为外界对AI的恐惧被过度夸大。作为AI热潮中潜在获利最大的人物之一，他的表态引发了对利益立场与AI安全研究之间张力的讨论。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "特朗普宣布拟组建“AI力量”并任命AI事务专员",
+        "summary": "特朗普在Truth Social上发文称，希望任命一名“AI事务专员”来领导新的“AI力量”。此举正值各界（包括AI行业内部）呼吁放缓AI开发之际，其政府表示不会在AI发展上退缩。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "世界模型公司集体保持沉默，外界难以窥见其真实进展",
+        "summary": "TechCrunch报道称，世界模型领域的公司手握大量资金和关注度，但从创始人到数据供应商，几乎无人愿意透露他们究竟在构建什么。这种普遍的信息不透明正在成为该赛道的显著特征。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "AI行业真的准备好放缓脚步了吗？",
+        "summary": "TechCrunch旗下播客Equity讨论了AI高管们是否真心希望放缓AI发展。在监管呼声与行业竞争压力并存的背景下，这一辩论折射出AI行业在速度与安全之间的深层矛盾。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "Vocci推出智能戒指，为会议记录增添新形态",
+        "summary": "Vocci发布了一款售价249美元的轻量级智能戒指，用于会议笔记记录，为可穿戴AI设备增添了新的产品形态。该产品同时引发了关于隐私问题的讨论。",
+        "importance": "low",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/20/voccis-ring-adds-a-new-form-factor-to-meeting-note-taking/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "ScrollEd试图将教科书变成TikTok式信息流",
+        "summary": "帕洛阿尔托初创公司ScrollEd将教科书转化为类似Instagram的可滚动信息流，融合视频、音频和测验。该公司由学生联合创始人Utsav Gupta和Rebecca Neff（同时也是夫妻）创立，将在TechCrunch Disrupt上展示。",
+        "importance": "low",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/20/scrolled-wants-to-turn-textbooks-into-tiktok/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "报告：人类而非失控AI仍是能源系统最大网络安全风险",
+        "summary": "The Verge报道指出，尽管近期高调黑客攻击引发了AI可能“杀死全人类”的担忧，但能源系统面临的网络安全风险主要来自人类因素，且这一风险正在增长。专家表示能源系统长期以来就处于脆弱状态。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "AI安全争论升温：黄仁勋的乐观表态与行业内外呼吁放缓的声音形成鲜明对立，AI发展速度与安全治理的张力持续加剧",
+      "政策层面加速布局：特朗普拟设AI事务专员和“AI力量”，显示AI已成为美国政治议程的核心议题",
+      "世界模型赛道信息高度不透明：大量资金涌入但公司普遍保密，可能预示着该领域即将出现重大突破或存在泡沫风险"
+    ],
+    "sourceCount": 7
+  },
   {
     "date": "2026-09-20",
     "generated": "2026-09-20T04:45:11.523Z",
