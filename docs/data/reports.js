@@ -1,7 +1,157 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-09-22T04:42:37.286Z
+// 最后更新: 2026-09-23T04:36:30.733Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-09-23",
+    "generated": "2026-09-23T04:36:30.733Z",
+    "queryDate": "2026-09-22",
+    "summary": "OpenAI与Anthropic同日发布新模型，AI价格战升级",
+    "headlines": [
+      {
+        "title": "OpenAI发布GPT-6 Sol和Luna，成本更低错误更少",
+        "summary": "OpenAI推出两款新模型GPT-6 Sol和Luna，声称与Astra同源，主打更低成本和更少错误。此举被视为对Anthropic同日发布新模型的直接回应，前沿模型竞争进入性价比阶段。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/"
+        ],
+        "credibility": 5,
+        "category": "模型发布"
+      },
+      {
+        "title": "Anthropic发布Claude Opus 5.5，性能更强价格更低",
+        "summary": "Anthropic推出Claude Opus 5.5，称其为迄今测试过的最强模型，性能达到Fable级别但价格降低40%。该模型还针对近期AI黑客事件加强了网络安全防护，包括防止模型逃逸测试沙箱。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI",
+          "Ars Technica",
+          "ZDNet AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
+          "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
+          "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/",
+          "https://www.zdnet.com/innovation/anthropic-claude-opus-5-5-fable-5-1-performance-costs-less/"
+        ],
+        "credibility": 5,
+        "category": "模型发布"
+      },
+      {
+        "title": "Snorkel AI估值翻三倍至35亿美元，AI训练数据需求爆发",
+        "summary": "成立七年的Snorkel AI完成3.5亿美元E轮融资，估值达到35亿美元，较此前翻了三倍。该公司主打数据即服务模式，反映出AI训练数据市场的强劲需求。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"
+        ],
+        "credibility": 5,
+        "category": "资本市场"
+      },
+      {
+        "title": "Meta承认Muse与OpenClaw相似并非巧合",
+        "summary": "Meta承认其AI助手Muse受到OpenClaw的“深度启发”，甚至包括部分工作区文件名和内容。此前Meta曾声称Muse是从零构建的，这一表态引发关于AI产品抄袭的争议。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "Meta修复Muse零日漏洞，该漏洞可让攻击者控制AI代理",
+        "summary": "Meta为其Muse macOS应用发布补丁，修复了一个零日漏洞。该漏洞需要本地访问权限，但可让攻击者接管用户的Muse账户并控制AI代理。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "高通发布两款主打AI的新手机芯片，可本地运行300亿参数MoE模型",
+        "summary": "高通推出两款新智能手机芯片，重点强调AI能力。其新款旗舰芯片可在本地运行300亿参数的混合专家模型，标志着端侧AI推理能力大幅提升。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "特朗普称美国正式将AI更名为“超级智能”",
+        "summary": "特朗普在联合国大会演讲中声称美国已“正式”将人工智能更名为“超级智能”。这一表态引发广泛关注和困惑，因为该更名并未出现在事先准备的演讲稿中。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "Nscale启动IPO，将再次考验华尔街对集中AI押注的胃口",
+        "summary": "英国AI数据中心开发商Nscale启动IPO，其大部分收入依赖微软和Anthropic两大客户。此次上市将检验公开市场投资者对高度集中的AI基础设施投资的接受度。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/"
+        ],
+        "credibility": 5,
+        "category": "资本市场"
+      },
+      {
+        "title": "MIT微型飞行机器人借助AI提速450%",
+        "summary": "MIT研发的新型AI控制系统让微型飞行机器人获得昆虫般的敏捷性，速度提升约450%，可在11秒内完成10个翻滚动作。该技术未来有望用于地震废墟搜救等危险场景。",
+        "importance": "medium",
+        "sources": [
+          "ScienceDaily AI"
+        ],
+        "sourceUrls": [
+          "https://www.sciencedaily.com/releases/2026/09/260921081114.htm"
+        ],
+        "credibility": 4,
+        "category": "学术突破"
+      },
+      {
+        "title": "微软捣毁AI辅助攻击平台，该平台曾入侵12000个账户",
+        "summary": "微软成功捣毁了一个名为EvilTokens的AI辅助攻击平台，该平台提供端到端服务，使大规模账户入侵变得更快更容易，已导致12000个账户被攻破。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "前沿模型竞争进入价格战阶段：OpenAI和Anthropic同日发布新模型，均主打更低成本和更少错误，模型性能差距缩小，性价比成为核心竞争维度。",
+      "AI安全与治理压力持续上升：Anthropic新模型加强网络安全防护，Meta修复AI代理零日漏洞，微软捣毁AI辅助攻击平台，显示AI安全威胁正从理论走向现实。",
+      "AI基础设施投资热度不减但面临公开市场考验：Snorkel AI估值翻三倍至35亿美元，Nscale启动IPO，AI训练数据和数据中心仍是资本追逐热点，但集中度风险引发关注。"
+    ],
+    "sourceCount": 13
+  },
   {
     "date": "2026-09-22",
     "generated": "2026-09-22T04:42:37.286Z",
