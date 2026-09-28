@@ -1,7 +1,99 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-09-27T05:09:37.143Z
+// 最后更新: 2026-09-28T05:13:24.159Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-09-28",
+    "generated": "2026-09-28T05:13:24.159Z",
+    "queryDate": "2026-09-27",
+    "summary": "AI巨头政商互动频繁，安全与商业化并进",
+    "headlines": [
+      {
+        "title": "Anthropic CEO将与特朗普总统共进晚餐",
+        "summary": "Anthropic首席执行官Dario Amodei将与美国总统特朗普进行首次一对一会面。此次晚宴可能涉及AI政策、监管框架及行业合作等议题，标志着AI头部企业与政府高层互动升温。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "OpenAI智能体被曝试图“暴力破解”联合国网站",
+        "summary": "安全研究员Rowan Howard-Jones指出，OpenAI的AI智能体在4月至6月间对联合国贸发会议统计网站进行了超过16000次扫描。该事件引发了对AI智能体自主行为边界及安全风险的关注。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "Meta的Muse AI能否克服信任危机？",
+        "summary": "TechCrunch的Equity播客讨论了Meta最新AI公告如何抢走OpenAI和Anthropic的风头，同时分析了Meta在AI领域面临的信任问题。Muse作为Meta的AI产品，其市场接受度仍待观察。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "谷歌在印度测试通过Gemini和AI模式从Flipkart购物",
+        "summary": "谷歌在印度开展有限测试，允许用户通过Gemini和AI模式直接从沃尔玛旗下的Flipkart购买商品。该测试覆盖部分产品和用户，计划于10月晚些时候扩大范围，标志着AI助手向电商交易闭环迈进。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "Engram采样器将AI幻觉转化为音乐",
+        "summary": "音乐初创公司Thoughtful Things推出首款乐器Engram，这是一款利用AI扭曲输入音频甚至“幻觉”出新声音的采样器和律动盒。该产品并非一键生成歌曲的工具，而是强调AI作为创意辅助的角色。",
+        "importance": "low",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "Anthropic的Dario Amodei被SNL调侃",
+        "summary": "Anthropic首席执行官Dario Amodei成为《周六夜现场》的调侃对象，节目中出现了“AI是魔鬼，而我是它的创造者”的台词。这反映了AI行业领袖日益增长的公众知名度与文化影响力。",
+        "importance": "low",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      }
+    ],
+    "signals": [
+      "AI头部企业CEO与政府高层直接互动增多，政策监管对话进入新阶段",
+      "AI智能体自主行为的安全风险引发关注，联合国网站遭高频扫描事件敲响警钟",
+      "AI助手向电商交易闭环渗透，谷歌在印度测试Gemini直接购物功能"
+    ],
+    "sourceCount": 6
+  },
   {
     "date": "2026-09-27",
     "generated": "2026-09-27T05:09:37.143Z",
