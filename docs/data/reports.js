@@ -1,7 +1,153 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-10-01T05:39:32.209Z
+// 最后更新: 2026-10-02T05:24:49.447Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-10-02",
+    "generated": "2026-10-02T05:24:49.447Z",
+    "queryDate": "2026-10-01",
+    "summary": "AI代理与购物功能密集落地，安全与监管博弈加剧",
+    "headlines": [
+      {
+        "title": "OpenAI与三名安全研究员解除关系",
+        "summary": "据《华尔街日报》报道，OpenAI内部调查认定三名安全研究员不当处理公司敏感信息，随后与其解除关系。此事发生在AI安全争议持续升温之际，可能加剧外界对OpenAI安全团队稳定性的担忧。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "ChatGPT上线虚拟试衣等购物功能",
+        "summary": "OpenAI为ChatGPT推出新购物功能，用户可用自己的照片虚拟试穿服装和配饰，并将心仪商品保存至收藏库。这标志着ChatGPT进一步向电商场景渗透，与Shopify等平台形成直接竞争。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "Shopify推出Canvas：通过对话构建在线商店",
+        "summary": "Shopify发布Canvas建站工具，商家可通过与AI代理Sidekick对话来创建和定制在线商店，并实时预览更改效果。这是AI代理深入电商基础设施的又一标志性产品。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "联邦法官驳回针对谷歌AI Overviews的反垄断诉讼",
+        "summary": "美国地区法官Amit Mehta驳回Chegg和Penske Media对谷歌AI搜索功能的反垄断诉讼，认定AI搜索虽带来后果但不构成反垄断问题。该裁决为谷歌AI搜索功能提供了重要法律支撑，但也引发内容出版商对流量流失的持续担忧。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
+          "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "谷歌Gemini Live推出Guided Vision实时视觉辅助功能",
+        "summary": "谷歌在兼容Android设备的Gemini Live中推出Guided Vision，用户分享摄像头画面后，AI可实时提供音频描述，帮助阅读小字、描述周围环境等。这是多模态AI助手向无障碍和日常实用场景落地的重要一步。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision"
+        ],
+        "credibility": 5,
+        "category": "模型发布"
+      },
+      {
+        "title": "AI“读心”工具可从脑扫描重建所见图像",
+        "summary": "MIT Technology Review报道了一种新型AI工具，仅通过分析脑扫描即可高精度重建受试者所看到的图像，并能反向根据图像预测脑活动。该技术展示了脑机接口与视觉解码领域的显著进展，同时引发隐私伦理讨论。",
+        "importance": "high",
+        "sources": [
+          "MIT Technology Review"
+        ],
+        "sourceUrls": [
+          "https://www.technologyreview.com/2026/10/01/1145588/ai-mind-reading-reconstructs-what-youre-looking-at/"
+        ],
+        "credibility": 5,
+        "category": "学术突破"
+      },
+      {
+        "title": "亚马逊发布自有决策模型Strands Decider 2B",
+        "summary": "亚马逊云科技旗下Strand Labs发布类Jev决策模型Strands Decider 2B，加入决策模型密集发布的行列。此举表明主要云厂商正加速布局AI代理底层决策能力。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/"
+        ],
+        "credibility": 4,
+        "category": "模型发布"
+      },
+      {
+        "title": "OpenAI DevDay发布新代理，直面Meta竞争",
+        "summary": "在OpenAI年度DevDay大会上，公司推出名为“dots”的个人助理代理，直接对标Meta的Muse AI代理平台。报道指出Meta的Muse已获得早期快速增长，OpenAI面临能否与免费产品竞争的挑战。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "AI在Stratego游戏中首次击败人类顶尖选手",
+        "summary": "研究人员通过增加第二个神经网络来猜测隐藏棋子的身份，使AI首次在信息高度不完整的Stratego游戏中击败人类史上最强选手，且计算成本可控。该突破对不完美信息博弈和现实决策场景具有启示意义。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/"
+        ],
+        "credibility": 4,
+        "category": "学术突破"
+      },
+      {
+        "title": "PwC调查：企业AI风险责任归属存在分歧",
+        "summary": "PwC调查显示，企业业务领导与技术领导在“谁应负责AI风险”问题上难以达成一致。这一分歧可能拖慢企业AI治理框架的建立，增加合规与运营风险。",
+        "importance": "medium",
+        "sources": [
+          "ZDNet AI"
+        ],
+        "sourceUrls": [
+          "https://www.zdnet.com/innovation/pwc-digital-trust-insights-2027-ai-risk-responsibility/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "AI代理从概念走向基础设施：Shopify Canvas、OpenAI dots、亚马逊决策模型同日发布，代理正成为电商、办公与云服务的核心交互层。",
+      "AI安全与治理压力上升：OpenAI安全团队人事动荡与PwC企业风险责任分歧调查，反映行业在高速扩张中面临安全与治理的结构性挑战。",
+      "AI搜索法律边界初步划定：谷歌AI Overviews反垄断诉讼被驳回，为AI搜索功能提供法律缓冲，但内容出版商与平台之间的流量博弈仍将持续。"
+    ],
+    "sourceCount": 11
+  },
   {
     "date": "2026-10-01",
     "generated": "2026-10-01T05:39:32.209Z",
