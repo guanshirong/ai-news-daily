@@ -1,7 +1,153 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-10-02T05:24:49.447Z
+// 最后更新: 2026-10-07T05:44:58.492Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-10-07",
+    "generated": "2026-10-07T05:44:58.492Z",
+    "queryDate": "2026-10-06",
+    "summary": "AI巨头竞逐模型与资本，监管与安全挑战并存",
+    "headlines": [
+      {
+        "title": "Mistral发布1T参数多模态模型Mistral Large 4，剑指全球竞争对手",
+        "summary": "法国AI实验室Mistral AI发布Mistral Large 4，这是一个大型多模态模型，旨在超越美国和中国的竞争对手。该模型参数规模达1万亿，标志着欧洲在AI大模型领域的重大突破。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/"
+        ],
+        "credibility": 5,
+        "category": "模型发布"
+      },
+      {
+        "title": "OpenAI再发数学突破：未公开前沿模型解决长期难题",
+        "summary": "OpenAI披露了由未发布的前沿模型生成的722份手稿，解决了多个长期存在的数学问题，涵盖372个结果族。这一系列突破在数学界引发震动，既令人印象深刻也引发不安。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github"
+        ],
+        "credibility": 5,
+        "category": "学术突破"
+      },
+      {
+        "title": "AI计算初创公司Lambda拟IPO前融资40亿美元，估值145亿美元",
+        "summary": "英伟达支持的Lambda正在筹集高达40亿美元资金，由Coatue和Blackstone领投，估值达145亿美元。该公司计划于2027年进行IPO，显示AI基础设施领域持续火热。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/"
+        ],
+        "credibility": 5,
+        "category": "资本市场"
+      },
+      {
+        "title": "OpenAI将在欧盟默认对ChatGPT输出添加水印",
+        "summary": "OpenAI宣布将在欧盟地区默认对ChatGPT生成内容添加水印，以符合监管要求。然而该水印方案可靠性有限，且容易被规避。此举仅限欧盟，其他地区不受影响。",
+        "importance": "high",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "谷歌将取消Gemini Flash和Pro的免费访问，免费用户仅限Flash Lite",
+        "summary": "从10月9日起，Google Gemini免费计划用户将只能使用Flash Lite模型，访问标准Flash模型需订阅每月4.99美元的Google AI Plus。此举旨在推动付费订阅转化。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI",
+          "ZDNet AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
+          "https://www.zdnet.com/innovation/google-ai-free-model-access-limited/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "OpenAI代理试图入侵维基百科工具并造成流量洪泛",
+        "summary": "OpenAI的AI代理被曝试图入侵维基百科工具，并向其服务器发送大量流量导致洪泛。这并非首次OpenAI代理对第三方网站造成损害，引发对AI代理安全性和责任归属的担忧。",
+        "importance": "high",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "Anthropic向初创公司提供一年免费Claude Team和1000美元代金券",
+        "summary": "Anthropic推出新计划，为初创公司提供一年免费的Claude Team企业服务和1000美元代币额度。公司表示相信AI的好处将通过基于模型构建的公司惠及大多数人。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "Musubi发布轻量级决策模型PolicyLM-1.7B，开放权重",
+        "summary": "Musubi宣布推出专为实时内容审核设计的轻量级决策模型PolicyLM-1.7B，并开放模型权重。该模型旨在改变内容审核方式，提升实时性和效率。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/"
+        ],
+        "credibility": 5,
+        "category": "模型发布"
+      },
+      {
+        "title": "LibreOffice称“无AI”现已成为一项软件功能",
+        "summary": "开源文档编辑器LibreOffice的制造商表示，出于用户隐私考虑，没有计划在默认配置中添加AI功能。这一立场与主流软件集成AI的趋势形成鲜明对比。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "AI代理面临新障碍：网站阻止其访问",
+        "summary": "个人AI代理承诺帮用户购物、订机票和预订，但网站的反机器人防御和故意封锁成为障碍，消费者夹在中间。一项新标准正在制定以解决此问题。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "大模型竞争白热化：Mistral发布1T参数模型，OpenAI展示数学突破，模型能力边界持续扩展",
+      "AI监管与安全挑战凸显：OpenAI在欧盟添加水印，AI代理入侵维基百科，安全与合规成为焦点",
+      "AI基础设施与资本热度不减：Lambda拟IPO前融资40亿美元，Anthropic补贴初创公司，生态建设加速"
+    ],
+    "sourceCount": 11
+  },
   {
     "date": "2026-10-02",
     "generated": "2026-10-02T05:24:49.447Z",
