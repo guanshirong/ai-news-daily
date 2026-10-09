@@ -1,7 +1,157 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-10-08T05:51:56.546Z
+// 最后更新: 2026-10-09T05:57:38.202Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-10-09",
+    "generated": "2026-10-09T05:57:38.202Z",
+    "queryDate": "2026-10-08",
+    "summary": "OpenAI陷营收与安全双重风波，谷歌智能体全面落地",
+    "headlines": [
+      {
+        "title": "OpenAI年化营收据报比此前预期低200亿美元",
+        "summary": "有报道称OpenAI的年化营收远低于此前约700亿美元的预期，缺口高达200亿美元。这一消息若属实，将对其高估值和AI行业整体投资逻辑构成重大冲击。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/"
+        ],
+        "credibility": 3,
+        "category": "商业动态"
+      },
+      {
+        "title": "被解雇的OpenAI安全研究员反驳不当行为指控，警告寒蝉效应",
+        "summary": "三名被解雇的OpenAI安全研究员发表公开信，反驳公司关于其不当处理敏感信息的指控，并警告这些解雇正在对公司的AI安全文化产生寒蝉效应。此事凸显OpenAI内部安全治理的紧张关系。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "谷歌将智能体AI引入Gemini，率先面向企业",
+        "summary": "谷歌在Gemini at Work活动上发布通用Gemini AI智能体，可跨应用和设备在后台规划并执行任务，支持委派子智能体、调用多个AI模型，并拥有独立的工作身份（含邮箱地址）。该智能体将在Gemini Enterprise应用中提供。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+          "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise"
+        ],
+        "credibility": 5,
+        "category": "模型发布"
+      },
+      {
+        "title": "Anthropic更新使用政策，禁止模型滥用与选举干预",
+        "summary": "Anthropic一年多来首次更新使用政策，明确禁止选举干预、欺骗性宣传、武器软件和监控等高风险用途，并禁止对Claude进行持续且刻薄的辱骂行为。普通用户的不满和批评仍被允许。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+          "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "Anthropic为开源项目推出免费AI安全扫描服务",
+        "summary": "Anthropic推出OSS Scanner服务，为选择加入的开源项目提供由最强模型执行的免费定期安全扫描，帮助发现安全漏洞。此举旨在降低开源生态的安全风险。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "《今日美国》起诉OpenAI侵犯版权，索赔超2.5亿美元",
+        "summary": "《今日美国》公司及其旗下多家地方报纸起诉OpenAI，指控其复制数十万篇文章用于训练AI模型，索赔超过2.5亿美元。这是又一家主流出版商对OpenAI发起版权诉讼。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "AI排行榜平台Arena估值10个月内近乎翻倍至31亿美元",
+        "summary": "LMArena排行榜背后的公司完成2亿美元融资，由Lightspeed和Khosla领投，估值在10个月内近乎翻倍至31亿美元。该公司正将模型评估扩展到说谎等对齐问题。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "中国Manus与Meta分拆后首轮融资超5亿美元",
+        "summary": "中国AI公司Manus在与Meta分拆后完成首轮融资，募资超过5亿美元，由博裕资本和IDG资本领投，腾讯、HSG（原红杉中国）、真格基金等现有股东参投。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "谷歌发布本地优先的AI笔记应用，挑战Granola",
+        "summary": "谷歌推出实验性笔记应用Google AI Edge Foresight，可在macOS上完全离线转写会议和音频文件、生成笔记并回答问题，基于端侧EmbeddingGemma 2模型运行，免费使用。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor/",
+          "https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "英伟达重押物理AI，瞄准更安全的自动驾驶出租车与人形机器人",
+        "summary": "英伟达正在推进其物理AI全栈安全解决方案，已被多家机器人公司采用，目标是提升自动驾驶出租车和人形机器人的安全性。这标志着英伟达从芯片向物理AI安全平台的战略延伸。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "OpenAI同时面临营收预期下修、安全团队动荡和出版商版权诉讼三重压力，其行业领导地位正遭遇前所未有的挑战。",
+      "谷歌全面发力智能体AI，从企业级Gemini智能体到端侧离线笔记应用，构建覆盖云端与本地的AI代理生态。",
+      "AI版权诉讼持续升级，《今日美国》加入起诉行列，出版行业与AI公司之间的法律战正成为行业常态。"
+    ],
+    "sourceCount": 13
+  },
   {
     "date": "2026-10-08",
     "generated": "2026-10-08T05:51:56.546Z",
