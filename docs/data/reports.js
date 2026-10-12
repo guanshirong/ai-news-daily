@@ -1,7 +1,86 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-10-11T05:35:31.832Z
+// 最后更新: 2026-10-12T05:45:44.874Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-10-12",
+    "generated": "2026-10-12T05:45:44.874Z",
+    "queryDate": "2026-10-11",
+    "summary": "AI数据中心争议升温，语音AI尚未迎来爆发时刻",
+    "headlines": [
+      {
+        "title": "AI行业能否通过取消NDA说服数据中心反对者？",
+        "summary": "TechCrunch的Equity播客讨论了数据中心禁令的影响，以及AI行业是否存在沟通问题。行业正尝试通过取消保密协议来缓解社区对数据中心的反对声浪。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "高管们认为语音AI尚未达到其ChatGPT时刻",
+        "summary": "多位高管指出，语音AI在上下文层经常遗漏关键信息，导致整个处理流程中断。他们认为语音AI距离真正的爆发式普及还有明显差距。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "硅谷正在追随特朗普将AI改名为“超级智能”的尝试",
+        "summary": "特朗普宣布计划将人工智能重新命名为“超级智能”，尽管大众仍普遍使用AI一词，但硅谷一些最具影响力的人物正在跟进这一改名尝试。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "学习使用本地AI：令人兴奋、不知所措且充满挫败感",
+        "summary": "The Verge记者分享了自己使用本地AI的体验日记，出于对个人数据隐私的担忧，他开始尝试在Mac Studio上运行Qwen等本地模型。文章记录了本地AI部署过程中的进展与困难。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "HomeView会成为苹果智能家居的首个成功产品吗？",
+        "summary": "过去几年多次有报道称苹果正在开发新的智能家居产品，现在该产品似乎有了名称和发布日期。HomeView可能成为苹果在智能家居领域的关键布局。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "AI数据中心面临社区阻力，行业正尝试通过提高透明度（如取消NDA）来改善沟通",
+      "语音AI仍未达到类似ChatGPT的爆发临界点，上下文理解是主要技术瓶颈",
+      "本地AI运行需求上升，用户对云端数据隐私的担忧推动端侧AI探索"
+    ],
+    "sourceCount": 5
+  },
   {
     "date": "2026-10-11",
     "generated": "2026-10-11T05:35:31.832Z",
