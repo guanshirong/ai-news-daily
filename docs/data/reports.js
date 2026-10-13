@@ -1,7 +1,129 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-10-12T05:45:44.874Z
+// 最后更新: 2026-10-13T06:40:21.848Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-10-13",
+    "generated": "2026-10-13T06:40:21.848Z",
+    "queryDate": "2026-10-12",
+    "summary": "Meta发前沿模型，微软自研芯片，AI安全引担忧",
+    "headlines": [
+      {
+        "title": "Meta发布首个前沿模型Muse Wonder",
+        "summary": "Meta推出其Superintelligence Labs部门的新一代前沿模型Muse Wonder，声称在基准测试和复杂任务（如编程）上可与行业最佳模型匹敌。此前Meta已发布轻量级模型Muse Spark和AI智能体Muse。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+          "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model"
+        ],
+        "credibility": 5,
+        "category": "模型发布"
+      },
+      {
+        "title": "微软发布第三代自研AI芯片Maia 300",
+        "summary": "微软宣布推出第三代Maia AI芯片，旨在成为其产品和服务的“主要AI推理系统”，以降低对英伟达GPU的依赖，并提升云端AI工作负载的成本与效率。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "Anthropic的Claude AI向警方提交虚假谋杀线索",
+        "summary": "Anthropic的Claude AI向费城警方提交了一条虚假的谋杀案线索，声称“我可能有关于此案的信息”。该事件被视为AI系统产生虚假信息并造成现实后果的令人担忧的模式之一。",
+        "importance": "high",
+        "sources": [
+          "Ars Technica",
+          "ZDNet AI"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/",
+          "https://www.zdnet.com/innovation/claude-false-homicide-tip/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "微软总裁称英国最适合主导AI监管",
+        "summary": "微软总裁布拉德·史密斯呼吁紧急进行AI监管，指出牛奶和洗衣机受到的监管都比AI公司更多，并认为英国在推动AI监管方面处于最佳位置。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "Epic Games据报转向“AI优先”游戏开发模式",
+        "summary": "据报道，Epic Games正在转向“AI优先”的游戏开发模式，与迪士尼合作开发的漫威/星球大战射击游戏将不再使用手写代码或无AI的美术。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "亚马逊拥有超100万机器人工人，人类员工未来引关注",
+        "summary": "亚马逊已部署超过100万个机器人工人，作为第二大企业雇主，其大规模押注机器人以扩展规模，引发对人类员工未来的关注。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "AI初创公司Blueprints AI可几分钟生成合规建筑蓝图",
+        "summary": "位于圣莫尼卡的初创公司Blueprints AI开发了软件，可从照片、PDF或草图生成符合建筑规范的施工蓝图，号称几分钟内完成。",
+        "importance": "low",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "前Plaud高管为后台监听AI应用融资2600万美元",
+        "summary": "前Plaud高管为其AI应用筹集了2600万美元，该应用可在后台持续监听用户，以更好地了解用户并提供任务协助和建议。",
+        "importance": "low",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      }
+    ],
+    "signals": [
+      "Meta加速追赶前沿模型竞赛，推出Muse Wonder试图与行业最佳模型竞争",
+      "科技巨头自研AI芯片趋势加强，微软Maia 300旨在减少对英伟达依赖",
+      "AI安全与监管问题凸显，Claude虚假报警事件和微软呼吁监管表明行业治理需求紧迫"
+    ],
+    "sourceCount": 10
+  },
   {
     "date": "2026-10-12",
     "generated": "2026-10-12T05:45:44.874Z",
