@@ -1,7 +1,157 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-10-13T06:40:21.848Z
+// 最后更新: 2026-10-16T04:20:33.083Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-10-16",
+    "generated": "2026-10-16T04:20:33.083Z",
+    "queryDate": "2026-10-15",
+    "summary": "Meta开源模型登陆Mac，FTC调查OpenAI与Anthropic",
+    "headlines": [
+      {
+        "title": "Meta与Apple合作发布可在Mac本地运行的开源模型Muse Spark Open",
+        "summary": "Meta发布开源权重模型Muse Spark Open，号称美国迄今最强开源模型，并与Apple合作优化Apple Silicon本地运行。此举显示Meta在开源AI领域持续加码，同时深化与硬件厂商的生态协同。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+          "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx"
+        ],
+        "credibility": 5,
+        "category": "模型发布"
+      },
+      {
+        "title": "FTC调查OpenAI与Anthropic的安全事件是否损害美国民众",
+        "summary": "据报道，美国联邦贸易委员会（FTC）正调查OpenAI和Anthropic的安全事件是否对美国民众造成伤害，可能对延迟披露数据泄露的AI公司处以罚款。这标志着美国监管机构对前沿AI企业的审查力度显著升级。",
+        "importance": "high",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "Anthropic向METR研究员开放员工级访问权限",
+        "summary": "Anthropic允许METR研究员以员工级权限深入审查其风险、事件和实践，并放弃阻止其发布评估报告的权利。这是前沿AI公司在第三方安全审计透明度方面迈出的罕见一步。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "Nvidia发布Nemotron 3.5 Super VL开源模型",
+        "summary": "Nvidia推出Nemotron 3.5 Super VL，进一步推动美国开源权重AI的发展。该模型延续了Nvidia在开源多模态模型领域的布局，与Meta的Muse Spark Open形成同日开源模型发布潮。",
+        "importance": "high",
+        "sources": [
+          "ZDNet AI"
+        ],
+        "sourceUrls": [
+          "https://www.zdnet.com/innovation/nvidia-nemotron-3-5-super-vl-model-us-open-weight-ai/"
+        ],
+        "credibility": 4,
+        "category": "模型发布"
+      },
+      {
+        "title": "Amazon旗下Bee发布两款新个人AI设备，起售价75美元",
+        "summary": "Amazon收购的Bee推出首款新产品，包括升级版可穿戴设备和信用卡大小的手机录音器，可总结对话、创建待办事项并集成Alexa和Amazon购物。这显示AI硬件正从概念走向低价普及。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "Google Universal Cart购物工具在美国上线",
+        "summary": "Google的Universal Cart购物工具在美国上线，覆盖Google搜索和Gemini应用，可追踪用户心仪商品的价格。这是AI助手与电商场景深度融合的最新案例。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI",
+          "ZDNet AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+          "https://www.zdnet.com/tech/google-universal-cart-when-to-buy-guide/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "Bluesky扩展AI工具Attie，用户可创建游戏和网站",
+        "summary": "Bluesky将其AI驱动的Attie平台扩展至允许用户创建游戏、测验和网站等互动体验，并可直接分享给社交网络用户。这代表“社交氛围编程”概念的进一步落地。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+          "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "ChatGPT Chrome扩展升级，可读取用户浏览器标签页",
+        "summary": "OpenAI的ChatGPT Chrome扩展获得升级，安装后可查看用户已打开的浏览器标签页内容。这提升了AI助手的上下文感知能力，但也引发隐私方面的关注。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "YouTube Music开始标注AI生成歌曲",
+        "summary": "YouTube Music开始对AI生成的歌曲进行标注，该功能将很快扩展至YouTube主站。这是主流音乐平台应对AI内容泛滥、提升透明度的最新举措。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "AI芯片设计初创公司Ricursive Intelligence获关注",
+        "summary": "Ricursive Intelligence致力于开发能设计芯片的AI，通过每次迭代学习并改进后续设计，目标是自动化和加速芯片设计流程以缓解算力危机。这代表AI for Chip Design赛道的新兴力量。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/"
+        ],
+        "credibility": 4,
+        "category": "学术突破"
+      }
+    ],
+    "signals": [
+      "开源权重模型竞争白热化：Meta与Nvidia同日发布开源模型，美国厂商在开源AI领域加速布局，与闭源阵营形成差异化竞争。",
+      "AI监管进入实质执法阶段：FTC对OpenAI和Anthropic展开调查，同时Anthropic主动向第三方开放审计权限，行业透明度与合规压力同步上升。",
+      "AI硬件与消费场景加速融合：Amazon Bee低价AI设备、Google Universal Cart、ChatGPT浏览器集成等表明AI正从云端走向日常消费场景。"
+    ],
+    "sourceCount": 13
+  },
   {
     "date": "2026-10-13",
     "generated": "2026-10-13T06:40:21.848Z",
