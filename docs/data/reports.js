@@ -1,7 +1,75 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-10-17T04:12:38.035Z
+// 最后更新: 2026-10-18T04:18:40.575Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-10-18",
+    "generated": "2026-10-18T04:18:40.575Z",
+    "queryDate": "2026-10-17",
+    "summary": "Meta调整条款，Replit转投OpenAI，网站封堵AI代理",
+    "headlines": [
+      {
+        "title": "Meta删除可能允许抓取新闻网站内容的条款",
+        "summary": "在遭到批评后，Meta更新商业条款，删除了暗示其可抓取网站内容用于AI训练的语言。Meta发言人坚称此次修改不反映其网络抓取方式的变化。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+          "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "Replit将OpenAI设为默认模型提供商，取代Anthropic",
+        "summary": "Replit CEO表示，OpenAI将取代Anthropic成为其默认模型提供商，但Claude仍对平台客户开放。此举标志着AI编程平台与模型供应商之间竞争格局的变化。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "网站开始对AI代理关闭大门",
+        "summary": "随着自主AI代理成为热门趋势，越来越多的网站开始阻止这些代理访问。OpenAI、Meta、Google等公司承诺代理可替用户浏览互联网，但互联网本身正在设置障碍。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "Anthropic员工结构变化：资历提升，会议时间增加",
+        "summary": "Anthropic表示，过去一年其员工构成和工作类型发生显著变化，团队资历整体提升，员工花在会议上的时间增多。这反映了AI公司规模化过程中的组织演变。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      }
+    ],
+    "signals": [
+      "AI训练数据版权争议持续：Meta因抓取条款遭批评后修改措辞，但实质抓取行为未变，监管与舆论压力加大",
+      "AI代理与开放网络的冲突加剧：网站开始主动封堵自主代理，可能重塑AI浏览生态",
+      "模型供应商竞争白热化：Replit弃Anthropic转投OpenAI，平台与模型厂商的绑定关系更趋动态"
+    ],
+    "sourceCount": 5
+  },
   {
     "date": "2026-10-17",
     "generated": "2026-10-17T04:12:38.035Z",
