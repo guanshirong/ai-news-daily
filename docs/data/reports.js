@@ -1,7 +1,73 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-10-18T04:18:40.575Z
+// 最后更新: 2026-10-19T04:28:19.718Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-10-19",
+    "generated": "2026-10-19T04:28:19.718Z",
+    "queryDate": "2026-10-18",
+    "summary": "Anthropic设公益基金并开放外部监督，迪士尼接手Character.AI团队",
+    "headlines": [
+      {
+        "title": "Anthropic承诺将5%股份投入公益基金",
+        "summary": "Anthropic宣布将公司5%的股份投入一个公益基金，用于公共事业。此举在AI公司治理与社会责任方面具有示范意义。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "迪士尼同意聘用Character.AI大部分员工",
+        "summary": "迪士尼在收购文件中表示将聘用Character.AI多数员工，且绝大多数获邀者已接受。该交易为“假马竞标”，其他公司仍可能提出更高报价。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "Anthropic向外部AI监督机构开放“员工级”访问权限",
+        "summary": "Anthropic给予外部AI监督机构类似内部员工的访问权限，且该机构可未经Anthropic批准自行发布调查结果。这被视为AI透明度与第三方监督的重要进展。",
+        "importance": "high",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "费城女子因阻挡Uber配送机器人被捕",
+        "summary": "一名女子在费城因阻挡Uber配送机器人通行并拒绝让路而被捕，被控扰乱治安。她表示此举是为抗议机器人取代人类配送工作。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "AI公司治理与社会责任成为焦点，Anthropic通过公益基金和外部监督机制回应公众关切",
+      "AI行业整合加速，迪士尼接手Character.AI团队显示大厂对AI人才的争夺",
+      "自动化与就业冲突显性化，配送机器人引发的抗议事件反映社会对AI替代人工的焦虑"
+    ],
+    "sourceCount": 4
+  },
   {
     "date": "2026-10-18",
     "generated": "2026-10-18T04:18:40.575Z",
