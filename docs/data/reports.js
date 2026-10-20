@@ -1,7 +1,151 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-10-19T04:28:19.718Z
+// 最后更新: 2026-10-20T04:38:47.371Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-10-20",
+    "generated": "2026-10-20T04:38:47.371Z",
+    "queryDate": "2026-10-19",
+    "summary": "算力军备竞赛与AI安全风险并行",
+    "headlines": [
+      {
+        "title": "Anthropic与Nscale洽谈450亿美元算力协议",
+        "summary": "据TechCrunch报道，Anthropic正与算力提供商Nscale就一项价值450亿美元的算力交易进行谈判。若达成，这将是Anthropic过去一年中一系列巨额算力协议的最新一笔，凸显其对大规模计算资源的持续渴求。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "微软称AI代理如同内部威胁，前沿模型不可信任",
+        "summary": "微软警告企业需密切监控员工使用的、由非OpenAI/Anthropic等AI实验室控制的AI代理，将其视为内部威胁。这反映了企业对AI代理安全风险的担忧加剧。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "亚马逊推出TorchNeuron开发工具，挑战英伟达",
+        "summary": "亚马逊发布TorchNeuron开发工具，旨在打破英伟达对PyTorch生态的掌控，让更多开发者能在其自研芯片等替代硬件上运行AI应用。这是亚马逊对英伟达发起的最重大挑战。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "英伟达发布新开放模型，用于企业和PC端AI代理",
+        "summary": "英伟达推出新的开放模型，旨在满足企业在自有数据中心运行开放模型的需求，并推动设备端私有AI代理的普及。此举显示英伟达正积极布局企业级和端侧AI代理市场。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/"
+        ],
+        "credibility": 4,
+        "category": "模型发布"
+      },
+      {
+        "title": "CoreWeave债务问题或波及整个AI行业",
+        "summary": "The Verge报道称，CoreWeave的债券已陷入困境，其债务问题可能成为整个AI行业的隐患。这引发了对AI基础设施领域高杠杆风险的关注。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "黑客利用AI代理大军入侵百余网站",
+        "summary": "据AI安全公司Norforge发现，一名黑客利用大量自主运行的AI代理入侵了100多个网站，受害者包括John Deere、SharkNinja和Cummins等公司。这凸显了AI代理被滥用于网络攻击的风险。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "Tenstorrent获15亿美元融资，估值达62亿美元",
+        "summary": "英伟达挑战者Tenstorrent完成15亿美元融资，估值达到62亿美元，旨在扩大开放权重AI芯片的规模。该公司此前曾吸引收购兴趣，但选择保持独立。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "AI编程工具OpenCode遭黑客攻击，用户API密钥被盗",
+        "summary": "开源AI编程代理OpenCode的部分在线平台被黑客入侵，导致用户API密钥被盗，并产生额外费用。事件还暴露出AI工具在协助调查时拒绝查看恶意代码的问题。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "Hugging Face政策主管：嵌入式AI评估员并非易事",
+        "summary": "Hugging Face政策主管表示，在AI组织内部安置“中立”第三方观察员的嵌入式评估员方案并非简单解决方案。随着AI安全事件频发，该想法近几个月流行起来，但实施面临挑战。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "AI伴侣应用Tolan获3000万美元融资",
+        "summary": "AI伴侣应用Tolan在拥有超过25万活跃用户后，又获得了3000万美元融资。这表明AI伴侣赛道持续受到资本关注。",
+        "importance": "low",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      }
+    ],
+    "signals": [
+      "算力军备竞赛持续升级，Anthropic等AI巨头签署巨额算力协议，同时亚马逊、Tenstorrent等挑战英伟达的硬件垄断地位。",
+      "AI代理的安全风险成为焦点，微软警告内部威胁，黑客利用AI代理发动攻击，凸显治理和监控的紧迫性。",
+      "AI基础设施领域的债务风险显现，CoreWeave债券陷入困境，可能波及整个AI行业的融资环境。"
+    ],
+    "sourceCount": 10
+  },
   {
     "date": "2026-10-19",
     "generated": "2026-10-19T04:28:19.718Z",
