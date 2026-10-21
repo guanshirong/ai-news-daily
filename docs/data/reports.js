@@ -1,7 +1,155 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-10-20T04:38:47.371Z
+// 最后更新: 2026-10-21T04:31:21.395Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-10-21",
+    "generated": "2026-10-21T04:31:21.395Z",
+    "queryDate": "2026-10-20",
+    "summary": "AI监管博弈升级，巨头生态竞争白热化",
+    "headlines": [
+      {
+        "title": "Anthropic提出AI安全法案，可能以50人伤亡门槛阻止模型发布",
+        "summary": "Anthropic提出一项AI安全政策，表面上防止AI失控，但实际上禁止联邦机构在未经法官许可的情况下阻止模型发布。该提案引发争议，被认为可能削弱监管效力。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "美国下令联邦机构移除DeepSeek AI产品",
+        "summary": "美国政府以国家安全为由，命令联邦民事机构从系统中移除DeepSeek产品及基于其技术构建的第三方服务。此举加剧了中美在AI领域的脱钩趋势。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "OpenAI收购生物科技初创公司Orchestra Bio",
+        "summary": "OpenAI宣布收购Orchestra Bio，将其团队和技术整合到生命科学AI模型Rosalind及配套工具Rosalind Workbench中，以加强生物技术业务布局。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "Anthropic云合作伙伴关系陷入混乱，IPO前算力承压",
+        "summary": "据报道，Anthropic在从云提供商获取足够算力方面遇到困难，这些提供商日益将其视为竞争对手，而公司基础设施支出在计划于11月IPO前激增。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "Meta暂停Muse分享功能，因AI对话链接可公开访问",
+        "summary": "Meta暂停了Muse助手的对话分享功能，此前安全公司Claroc研究人员发现超过6800条Muse链接在网络上公开可访问，暴露用户个人和商业机密。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+          "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "Google联合Amazon挑战Nvidia在AI开发者领域的主导地位",
+        "summary": "Google发布开发者工具，使PyTorch用户能轻松将应用从Nvidia GPU迁移，加入Amazon行列共同削弱Nvidia在AI应用开发领域的强势地位。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "Meta的Muse应用40天内在美下载量突破1000万",
+        "summary": "Meta的AI应用Muse在40天内美国下载量达到1000万次，仅11款其他应用曾达到此里程碑，且用户留存率高于竞争对手。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "Otter AI获General Catalyst成长基金3.2亿美元融资",
+        "summary": "Otter.ai宣布获得3.2亿美元融资，将用于企业增长、市场推广、国际扩张和产品创新，进一步拓展其AI会议工具业务。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "Spotify从推荐中移除5000万首AI垃圾和垃圾邮件歌曲",
+        "summary": "Spotify宣布过去一年从用户推荐中移除了超过5000万首被视为AI生成垃圾或垃圾邮件的歌曲，并调整推荐系统以突出人类艺术家的音乐。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "Google将个性化Gemini AI引入汽车",
+        "summary": "Google将Personal Intelligence引入Android Auto和内置Google的汽车，Gemini可访问Gmail、日历、地图、照片、YouTube和搜索等跨应用信息。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+          "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "AI监管进入实质博弈阶段：Anthropic提案与美政府DeepSeek禁令显示，行业与政府在安全、国家安全与创新之间寻求新平衡。",
+      "AI算力与生态竞争加剧：Anthropic云合作承压、Google/Amazon挑战Nvidia，表明基础设施和开发者生态成为巨头争夺焦点。",
+      "AI应用隐私与内容治理问题凸显：Meta Muse分享泄露、Spotify清理AI垃圾歌曲，反映AI规模化应用后的安全与质量挑战。"
+    ],
+    "sourceCount": 12
+  },
   {
     "date": "2026-10-20",
     "generated": "2026-10-20T04:38:47.371Z",
