@@ -1,7 +1,155 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-10-21T04:31:21.395Z
+// 最后更新: 2026-10-23T04:35:27.788Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-10-23",
+    "generated": "2026-10-23T04:35:27.788Z",
+    "queryDate": "2026-10-22",
+    "summary": "OpenAI千亿融资领衔，AI代理与医疗突破成焦点",
+    "headlines": [
+      {
+        "title": "OpenAI拟以1.25万亿美元估值融资300亿美元，为IPO铺路",
+        "summary": "OpenAI正在推进新一轮300亿美元融资，估值高达1.25万亿美元，若成行将创下私营公司估值纪录。此举发生在IPO前夕，显示资本市场对头部AI公司的狂热追捧。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "DeepSeek据报融资150亿美元，美国限制令后逆势吸金",
+        "summary": "DeepSeek据报完成150亿美元融资，成为中国最大规模融资之一，而就在几天前美国刚下令联邦机构移除其技术。地缘政治压力与资本追捧形成鲜明对比。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/"
+        ],
+        "credibility": 3,
+        "category": "资本市场"
+      },
+      {
+        "title": "微软AI诊断系统在疑难病例上超越医生，剑指“医疗超级智能”",
+        "summary": "微软AI负责人Mustafa Suleyman称其新诊断系统在《Science》发表的研究中于疑难病例上击败全科医生，但大部分提升似乎来自底层AI模型而非微软系统本身。这标志着AI医疗诊断竞争升温。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+          "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence"
+        ],
+        "credibility": 4,
+        "category": "学术突破"
+      },
+      {
+        "title": "OpenAI将决策模型向全球开放，与Jev竞争白热化",
+        "summary": "OpenAI将其决策模型广泛开放，直接挑战原创者Jev，决策模型赛道竞争加剧。此举可能重塑企业决策自动化市场格局。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/"
+        ],
+        "credibility": 4,
+        "category": "模型发布"
+      },
+      {
+        "title": "Canva发布首款自研图像生成模型Canva Craft",
+        "summary": "Canva推出名为Canva Craft的图像生成模型，采用两阶段架构先规划设计再生成图像，面向所有用户开放，宣称性能更优、成本更低。这直接挑战OpenAI、微软和谷歌的图像生成产品。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+          "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model"
+        ],
+        "credibility": 4,
+        "category": "模型发布"
+      },
+      {
+        "title": "Anthropic推出Claude Duet应用，押注AI代理",
+        "summary": "Anthropic发布Claude Duet应用，目前以候补名单形式向Pro和Max用户开放，是其对AI代理战略的重要布局。该应用旨在让Claude更深度地代理用户任务。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/"
+        ],
+        "credibility": 4,
+        "category": "模型发布"
+      },
+      {
+        "title": "Uber全员3万员工部署ChatGPT Work",
+        "summary": "Uber在完成小规模试点后，将ChatGPT Work推广至全部3万名员工，成为企业级AI代理大规模落地的标志性案例。这显示大企业正加速将AI代理融入日常工作流。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "1Password推出AI代理代登录功能，无需暴露密码",
+        "summary": "1Password发布新功能，允许AI代理代表用户登录个人账户，同时不暴露底层凭证。这为AI代理的安全身份验证提供了新方案，有望推动代理应用普及。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "OpenAI、Anthropic、英伟达游说支出创纪录",
+        "summary": "联邦披露文件显示，OpenAI、Anthropic和英伟达在7月至9月季度均创下游说支出新高，其中英伟达220万美元、Anthropic 210万美元、OpenAI 150万美元。AI巨头正加大政策影响力投入。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "中国黑客利用AI代理入侵ConnectWise，间谍活动波及数千企业",
+        "summary": "微软指责中国关联黑客组织利用AI代理快速入侵IT巨头ConnectWise的数千家客户，进行间谍活动。这是AI代理被用于大规模网络攻击的典型案例，引发安全担忧。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      }
+    ],
+    "signals": [
+      "AI资本市场热度空前：OpenAI万亿估值融资与DeepSeek逆势巨额融资并存，显示资本对头部AI公司的追逐不受地缘政治影响。",
+      "AI代理从实验走向规模化落地：Uber全员部署、Anthropic推出Duet、1Password解决代理登录安全，代理生态加速成熟。",
+      "AI医疗诊断取得里程碑突破，但底层模型能力仍是核心竞争力，微软等系统集成商面临价值归属争议。"
+    ],
+    "sourceCount": 12
+  },
   {
     "date": "2026-10-21",
     "generated": "2026-10-21T04:31:21.395Z",
