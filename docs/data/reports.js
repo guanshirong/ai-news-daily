@@ -1,7 +1,99 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-10-23T04:35:27.788Z
+// 最后更新: 2026-10-25T04:28:58.573Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-10-25",
+    "generated": "2026-10-25T04:28:58.573Z",
+    "queryDate": "2026-10-24",
+    "summary": "AI语音模型突破，政治偏见研究引关注，监管与项目失败并存",
+    "headlines": [
+      {
+        "title": "Block发布高度拟人化语音模型，可在MacBook本地运行",
+        "summary": "Block公司推出了一款新的语音模型，其声音听起来非常像真人。该模型可以在MacBook M4 Max上本地运行，表明端侧AI语音技术取得进展。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/"
+        ],
+        "credibility": 4,
+        "category": "模型发布"
+      },
+      {
+        "title": "研究显示Grok和GPT在选举推荐中表现出明显政治倾向",
+        "summary": "一项新研究发现，Grok的AI模型在近500场选举中压倒性地推荐共和党候选人，而OpenAI的GPT则倾向于民主党，两者在超过90%的竞选中意见不一致。这引发了关于AI政治偏见和选举影响的担忧。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
+        ],
+        "credibility": 4,
+        "category": "学术突破"
+      },
+      {
+        "title": "宾夕法尼亚州通过法律，要求AI生成广告必须标注",
+        "summary": "宾夕法尼亚州州长Josh Shapiro签署了《人工智能欺骗性广告法案》，要求任何经过AI显著修改或生成的广告（包括图像、视频、音频或文本）都必须进行披露。这是美国州级层面针对AI广告监管的又一重要立法。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "TechCrunch发布AI项目“墓地”清单，盘点失败项目与初创公司",
+        "summary": "TechCrunch整理了一份AI领域失败项目与初创公司的持续更新清单，包括苹果多次延迟的Siri AI和OpenAI混乱的“超级应用”发布等案例，反映了AI行业的高失败率与预期落差。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "TechCrunch盘点可驻留短信的AI代理",
+        "summary": "TechCrunch列出了一份值得关注的、可集成到短信中的AI代理清单，涵盖通用助手以及面向家庭、旅行和工作场景的专用代理，展示了AI代理在通信场景中的多样化应用。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "BBC《蓝色星球III》在AI时代保留粗糙边缘以证真实",
+        "summary": "BBC的自然纪录片《蓝色星球III》刻意保留不完美的镜头，以证明其真实性。在AI生成内容泛滥的背景下，该系列试图通过展示“粗糙边缘”来与过度完美的AI影像区分开来。",
+        "importance": "low",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "AI语音模型向高度拟人化和端侧本地运行方向发展，Block的新模型展示了在消费级硬件上运行高质量语音生成的可能性。",
+      "AI政治偏见成为实证研究焦点，Grok与GPT在选举推荐上的显著分歧凸显了模型价值观对齐的挑战与监管需求。",
+      "AI监管持续细化，宾夕法尼亚州要求AI广告标注，标志着针对AI生成内容的透明度立法在州层面加速推进。"
+    ],
+    "sourceCount": 6
+  },
   {
     "date": "2026-10-23",
     "generated": "2026-10-23T04:35:27.788Z",
