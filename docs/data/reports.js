@@ -1,7 +1,86 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-10-25T04:28:58.573Z
+// 最后更新: 2026-10-26T04:32:38.712Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-10-26",
+    "generated": "2026-10-26T04:32:38.712Z",
+    "queryDate": "2026-10-25",
+    "summary": "AI投资回报存疑，开源社区抵制AI，生成内容争议不断",
+    "headlines": [
+      {
+        "title": "Apollo经济学家：AI对大多数公司带来“零财务回报”",
+        "summary": "Apollo首席经济学家指出，尽管企业在人工智能上投入巨资且炒作盛行，但除科技行业外，美国企业从AI中获得的财务回报几乎为零。这一观点引发了对AI投资泡沫的担忧。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "Grok发布AI生成电影《奥德赛》前七分钟",
+        "summary": "Grok发布了其AI生成电影《奥德赛》的前七分钟片段。TechCrunch评价称画面尚可，但缺乏艺术性、灵感和人文关怀。这展示了AI视频生成技术的最新进展与局限。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/"
+        ],
+        "credibility": 4,
+        "category": "模型发布"
+      },
+      {
+        "title": "r/opensource版块禁止AI相关项目及非英语使用者",
+        "summary": "Reddit的r/opensource版块版主发布新规，禁止使用AI、由AI制作或面向AI的项目，同时禁止非英语使用者。版主称“当今的AI与开源理念不相容”，反映了开源社区对AI的抵制情绪。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "谷歌AI搜索变革颠覆在线出版业",
+        "summary": "The Verge专栏分析指出，谷歌AI搜索功能的推出正在深刻改变在线出版行业的流量格局和商业模式。出版商面临来自AI搜索摘要的竞争，导致点击率下降和收入受损。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/column/1017983/google-ai-search-online-publishing"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "热门AI可穿戴设备与 gadgets 盘点",
+        "summary": "TechCrunch汇总了当前最热门的AI可穿戴设备，包括Muse Charm、Bee、Friend、Plaud等产品。这些设备展示了AI在消费硬件领域的多样化应用。",
+        "importance": "low",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "AI投资回报率受到质疑，企业级应用落地面临挑战",
+      "开源社区出现抵制AI的声浪，反映技术伦理与社区文化的冲突",
+      "AI生成内容（视频、搜索）持续冲击传统内容产业与创作标准"
+    ],
+    "sourceCount": 5
+  },
   {
     "date": "2026-10-25",
     "generated": "2026-10-25T04:28:58.573Z",
