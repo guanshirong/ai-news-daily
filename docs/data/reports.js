@@ -1,7 +1,159 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-10-26T04:32:38.712Z
+// 最后更新: 2026-10-27T04:51:04.685Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-10-27",
+    "generated": "2026-10-27T04:51:04.685Z",
+    "queryDate": "2026-10-26",
+    "summary": "Anthropic IPO领衔，AI资本与算力竞赛升温",
+    "headlines": [
+      {
+        "title": "Anthropic正式提交IPO申请，拟登陆纳斯达克",
+        "summary": "Anthropic向SEC提交S-1文件，计划以代码“ANT”在纳斯达克上市，成为首家IPO的大型AI模型公司。文件显示营收飙升但亏损扩大，企业客户采用率高，并采用特殊治理结构以保持创始人控制权和AI安全使命。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI",
+          "MIT Technology Review"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+          "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
+          "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/"
+        ],
+        "credibility": 5,
+        "category": "资本市场"
+      },
+      {
+        "title": "Anthropic IPO文件揭示企业客户交叉销售策略",
+        "summary": "S-1文件显示，超过一半的10万美元以上客户同时使用Claude平台和第一方应用，这种类似亚马逊的交叉销售策略增强了企业客户粘性。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "Anthropic IPO文件暴露AI繁荣的甲烷依赖",
+        "summary": "The Verge指出，Anthropic的S-1文件凸显生成式AI对天然气的依赖，公司承认电力供应和数据中心选址竞争激烈，气候风险成为IPO披露的一部分。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "SpaceX与Apollo达成400亿美元GPU融资协议",
+        "summary": "SpaceX锁定由Apollo安排的400亿美元GPU融资，为其快速扩张的AI雄心提供资金，减少对传统债务市场的依赖。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/"
+        ],
+        "credibility": 5,
+        "category": "资本市场"
+      },
+      {
+        "title": "OpenAI宣布三项重大科学发现并推出学术界合作新方式",
+        "summary": "OpenAI在数学、计算机科学和物理学领域宣布三项“重大”发现，此次引入外部专家进行验证，并公布与学术界合作的新模式。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics"
+        ],
+        "credibility": 5,
+        "category": "学术突破"
+      },
+      {
+        "title": "微软向6万名员工提供自愿买断",
+        "summary": "微软在美国、英国、加拿大和印度向最多6万名员工提供自愿离职买断方案，占其 workforce 约四分之一，提供财务支持和职业规划资源。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
+          "https://arstechnica.com/gadgets/2026/10/microsoft-offers-voluntary-buyouts-to-60000-employees/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "苹果发布iOS和macOS 27.2，带来新Siri AI功能",
+        "summary": "苹果发布iOS和macOS 27.2更新，为Siri引入新的AI能力，包括限制Siri可直接访问的应用，并更新Music图标。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica",
+          "ZDNet AI"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
+          "https://www.zdnet.com/tech/apple-ios-27-2-update-siri-ai-facetime-dual-cameras/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "科学家首次拍摄磁性斯格明子晶格熔化过程",
+        "summary": "科学家首次拍摄到被称为斯格明子的微小磁涡旋从有序晶格中熔化的过程，揭示操控这些结构的新方法，有望推动类脑计算实现更小、更节能的计算机。",
+        "importance": "medium",
+        "sources": [
+          "ScienceDaily AI"
+        ],
+        "sourceUrls": [
+          "https://www.sciencedaily.com/releases/2026/10/261025073038.htm"
+        ],
+        "credibility": 4,
+        "category": "学术突破"
+      },
+      {
+        "title": "科学家克服量子计算机扩展的关键障碍",
+        "summary": "科学家发现同时操作多个硅量子比特并保持约99.9%精度的方法，克服了扩展量子计算机的主要挑战，为大规模量子计算打开大门。",
+        "importance": "medium",
+        "sources": [
+          "ScienceDaily AI"
+        ],
+        "sourceUrls": [
+          "https://www.sciencedaily.com/releases/2026/10/261024222024.htm"
+        ],
+        "credibility": 4,
+        "category": "学术突破"
+      },
+      {
+        "title": "The RealReal加强机器人防御，阻止AI代理抢购设计师服装",
+        "summary": "二手奢侈品零售商The RealReal更新机器人防御系统，使AI代理更难在其网站购物，此前有报道称AI代理可利用其预订系统漏洞。",
+        "importance": "low",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "AI巨头资本竞赛白热化：Anthropic启动IPO、SpaceX获400亿美元GPU融资，显示AI基础设施和模型公司正加速抢占公开市场和债务融资渠道。",
+      "AI能源与环境成本浮出水面：Anthropic IPO文件罕见披露甲烷依赖和电力竞争风险，AI繁荣背后的气候与资源约束正成为监管和投资者关注焦点。",
+      "AI代理与平台治理摩擦加剧：The RealReal限制AI代理购物，苹果Siri增加应用访问控制，表明AI代理的自主行为开始触发平台防御和权限管理需求。"
+    ],
+    "sourceCount": 14
+  },
   {
     "date": "2026-10-26",
     "generated": "2026-10-26T04:32:38.712Z",
