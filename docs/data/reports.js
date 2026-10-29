@@ -1,7 +1,157 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-10-28T05:26:21.839Z
+// 最后更新: 2026-10-29T05:35:35.855Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-10-29",
+    "generated": "2026-10-29T05:35:35.855Z",
+    "queryDate": "2026-10-28",
+    "summary": "科技巨头财报亮眼，谷歌发布新模型，AI监管与争议升温",
+    "headlines": [
+      {
+        "title": "微软首次披露Azure季度营收达332亿美元",
+        "summary": "微软在财报中首次以美元金额披露Azure季度营收为332亿美元，显示其与AWS的差距进一步缩小。此举增强了市场对微软云业务透明度的信心。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "微软从OpenAI相关商业安排中录得100亿美元营收",
+        "summary": "微软披露在截至9月30日的季度中，从与OpenAI的商业安排（包括收入分成）中获得100亿美元营收。这凸显了双方在财务上的深度依赖。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "微软连续第十个季度创营收纪录，达923亿美元",
+        "summary": "微软公布季度营收923亿美元，同比增长19%，连续第十个季度创下纪录。AI业务仍是其增长的重要驱动力。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "谷歌发布Gemini 4 Carbon前沿模型，网络安全能力显著提升",
+        "summary": "谷歌推出Gemini 4 Carbon，在编码、智能体任务和网络安全方面有显著提升，并在Artificial Analysis Intelligence Index (v5.0) 基准测试中排名第一。该模型目前未对公众开放。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+          "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/"
+        ],
+        "credibility": 5,
+        "category": "模型发布"
+      },
+      {
+        "title": "Anthropic推出工具，帮助企业追踪AI支出回报",
+        "summary": "Anthropic发布新工具，让企业客户能清晰了解其在AI模型上的支出带来了哪些具体价值。此举正值该公司计划IPO前夕，旨在提升企业客户信任。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI",
+          "ZDNet AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+          "https://www.zdnet.com/innovation/claude-enterprise-efficiency-cost-tracking/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "谷歌AI搜索广告全球扩展，核心广告增长放缓",
+        "summary": "Alphabet在第三季度财报中宣布将AI搜索广告扩展至全球，同期营收同比增长25%至1276亿美元。此举旨在应对核心广告业务增长放缓的压力。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "英伟达发布开源语音转录模型，支持40种语言",
+        "summary": "英伟达推出免费语音转文字模型，可转录多达40种语言，但目前仅支持录音文件，不支持实时音频。该模型主要面向会议和医疗转录场景。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/"
+        ],
+        "credibility": 5,
+        "category": "模型发布"
+      },
+      {
+        "title": "Chrome增强自动填充功能，可读取Gmail信息填写表单",
+        "summary": "Chrome的AI驱动自动填充功能现在经用户许可后，可从Gmail中提取航班确认、物流跟踪、订单详情等信息来自动填写网页表单。这是谷歌将Gemini能力融入浏览器的重要一步。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+          "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "谷歌向更多应用开放Gemini和搜索，迎接AI智能体重塑网络",
+        "summary": "谷歌推出新开发者平台，允许企业将服务接入Gemini和搜索等AI体验中，可能改变消费者发现和使用应用的方式。此举被视为应对AI智能体对传统网络流量模式冲击的战略布局。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "Meta因出版商反对再次考虑推迟新商业条款",
+        "summary": "Meta表示可能将新商业条款的实施推迟至11月20日之后，因出版商担忧其内容被用于AI训练。Meta通讯主管称不会在未与行业充分协商的情况下改变政策。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      }
+    ],
+    "signals": [
+      "科技巨头AI商业化加速：微软Azure与OpenAI合作营收亮眼，谷歌AI搜索广告全球扩张，显示AI正成为核心增长引擎。",
+      "模型竞争聚焦安全与智能体能力：谷歌Gemini 4 Carbon在网络安全基准领先，英伟达开源语音模型，Anthropic强化企业成本追踪，差异化竞争加剧。",
+      "AI监管与公众信任压力上升：Meta因AI训练条款遭出版商反对而推迟，数据隐私与内容使用争议持续发酵。"
+    ],
+    "sourceCount": 13
+  },
   {
     "date": "2026-10-28",
     "generated": "2026-10-28T05:26:21.839Z",
