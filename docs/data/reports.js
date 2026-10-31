@@ -1,7 +1,155 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-10-30T05:34:37.603Z
+// 最后更新: 2026-10-31T05:23:42.423Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-10-31",
+    "generated": "2026-10-31T05:23:42.423Z",
+    "queryDate": "2026-10-30",
+    "summary": "AI支出热潮现裂痕，巨头推爬虫退出标准",
+    "headlines": [
+      {
+        "title": "AI支出热潮出现裂痕",
+        "summary": "大型科技公司正投入数十亿美元建设AI基础设施，但不断增加的债务、负现金流和投资者日益增长的怀疑，正引发对该热潮可持续性的质疑。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "Anthropic IPO后预计获高“垃圾”信用评级",
+        "summary": "据FT报道，Anthropic在IPO后预计将被信用机构授予高“垃圾”评级，这将使其融资更困难、成本更高，以支撑其巨额支出。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "OpenAI、谷歌、微软、Anthropic支持新的AI爬虫退出标准",
+        "summary": "OpenAI、谷歌、微软和Anthropic表示将采用一项新标准，允许出版商跨多个AI公司统一选择退出内容被抓取用于训练。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "苹果智能将于iOS 27.3登陆中国",
+        "summary": "苹果宣布Apple Intelligence将随iOS 27.3在中国上线，功能将率先于11月4日的测试版中提供，正式版计划于12月发布。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "谷歌首个数据中心卫星上线并写诗",
+        "summary": "谷歌搭载TPU的卫星成功启动，运行DeepMind Gemma 4模型，并生成了一首关于太空的俳句，标志着太空AI计算的首个回应。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+          "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission"
+        ],
+        "credibility": 4,
+        "category": "学术突破"
+      },
+      {
+        "title": "英特尔股价暴跌，政府持股缩水120亿美元",
+        "summary": "英特尔股价因PC销售受AI行业挤占内存等组件导致PC价格上涨而暴跌，美国政府所持股份价值缩水120亿美元。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "Anthropic的Cursor VS Code扩展被植入后门近12小时",
+        "summary": "Anthropic在Cursor上的VS Code扩展被植入后门近12小时，攻击者如何获取其已验证的Cursor账户仍未知。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "DoorDash称仅收到“数百”AI代理订单",
+        "summary": "DoorDash表示其平台仅收到来自第三方AI代理的数百个订单，但称仍对与代理开发商合作持开放态度。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+          "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "教皇利奥呼吁解除AI武装：“机器是工具，不是人”",
+        "summary": "教皇利奥十四世在周五的教皇讲话中呼吁“解除AI系统的武装”，并敦促联合国成员国采取具体步骤禁止致命性自主武器。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "维基百科运营方警告：糟糕的AI版权裁决可能威胁开放网络",
+        "summary": "维基媒体基金会在AI版权案件中主张中间立场，推动法律保护LLM训练使用版权作品，但禁止聊天机器人向用户 regurgitate 这些内容。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      }
+    ],
+    "signals": [
+      "AI基础设施支出热潮出现裂痕，债务和负现金流引发可持续性担忧",
+      "主要AI公司联合推出爬虫退出标准，内容版权治理进入新阶段",
+      "AI代理在消费场景（如外卖）的实际采用率仍极低，商业化尚早"
+    ],
+    "sourceCount": 12
+  },
   {
     "date": "2026-10-30",
     "generated": "2026-10-30T05:34:37.603Z",
