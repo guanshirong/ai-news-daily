@@ -1,7 +1,73 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-10-31T05:23:42.423Z
+// 最后更新: 2026-11-01T05:49:49.874Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-11-01",
+    "generated": "2026-11-01T05:49:49.874Z",
+    "queryDate": "2026-10-31",
+    "summary": "苹果淡化AI宣传，OpenAI融资遇冷，xAI面临诉讼",
+    "headlines": [
+      {
+        "title": "苹果CEO称公司不会为AI而AI",
+        "summary": "苹果新任CEO为公司在AI领域的当前定位辩护，表示苹果不会为了追赶潮流而推出AI功能，而是注重实际用户体验。这延续了苹果在生成式AI竞赛中相对谨慎的策略。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "OpenAI据报下调新一轮融资目标",
+        "summary": "OpenAI最新一轮融资似乎未达预期，公司已下调融资目标。这反映出投资者对AI巨额投入的回报前景趋于谨慎，可能影响行业整体融资节奏。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "法官允许NAACP就xAI数据中心污染提起诉讼",
+        "summary": "美国全国有色人种协进会（NAACP）指控xAI违反《清洁空气法》，法官裁定该诉讼可以继续推进。这是AI基础设施扩张面临环境监管挑战的最新案例。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "英伟达考虑为Nscale西弗吉尼亚AI数据中心提供贷款担保",
+        "summary": "在投资者对AI支出感到紧张之际，英伟达正考虑为Nscale在西弗吉尼亚州的AI数据中心项目充当贷款担保人。芯片供应商出面背书，凸显其在AI基础设施融资中的深度介入。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      }
+    ],
+    "signals": [
+      "AI融资环境趋冷：OpenAI下调融资目标，投资者对巨额AI投入的回报预期趋于谨慎",
+      "AI基础设施面临环境与监管审视：xAI数据中心污染诉讼推进，数据中心扩张的社会成本开始显现",
+      "芯片巨头深度介入AI基建融资：英伟达考虑为数据中心贷款担保，产业链绑定进一步加深"
+    ],
+    "sourceCount": 4
+  },
   {
     "date": "2026-10-31",
     "generated": "2026-10-31T05:23:42.423Z",
