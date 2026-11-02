@@ -1,7 +1,47 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-11-01T05:49:49.874Z
+// 最后更新: 2026-11-02T05:50:24.618Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-11-02",
+    "generated": "2026-11-02T05:50:24.618Z",
+    "queryDate": "2026-11-01",
+    "summary": "OpenAI数据中心更名引争议，AI社会影响受关注",
+    "headlines": [
+      {
+        "title": "OpenAI或将数据中心更名为“AI算力园区”",
+        "summary": "TechCrunch报道，OpenAI正考虑将其数据中心重新命名为“AI算力园区”，以改善公众对数据中心的负面印象。此举反映出AI基础设施扩张面临的社区阻力与品牌形象挑战。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "AI让科技CEO更轻松，普通员工呢？",
+        "summary": "TechCrunch旗下播客Equity讨论科技CEO关于AI的言论为何显得脱离大众，探讨AI收益分配不均的问题。节目指出，AI提升高管效率的同时，普通员工的处境和就业影响引发广泛担忧。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "AI基础设施扩张面临社区与公众形象压力，企业开始通过品牌话术调整应对阻力",
+      "AI红利分配不均成为舆论焦点，高管与普通员工之间的受益差距引发讨论",
+      "科技媒体持续关注AI的社会影响与伦理议题，而非仅聚焦技术突破"
+    ],
+    "sourceCount": 2
+  },
   {
     "date": "2026-11-01",
     "generated": "2026-11-01T05:49:49.874Z",
