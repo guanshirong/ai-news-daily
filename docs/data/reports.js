@@ -1,7 +1,157 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-11-02T05:50:24.618Z
+// 最后更新: 2026-11-04T06:01:46.093Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-11-04",
+    "generated": "2026-11-04T06:01:46.093Z",
+    "queryDate": "2026-11-03",
+    "summary": "AI算力与资本热度不减，安全治理同步升温",
+    "headlines": [
+      {
+        "title": "Anthropic开发FlashProve系统以验证AI模型身份",
+        "summary": "Anthropic正在开发名为FlashProve的系统，可让任何人验证AI回复确实来自其声称的模型。此举旨在应对模型冒充与内容溯源问题，提升AI生态的可信度。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
+        ],
+        "credibility": 4,
+        "category": "模型发布"
+      },
+      {
+        "title": "AI推理初创公司Fal估值翻倍至160亿美元",
+        "summary": "成立五年的AI推理初创公司Fal完成13亿美元融资，由Bessemer领投，估值翻倍至160亿美元。需求激增推动推理赛道成为资本新焦点。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "OpenAI称ChatGPT搜索量已达谷歌20%",
+        "summary": "OpenAI消费产品负责人Adam Fry透露，ChatGPT的搜索查询量已相当于谷歌搜索量的20%。这标志着AI对话式搜索正加速侵蚀传统搜索份额。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "苹果Siri AI向第三方应用开放",
+        "summary": "随iOS 27.3更新，苹果允许开发者将Siri AI集成到所有应用中，使其能利用用户个人上下文并执行跨应用操作。这是苹果AI生态开放的重要一步。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "谷歌禁止拒绝AI的学校使用搜索",
+        "summary": "谷歌宣布，选择禁用其AI工具的学校将完全失去Google Search访问权限，因为AI功能已深度集成至搜索引擎。该政策引发教育界对数字公平的担忧。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+          "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+          "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "Anthropic算力经济性持续恶化",
+        "summary": "报道指出，在算力利润率本应改善之际，Anthropic的算力利润却在恶化。这反映出头部AI模型公司在推理成本与定价之间面临的结构性压力。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "数据中心因电网等待转向退役喷气发动机供电",
+        "summary": "由于接入电网和新涡轮机需等待数年，数据中心建设者开始采用退役喷气发动机作为替代供电方案。该方案效率较低且环境友好性差，凸显AI算力扩张的能源瓶颈。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "苹果将约会应用和AI伴侣限制为18岁以上",
+        "summary": "苹果新App Store规则要求提供性内容或浪漫内容的约会应用和AI伴侣必须获得18+评级。这是平台对AI情感陪伴类应用加强年龄管控的最新举措。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "“逆向博弈论”或可约束AI智能体行为",
+        "summary": "MIT Technology Review介绍了一种名为“逆向博弈论”的新方法，通过设计激励机制使强大AI模型遵守规则。随着模型能力提升，AI对齐研究正加速探索机制设计路径。",
+        "importance": "medium",
+        "sources": [
+          "MIT Technology Review"
+        ],
+        "sourceUrls": [
+          "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/"
+        ],
+        "credibility": 5,
+        "category": "学术突破"
+      },
+      {
+        "title": "Netflix推出AI Discover标签页",
+        "summary": "Netflix在电视应用中新增“AI Discover”标签页，通过AI实验性功能按用户心情和主题推荐内容。首批实验包括“轻松一下”“家庭电影夜”等主题推荐。",
+        "importance": "low",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+          "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "AI推理与算力需求持续推高资本热度，但算力经济性与能源供给瓶颈同步显现",
+      "AI搜索与语音助手加速平台化，传统搜索和移动生态格局面临重塑",
+      "模型身份验证、AI对齐与年龄分级等治理议题密集落地，安全与合规成为产品化前提"
+    ],
+    "sourceCount": 13
+  },
   {
     "date": "2026-11-02",
     "generated": "2026-11-02T05:50:24.618Z",
