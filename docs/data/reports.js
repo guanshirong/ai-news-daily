@@ -1,7 +1,165 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-11-05T06:29:20.142Z
+// 最后更新: 2026-11-06T06:24:25.157Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-11-06",
+    "generated": "2026-11-06T06:24:25.157Z",
+    "queryDate": "2026-11-05",
+    "summary": "AI商业应用加速，基建与监管博弈升温",
+    "headlines": [
+      {
+        "title": "OpenAI总裁称公司可能在2027年做好IPO准备",
+        "summary": "OpenAI总裁Greg Brockman在WSJ科技会议上表示，公司可能在2027年具备IPO条件，并强调其在企业市场正缩小与Anthropic的差距。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "OpenAI发布GPT-6 Cyber网络安全模型",
+        "summary": "OpenAI推出GPT-6 Cyber，称其能更有效发现漏洞，且测试中越界行为低于1%。该模型发布正值AI实验室网络安全能力受审视之际。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+          "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch"
+        ],
+        "credibility": 4,
+        "category": "模型发布"
+      },
+      {
+        "title": "Anthropic为Claude推出个人理财工具",
+        "summary": "Claude新增Personal Finance功能，通过Plaid连接银行和信用卡账户，用户可查询消费情况并获取财务分析，该功能为只读模式。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI",
+          "ZDNet AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+          "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
+          "https://www.zdnet.com/innovation/personal-finance-claude-anthropic/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "Meta在美国推出Muse AI虚拟形象视频通话",
+        "summary": "Meta宣布美国用户可与Muse AI代理进行实时视频通话，该代理以可定制动画形象呈现，为即将推出的Tamagotchi式可穿戴设备铺路。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+          "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar"
+        ],
+        "credibility": 4,
+        "category": "模型发布"
+      },
+      {
+        "title": "Perplexity推出工作场景AI代理Teammates",
+        "summary": "Perplexity发布始终在线的“Teammates”AI代理，可在工作空间内承担多种角色，并调用现有项目、技能和记忆，直接对标OpenAI和Anthropic。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work"
+        ],
+        "credibility": 4,
+        "category": "模型发布"
+      },
+      {
+        "title": "Agility Robotics登陆纳斯达克，成首家纯人形机器人上市公司",
+        "summary": "Agility Robotics在纳斯达克上市，成为首家公开交易的纯人形机器人公司，其表现将接受市场对人形机器人赛道的审视。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
+          "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "中期选举后数据中心反对声浪或加剧AI扩张阻力",
+        "summary": "中期选举中数据中心反对情绪跨党派蔓延，Meta警告政治反弹可能威胁未来AI投资，得克萨斯州AI数据中心热潮面临不确定性。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "MIT Technology Review",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+          "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
+          "https://www.theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "Dropbox以3.5亿美元收购Tigris Data强化AI基础设施",
+        "summary": "Dropbox宣布以3.5亿美元收购Tigris Data，该交易将支持DBX Agent Cloud存储平台开发，面向构建AI模型和代理的开发者。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "苹果据报削减内部AI使用预算",
+        "summary": "苹果据报正在削减内部AI使用预算，反映企业在经历“token狂欢”后开始控制AI调用成本，转向更节俭的token配给策略。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/"
+        ],
+        "credibility": 3,
+        "category": "商业动态"
+      },
+      {
+        "title": "Axiom Math用AI代理形式化验证Stacks Project",
+        "summary": "初创公司Axiom Math的AI代理对数学领域最大库之一Stacks Project完成形式化验证，旨在防止未经核验的AI生成证明污染数学研究。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/"
+        ],
+        "credibility": 4,
+        "category": "学术突破"
+      }
+    ],
+    "signals": [
+      "AI代理从对话助手向工作流与生活场景深度渗透，Perplexity、Meta、Anthropic同日推出面向工作、社交和理财的代理产品",
+      "AI基础设施面临政治与成本双重约束：数据中心遭跨党派反对，苹果削减内部AI预算，企业开始理性核算token成本",
+      "AI公司加速资本化与垂直整合：OpenAI释放IPO信号，Agility成首家纯人形机器人上市公司，Dropbox收购存储公司补强AI基建"
+    ],
+    "sourceCount": 17
+  },
   {
     "date": "2026-11-05",
     "generated": "2026-11-05T06:29:20.142Z",
