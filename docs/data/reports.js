@@ -1,7 +1,159 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-11-06T06:24:25.157Z
+// 最后更新: 2026-11-07T05:47:55.805Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-11-07",
+    "generated": "2026-11-07T05:47:55.805Z",
+    "queryDate": "2026-11-06",
+    "summary": "OpenAI巨额融资估值破万亿，美中期选举重塑AI监管格局",
+    "headlines": [
+      {
+        "title": "OpenAI再融110亿美元，估值达1.25万亿美元",
+        "summary": "OpenAI在尚未关闭的新一轮融资中额外筹集110亿美元，估值升至1.25万亿美元，成为全球最有价值公司之一。此前3月曾以8520亿美元估值融资1220亿美元。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+          "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
+        ],
+        "credibility": 5,
+        "category": "资本市场"
+      },
+      {
+        "title": "美国中期选举民主党大胜，AI数据中心扩张遇阻",
+        "summary": "民主党在中期选举中取得历史性胜利，41项数据中心相关公投中40项通过限制开发。分析认为反科技情绪将重塑AI行业监管环境，数据中心建设难度加大。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+          "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "OpenAI宣布放弃数据中心项目保密协议",
+        "summary": "中期选举后OpenAI宣布对数据中心所在社区做出新承诺，包括不再与公职人员签署保密协议。此举回应了选民对数据中心扩张的强烈反对。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "中国被曝招募AI高管刺探黄仁勋情报",
+        "summary": "据《纽约时报》报道，中国国安部招募Megaspeed高管Alice Huang刺探英伟达CEO黄仁勋，获取美国AI芯片信息并试图影响公司决策。美国国会已传唤黄仁勋就中国间谍问题作证。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+          "https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "Ramp数据显示AI支出停滞，Anthropic临近IPO",
+        "summary": "Ramp数据显示AI使用量持续攀升但企业支出停滞，降价和成本控制可能挑战投资者对AI超高速增长的假设。与此同时Anthropic正接近IPO。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "Palo Alto Networks拟5亿美元收购AI代理安全初创Clutch",
+        "summary": "Palo Alto Networks正谈判以5亿美元收购AI代理安全公司Clutch，后者此前估值仅8500万美元。这反映AI代理安全正成为网络安全新战场。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "Meta推出Muse AI“空间”功能，可定制应用体验",
+        "summary": "Meta为Muse AI助手推出“Spaces”功能，用户可在应用内构建购物中心、学校仪表盘、音乐追踪器等定制化应用式体验，进一步扩展AI助手的实用性。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+          "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces"
+        ],
+        "credibility": 5,
+        "category": "模型发布"
+      },
+      {
+        "title": "Thinking Machines新模型领跑西方开源权重AI",
+        "summary": "Thinking Machines发布Inkling 2 Small新模型，在西方开源权重AI领域取得领先地位，进一步推动开源模型竞争。",
+        "importance": "medium",
+        "sources": [
+          "ZDNet AI"
+        ],
+        "sourceUrls": [
+          "https://www.zdnet.com/innovation/thinking-machines-inkling-2-small-open-weight/"
+        ],
+        "credibility": 4,
+        "category": "模型发布"
+      },
+      {
+        "title": "Underdog展示32MB语音模型，可生成语音和音乐",
+        "summary": "Underdog展示了一款仅32MB的语音模型，尽管体积极小，却能同时生成语音和音乐，展示了端侧AI模型的高效化趋势。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/"
+        ],
+        "credibility": 4,
+        "category": "学术突破"
+      },
+      {
+        "title": "数百个Artex AI黑客工具公开暴露于互联网",
+        "summary": "安全研究人员发现数百台托管渗透测试工具Artex的服务器暴露在互联网上，任何人可访问该黑客工具，引发AI安全工具滥用的担忧。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "美国中期选举后反科技情绪高涨，数据中心扩张面临系统性监管阻力，AI基础设施投资逻辑或需重估",
+      "OpenAI估值飙升至1.25万亿美元但企业AI支出出现停滞迹象，市场对AI超高速增长的预期面临现实检验",
+      "AI代理安全成为新战场，Palo Alto Networks高价收购Clutch显示安全巨头正加速布局AI代理防护领域"
+    ],
+    "sourceCount": 14
+  },
   {
     "date": "2026-11-06",
     "generated": "2026-11-06T06:24:25.157Z",
