@@ -1,7 +1,112 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-11-07T05:47:55.805Z
+// 最后更新: 2026-11-08T05:50:54.226Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-11-08",
+    "generated": "2026-11-08T05:50:54.226Z",
+    "queryDate": "2026-11-07",
+    "summary": "AI芯片出口漏洞与自动化研发加速引关注",
+    "headlines": [
+      {
+        "title": "美国允许英伟达向中国空壳公司出售芯片",
+        "summary": "据The Verge报道，美国商务部批准的英伟达H200芯片对华出口名单中，New Matrix公司办公室空无一人，引发对商务部与英伟达尽职调查的质疑。该事件凸显AI芯片出口管制执行漏洞。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "Anthropic利用AI加速AI研发，速度翻倍引研究者担忧",
+        "summary": "The Verge报道称，Anthropic正使用AI构建更强大的AI，其模型改进速度约为一年前的两倍，且未见放缓迹象。一份关于Anthropic自动化AI开发的新报告令研究者感到警觉。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development"
+        ],
+        "credibility": 4,
+        "category": "学术突破"
+      },
+      {
+        "title": "Crusoe将陷入困境的怀俄明州数据中心项目出售给谷歌",
+        "summary": "TechCrunch报道，Crusoe已将其在怀俄明州问题缠身的AI数据中心项目出售给谷歌。该交易凸显了开发大型AI数据中心所面临的挑战。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "美国情报备忘录称中国招募高管监视英伟达CEO",
+        "summary": "据TechCrunch援引美国情报备忘录，中国国家安全部据称招募了一名女性科技高管对英伟达CEO进行监视。该备忘录今年早些时候流传，涉及Megaspeed公司高管。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
+        ],
+        "credibility": 3,
+        "category": "政策监管"
+      },
+      {
+        "title": "中期选举后马斯克与数据中心前景堪忧",
+        "summary": "TechCrunch的Equity播客讨论了中期选举对科技行业的影响，指出选举结果对埃隆·马斯克及数据中心项目的前景构成压力。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "AI颠覆网络安全格局，专家探讨下一步走向",
+        "summary": "The Verge播客对话Cognition首席安全官Alex Stamos，讨论AI如何搅乱网络安全领域以及未来的应对方向。该节目是AI现实生活系列报道的第一部分。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "纽约时报烹饪AI助手实测：救急晚餐却险些毁掉蛋糕",
+        "summary": "The Verge评测了纽约时报烹饪应用内置的AI助手，发现其在工作日晚餐建议上表现实用，但在烘焙蛋糕时几乎导致失败。该评测展示了消费级AI助手的实际能力与局限。",
+        "importance": "low",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "AI芯片出口管制执行漏洞引发国家安全担忧，监管审查或收紧",
+      "AI自动化研发加速引发安全与伦理警觉，自我改进循环成为焦点",
+      "AI数据中心建设面临运营与财务挑战，行业整合与资产转手增多"
+    ],
+    "sourceCount": 7
+  },
   {
     "date": "2026-11-07",
     "generated": "2026-11-07T05:47:55.805Z",
