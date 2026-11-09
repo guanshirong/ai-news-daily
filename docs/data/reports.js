@@ -1,7 +1,75 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-11-08T05:50:54.226Z
+// 最后更新: 2026-11-09T06:03:53.939Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-11-09",
+    "generated": "2026-11-09T06:03:53.939Z",
+    "queryDate": "2026-11-08",
+    "summary": "英伟达CEO涉华间谍调查震动业界",
+    "headlines": [
+      {
+        "title": "英伟达调查CEO黄仁勋与疑似中国间谍的关系",
+        "summary": "英伟达董事会宣布对CEO黄仁勋与Megaspeed高管Alice Huang的关系展开调查，后者据称被中国国家安全部招募以刺探公司情报。黄仁勋在致公司备忘录中承认存在婚外情。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+          "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "黄仁勋致英伟达全员备忘录全文公开",
+        "summary": "The Verge刊出黄仁勋就婚外情及调查事件致英伟达员工的备忘录全文，事件涉及公司治理与高管行为规范。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "苹果加速推进Siri智能体化",
+        "summary": "彭博社Mark Gurman称，苹果CEO John Ternus正施压AI负责人Craig Federighi加快Siri路线图，打造能与OpenAI Dots或Meta Muse竞争的强大AI智能体。Federighi已在极短周期内交付可用版Siri AI。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic"
+        ],
+        "credibility": 4,
+        "category": "模型发布"
+      },
+      {
+        "title": "猫王与埃米纳姆版权方起诉Suno",
+        "summary": "猫王普雷斯利音乐版权方及埃米纳姆部分热门唱片出版商起诉AI音乐公司Suno，指控其非法生成模仿这些艺人的音乐和歌词。这是Suno面临的又一批版权诉讼。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      }
+    ],
+    "signals": [
+      "英伟达高管涉间谍调查凸显AI芯片巨头的地缘政治与公司治理风险",
+      "苹果、Meta、OpenAI在AI智能体赛道竞争白热化，Siri被迫加速转型",
+      "AI生成音乐版权诉讼持续升级，内容版权合规成为生成式AI商业化关键障碍"
+    ],
+    "sourceCount": 5
+  },
   {
     "date": "2026-11-08",
     "generated": "2026-11-08T05:50:54.226Z",
