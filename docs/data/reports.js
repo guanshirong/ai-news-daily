@@ -1,7 +1,159 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-11-09T06:03:53.939Z
+// 最后更新: 2026-11-10T07:05:32.197Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-11-10",
+    "generated": "2026-11-10T07:05:32.197Z",
+    "queryDate": "2026-11-09",
+    "summary": "英伟达CEO丑闻发酵，Anthropic发新模型并购涡轮机",
+    "headlines": [
+      {
+        "title": "英伟达CEO黄仁勋承认婚外情，涉疑似中国间谍，公司启动调查",
+        "summary": "英伟达CEO黄仁勋承认与Megaspeed高管Alice Huang的婚外情，美国情报部门此前已将其标记为疑似中国间谍。英伟达董事会已启动调查，股价下跌超4%，引发国家安全担忧并可能影响对华芯片出口政策。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+          "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+          "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "Anthropic发布Claude Fable 5.2和Mythos 5.2新模型",
+        "summary": "Anthropic推出两款新模型Claude Fable 5.2和Mythos 5.2，声称在编程、推理和视觉方面有显著提升，并能更快生成输出。新模型旨在应对“艰巨”的技术挑战，同时公司面临RSI（递归自我改进）担忧。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+          "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2"
+        ],
+        "credibility": 5,
+        "category": "模型发布"
+      },
+      {
+        "title": "Anthropic斥资34亿美元购买天然气涡轮机",
+        "summary": "Anthropic加入AI行业对天然气的狂热，购买了价值34亿美元的天然气涡轮机，以保障数据中心电力供应。这笔交易可能带来“买家懊悔”，凸显AI算力扩张背后的能源压力。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "Meta发布轻量级模型Muse Ember，专为智能体执行设计",
+        "summary": "Meta推出Muse Ember，一款轻量级模型，每百万输入token仅10美分，远低于Haiku和Luna等前沿竞品。该模型专为智能体执行任务优化，旨在降低AI代理的部署成本。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/"
+        ],
+        "credibility": 4,
+        "category": "模型发布"
+      },
+      {
+        "title": "英伟达面临集体诉讼潮，卖空者提前六个月预警",
+        "summary": "英伟达董事会调查黄仁勋关系后，股价下跌超4%，证券法律专家称公司此前坚称“正常”可能带来昂贵代价。卖空机构Culper Research在丑闻爆发前六个月已质疑黄仁勋与中国高管的关系。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+          "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "黄仁勋退出ElevenLabs峰会及Anthropic活动",
+        "summary": "受英伟达争议影响，黄仁勋取消了在ElevenLabs峰会上的演讲，此前也已退出Anthropic的活动。耶鲁大学管理学家Jeffrey Sonnenfeld估计黄仁勋留任CEO的概率约为50%。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+          "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "迪士尼与Adobe合作开发生成式AI工具",
+        "summary": "迪士尼与Adobe宣布多年合作伙伴关系，共同开发专有的“艺术家主导”生成式AI模型，以支持迪士尼的制作流程。该合作在Adobe MAX大会上公布，强调人类创意在AI工具中的核心地位。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "Claude Code意外在GitHub上泄露大量密钥",
+        "summary": "Ars Technica报道，Claude Code的设置文件导致数千个密码、API密钥等敏感信息在GitHub上公开泄露。问题源于“不再询问”提示，用户选择后密钥被意外共享。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "苹果推出50美元AI使用包，扩展部分AI功能访问",
+        "summary": "苹果更新Logic Pro，新增“购买更多使用量”选项，一次性支付49.99美元即可扩展部分Apple Intelligence功能的使用限额。此举表明苹果正探索AI功能的付费分层模式。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "特朗普在60分钟采访中谈论AI安全与司法部威胁逮捕AI高管",
+        "summary": "特朗普在60分钟采访中表示AI风险“没有高管们说的那么真实”，并称司法部正在管理风险，提到曾有人因AI相关问题被逮捕。此番言论引发对AI监管政治化的关注。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      }
+    ],
+    "signals": [
+      "英伟达CEO丑闻升级为国家安全与公司治理危机，可能重塑美国对华芯片出口政策及AI芯片巨头领导层稳定性。",
+      "Anthropic同时发布新模型并巨额投资天然气涡轮机，反映AI竞赛中“模型能力”与“能源算力”双线并进的趋势。",
+      "轻量级低成本模型（Meta Muse Ember）与AI功能付费分层（苹果）并行，显示AI商业化正从追求前沿转向成本优化与变现探索。"
+    ],
+    "sourceCount": 13
+  },
   {
     "date": "2026-11-09",
     "generated": "2026-11-09T06:03:53.939Z",
