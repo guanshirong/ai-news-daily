@@ -1,7 +1,159 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-11-10T07:05:32.197Z
+// 最后更新: 2026-11-11T05:57:23.557Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-11-11",
+    "generated": "2026-11-11T05:57:23.557Z",
+    "queryDate": "2026-11-10",
+    "summary": "Anthropic IPO估值1.4万亿，谷歌发Gemini 4 Carbon",
+    "headlines": [
+      {
+        "title": "Anthropic设定IPO发行价区间，估值最高达1.404万亿美元",
+        "summary": "Anthropic确认IPO发行价区间为每股70至78美元，按完全稀释计算，最高估值达1.404万亿美元，可能成为史上最大IPO之一。七位联合创始人每人将套现约2.5亿美元，但仍保持公司控制权。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+          "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion"
+        ],
+        "credibility": 5,
+        "category": "资本市场"
+      },
+      {
+        "title": "谷歌发布Gemini 4 Carbon模型，具备智能体“蜂群”功能",
+        "summary": "谷歌向公众推出最新AI模型Gemini 4 Carbon，称其为“最强模型”，可与Anthropic和OpenAI的顶尖系统竞争。该模型新增智能体“蜂群”功能，此前曾限量提供给网络安全防御者。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout"
+        ],
+        "credibility": 5,
+        "category": "模型发布"
+      },
+      {
+        "title": "纽约AI安全法生效，OpenAI和Anthropic面临新监管",
+        "summary": "纽约州开始执行全面的AI安全法，要求OpenAI、Anthropic等主要开发商注册、披露安全实践并报告重大事件，否则将面临罚款。此举标志着美国州级AI监管进入实质性执行阶段。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "Anthropic推出Claude Meetings，将会议讨论转化为计划和任务",
+        "summary": "Anthropic发布Claude Meetings功能，可在会议进行中起草讨论计划、在白板上绘制时间线、回答聊天提问，并连接工作应用获取信息。这是Anthropic向AI办公套件扩展的重要一步。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+          "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "OpenAI收购Sonder创始人创办的旅游初创公司Odessia",
+        "summary": "OpenAI收购了由Sonder创始人Francis Davidson创建的旅游初创公司Odessia，但未透露具体计划。Davidson是旅游业的知名人物，此举可能暗示OpenAI向旅游领域扩展。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "ChatGPT推出认证AI“商业代理”和企业资料功能",
+        "summary": "OpenAI为ChatGPT推出认证“商业代理”功能，代表品牌帮助用户比价购物，首批面向美国符合条件的电商和服务企业。同时新增企业资料功能，使ChatGPT更像谷歌的消费者发现引擎。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI",
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+          "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "谷歌扩展AI硬件组合，推出两款专用芯片",
+        "summary": "谷歌发布两款新的张量处理单元（TPU），扩展其芯片组合以覆盖更多用例，包括机密模型训练和更大内存容量。此举显示谷歌在AI基础设施领域的持续投入。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "DeepMind发布Gemini Robotics 2.5及开放安全基准ASIMOV-jailbreak",
+        "summary": "DeepMind推出Gemini Robotics 2.5，部分任务成功率提升至两倍，同时发布开放安全基准“ASIMOV-jailbreak”。这标志着机器人AI能力和安全评估工具同步推进。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/"
+        ],
+        "credibility": 5,
+        "category": "学术突破"
+      },
+      {
+        "title": "Oura以6.25亿美元收购AI原生初级保健初创公司Counsel Health",
+        "summary": "智能戒指公司Oura宣布以6.25亿美元收购AI原生初级保健初创公司Counsel Health。此前几周，Oura以IPO市场不确定性为由无限期推迟了最高22亿美元的IPO。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/"
+        ],
+        "credibility": 5,
+        "category": "资本市场"
+      },
+      {
+        "title": "Adobe全面押注代理式AI，为Photoshop、Premiere和Firefly加入AI代理",
+        "summary": "Adobe在Max大会上宣布为Creative Cloud应用和Firefly平台加入AI代理和MCP协议，推出Firefly原型构建工具以对标Figma。Photoshop、Lightroom和Premiere也获得更智能的移除和编辑功能。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+          "https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "AI巨头资本化加速：Anthropic以1.4万亿美元估值推进IPO，Oura在推迟IPO后转向并购，AI资本市场活跃但波动明显。",
+      "代理式AI从概念走向产品：ChatGPT商业代理、Claude Meetings、Adobe AI代理和Gemini智能体蜂群同日亮相，AI代理成为产品竞争主战场。",
+      "监管与安全压力同步上升：纽约AI安全法生效，Grok Build泄露3.5万应用机密信息，Hugging Face警告网络安全威胁可能侵蚀开源AI的开放性。"
+    ],
+    "sourceCount": 14
+  },
   {
     "date": "2026-11-10",
     "generated": "2026-11-10T07:05:32.197Z",
