@@ -1,7 +1,155 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-11-11T05:57:23.557Z
+// 最后更新: 2026-11-12T06:59:35.982Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-11-12",
+    "generated": "2026-11-12T06:59:35.982Z",
+    "queryDate": "2026-11-11",
+    "summary": "英伟达CEO丑闻引发高层动荡，AI融资与模型突破并行",
+    "headlines": [
+      {
+        "title": "英伟达董事会准备罢免CEO黄仁勋，股价大跌",
+        "summary": "英伟达董事会据报正筹备罢免创始人兼CEO黄仁勋，可能最快周三晚做出决定。此前黄仁勋承认与一名被指为中国间谍的女性有婚外情，并面临第二起与公司下属有染的指控。FBI已介入调查，国会众议院共和党人要求其闭门简报。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+          "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+          "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "OpenAI季度营收首次突破100亿美元",
+        "summary": "OpenAI季度营收 reportedly 首次突破100亿美元，较第二季度的67亿美元增长近50%。这一数据凸显其商业化速度加快，尽管公司仍面临高昂的算力成本。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "台积电向Anthropic和OpenAI投资10亿美元",
+        "summary": "台积电宣布向Anthropic和OpenAI各投资10亿美元，成为AI繁荣中循环融资的最新案例。此举正值AI交易市场波动之际，凸显芯片巨头对AI模型公司的战略押注。",
+        "importance": "high",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "英国Fractile获7.2亿美元融资，加速AI芯片竞赛",
+        "summary": "英国AI芯片初创公司Fractile完成7.2亿美元融资，成为专用AI芯片领域资金最充裕的玩家之一。该公司致力于设计针对AI工作负载优化的芯片，挑战英伟达主导地位。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "Google DeepMind发布AlphaGenome 2，深入解析疾病细胞根源",
+        "summary": "Google DeepMind推出新一代AI模型AlphaGenome 2，旨在揭示DNA变化如何影响不同细胞，为科学家提供更精细的疾病机制视图。该模型有望加速遗传病研究和药物靶点发现。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model"
+        ],
+        "credibility": 4,
+        "category": "学术突破"
+      },
+      {
+        "title": "Google DeepMind用AI数学验证Signal加密关键部分",
+        "summary": "Google DeepMind在为期四周的项目中，利用AI对Signal加密协议的关键部分进行了数学形式化验证。这一成果暗示AI可使形式化验证变得更加实用，提升安全关键系统的可靠性。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/"
+        ],
+        "credibility": 4,
+        "category": "学术突破"
+      },
+      {
+        "title": "CoreWeave转向客户预付款和短期合同以资助AI增长",
+        "summary": "CoreWeave在第三季度财报中显示，公司 increasingly 要求客户预付费用、以特定合同为抵押借款，并寻求短期交易，可能导致价格上涨。这反映了AI算力提供商在扩张中面临的资金压力。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "美联航禁止个人AI代理预订机票",
+        "summary": "美联航表示不会允许个人AI助手在其平台预订机票，理由是隐私和监管担忧。该公司称尚未看到大量用户尝试使用AI代理订票，与其它企业的观察一致。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "Adobe发布AI实验功能：在照片中行走、采访角色",
+        "summary": "Adobe在Max 2026大会上展示多项实验性AI功能，包括让用户在照片场景中虚拟行走的Project Screen Test，以及可与AI生成角色对话以塑造其个性的工具。这些功能展示了生成式AI在创意工作流中的新方向。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "Databricks推出AI代理，向CEO直言不讳",
+        "summary": "Databricks发布新版Genie AI代理，可向CEO Ali Ghodsi提供未经修饰的真相，帮助其在1.2万名员工中发现问题。该代理旨在弥补高层管理者难以获取一线真实反馈的缺口。",
+        "importance": "low",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "英伟达CEO危机暴露AI芯片巨头治理风险，可能影响美国AI基础设施战略稳定性",
+      "AI融资活动活跃但呈现循环融资特征（台积电投资OpenAI/Anthropic、CoreWeave依赖预付款），市场对AI泡沫的担忧加剧",
+      "AI在科学发现（AlphaGenome 2、形式化验证）和创意工具（Adobe实验）中的应用持续深化，同时产业界对AI代理的采用仍存隐私与监管障碍"
+    ],
+    "sourceCount": 12
+  },
   {
     "date": "2026-11-11",
     "generated": "2026-11-11T05:57:23.557Z",
