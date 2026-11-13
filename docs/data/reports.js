@@ -1,7 +1,160 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-11-12T06:59:35.982Z
+// 最后更新: 2026-11-13T06:26:02.981Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-11-13",
+    "generated": "2026-11-13T06:26:02.981Z",
+    "queryDate": "2026-11-12",
+    "summary": "英伟达CEO黄仁勋因丑闻辞职，引发行业震荡",
+    "headlines": [
+      {
+        "title": "英伟达CEO黄仁勋因丑闻辞职，CFO临时接任",
+        "summary": "英伟达联合创始人兼CEO黄仁勋因与直接下属及疑似中国间谍的婚外情调查辞职。公司董事会已启动调查，CFO Colette Kress被任命为临时CEO。黄仁勋同意下周赴国会作证。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+          "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+          "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/"
+        ],
+        "credibility": 5,
+        "category": "商业动态"
+      },
+      {
+        "title": "民主党对英伟达展开调查，就黄仁勋与特朗普的“计划”致信抨击",
+        "summary": "美国国会针对英伟达对华销售及其与特朗普政府的关系展开第二次调查。民主党议员致信严厉批评黄仁勋与特朗普之间的“计划”，并质疑国家安全风险。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "黄仁勋离职引发英伟达对开源AI支持的不确定性",
+        "summary": "黄仁勋的辞职使英伟达对开源AI的承诺受到质疑，包括其对Hugging Face的129亿美元收购、开放权重模型以及反对限制的倡导。Hugging Face CEO誓言继续为开源AI而战。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+          "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "谷歌发布Gemini 4 Hydrogen模型，升级搜索AI模式",
+        "summary": "谷歌推出新一代Gemini 4 Hydrogen模型，显著提升对复杂多部分问题、拼写错误和高度具体请求的理解能力。该模型已集成到谷歌搜索的AI模式中，可提供更丰富的视觉回答和更相关的链接。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+          "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+          "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/"
+        ],
+        "credibility": 5,
+        "category": "模型发布"
+      },
+      {
+        "title": "谷歌推出Gemini智能眼镜，起售价395美元",
+        "summary": "谷歌联合三星、Gentle Monster和Warby Parker推出首款Gemini智能眼镜，起售价395美元。谷歌强调隐私保护设计，如录制指示灯和物理开关。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "Nebius计划斥资400亿美元扩张AI基础设施",
+        "summary": "AI云服务商Nebius计划通过客户预付款和贷款融资400亿美元用于AI基础设施扩张。然而，微软数据中心的延迟引发对其融资模式的质疑。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "美联航以网络安全风险为由禁止AI代理预订航班",
+        "summary": "美联航宣布不允许客户使用AI代理预订航班和管理预订，理由是网络安全风险。此举可能影响AI旅行代理的普及。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "FAA将AI建议扩展至全美空域以管理空中交通拥堵",
+        "summary": "美国联邦航空管理局（FAA）将AI工具的使用范围扩展至全美空域，以帮助管理空中交通拥堵。航空公司对此表示赞赏，但空中交通管制员工会未被纳入相关决策。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "研究：AI聊天机器人推荐虚假零售网站",
+        "summary": "IP保护公司Podqi的研究发现，ChatGPT、Gemini和Perplexity在购物查询中可能推荐假冒网站和风险链接。研究提示消费者在使用AI聊天机器人进行购物研究时需谨慎。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "Fireworks AI遭网络攻击，Notion客户聊天记录泄露",
+        "summary": "Fireworks AI遭遇网络攻击，导致Notion客户的聊天记录被黑客访问。这是Fireworks两个月内的第二次数据泄露事件。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "英伟达领导层危机可能重塑AI芯片行业格局，开源AI支持力度面临不确定性",
+      "谷歌加速AI产品化，Gemini 4 Hydrogen和智能眼镜同步推进，搜索与硬件生态协同增强",
+      "AI代理在商业应用中的信任与安全挑战凸显，美联航禁令和虚假网站研究反映监管与用户保护需求上升"
+    ],
+    "sourceCount": 14
+  },
   {
     "date": "2026-11-12",
     "generated": "2026-11-12T06:59:35.982Z",
