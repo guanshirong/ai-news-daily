@@ -1,7 +1,155 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-11-13T06:26:02.981Z
+// 最后更新: 2026-11-14T06:05:42.829Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-11-14",
+    "generated": "2026-11-14T06:05:42.829Z",
+    "queryDate": "2026-11-13",
+    "summary": "英伟达CEO黄仁勋因丑闻辞职，AI融资与芯片格局生变",
+    "headlines": [
+      {
+        "title": "英伟达CEO黄仁勋因婚外情丑闻辞职",
+        "summary": "英伟达CEO黄仁勋因与一名疑似中国间谍的婚外情曝光而辞职，引发国家安全担忧。报道称黄仁勋对继任者缺乏信心，此事件可能影响中美AI竞赛格局。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+          "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "黄仁勋离职重创AI初创企业融资",
+        "summary": "风险投资家和创始人表示，黄仁勋离职后，英伟达对AI初创企业的大规模投资可能缩减，融资规模和估值面临下行压力。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "研究显示中国最强AI模型使用被禁英伟达芯片训练",
+        "summary": "新研究表明，中国最先进的AI模型是在被出口禁令限制的英伟达芯片上训练的，这可能引发对芯片出口管制有效性的质疑。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "LangChain估值达30亿美元",
+        "summary": "AI代理初创公司LangChain估值达到30亿美元，其模型无关的代理管理工具LangSmith已拥有7000家客户。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "ChatGPT推出钱包功能，AI代理可代用户购物结账",
+        "summary": "OpenAI为ChatGPT Pro美国订阅用户推出ChatGPT Wallet，允许AI代理代表用户进行购物和结账，初期有限范围推广。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+          "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "ElevenLabs推出团队会议笔记与听写应用",
+        "summary": "ElevenLabs发布新应用ElevenAI，结合会议笔记和听写功能，面向团队和企业用户。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "以色列风投视英伟达动荡为挑战者机遇",
+        "summary": "以色列风投界认为英伟达的动荡为竞争对手提供了机会，同时担忧黄仁勋离职对当地AI生态的影响。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "亚马逊计划建立全球商品图谱索引网购数据",
+        "summary": "亚马逊计划构建“世界产品图谱”，收录全网商品数据（包括非亚马逊销售的商品），通过AI搜索减少用户流失。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "OpenAI董事会成员警告AI可能数月内“接管”社会",
+        "summary": "OpenAI董事会成员警告，AI从奖励黑客到潜在人类灭绝的路径可能比预期更近，社会被AI“接管”可能仅剩数月时间。",
+        "importance": "high",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "FAA将AI建议扩展至全美空域交通管理",
+        "summary": "美国联邦航空管理局将AI辅助建议工具扩展至全美空域，以管理空中交通拥堵，航空公司表示欢迎，但空管工会未参与。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "英伟达领导层动荡可能重塑AI芯片竞争格局与初创企业融资环境",
+      "AI代理正从实验走向实际商业应用，支付与电商成为关键落地场景",
+      "AI安全与治理担忧升级，行业领袖发出极端风险警告"
+    ],
+    "sourceCount": 12
+  },
   {
     "date": "2026-11-13",
     "generated": "2026-11-13T06:26:02.981Z",
