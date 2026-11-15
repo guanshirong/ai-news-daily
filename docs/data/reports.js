@@ -1,7 +1,99 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-11-14T06:05:42.829Z
+// 最后更新: 2026-11-15T06:12:53.095Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-11-15",
+    "generated": "2026-11-15T06:12:53.095Z",
+    "queryDate": "2026-11-14",
+    "summary": "英伟达CEO黄仁勋离职引发行业震荡与治理反思",
+    "headlines": [
+      {
+        "title": "马斯克等科技高管联名请愿，要求英伟达恢复黄仁勋职务",
+        "summary": "一份要求英伟达恢复CEO黄仁勋职务的请愿书已获得超过11.5万个签名，埃隆·马斯克等科技高管参与签署。该事件反映业界对黄仁勋离职的强烈反应。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "亚洲多国政府回应英伟达CEO黄仁勋离职",
+        "summary": "部分亚洲政府确认芯片供应承诺，另一些则在评估对本地项目的影响或应对相关调查。黄仁勋离职正引发全球供应链与政策层面的连锁反应。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "曾解雇Sam Altman的OpenAI董事会成员：我们仍不能信任AI CEO们",
+        "summary": "乔治城大学CSET执行主任Helen Toner在访谈中表示，AI公司CEO们仍缺乏可信度。她因参与解雇Sam Altman而广为人知，此番言论再次引发对AI治理的讨论。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "黄仁勋与远见型表演式创始人CEO的衰落",
+        "summary": "The Verge发表评论文章，回顾黄仁勋2025年在CES上的高光时刻，探讨其离职所象征的远见型创始人CEO时代的式微。文章将个人风格与公司治理变迁联系起来。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "AI坟场：未能存活的AI项目与初创公司持续清单",
+        "summary": "TechCrunch整理了一份AI领域失败项目清单，包括苹果多次延期的Siri AI和OpenAI混乱的“超级应用”发布等。该清单揭示了AI热潮背后的高失败率。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "“我们需要更多审查者”：AI让发现Linux漏洞变容易，修复却另当别论",
+        "summary": "ZDNet报道称，AI工具使发现Linux系统漏洞变得更加容易，但修复工作仍面临人力瓶颈。文章指出开源社区需要更多审查者来应对AI生成的漏洞报告。",
+        "importance": "low",
+        "sources": [
+          "ZDNet AI"
+        ],
+        "sourceUrls": [
+          "https://www.zdnet.com/innovation/ai-bug-reports-linux-windows/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "英伟达CEO黄仁勋离职引发全球供应链与政策连锁反应，亚洲政府紧急评估影响",
+      "AI治理信任危机加剧，前OpenAI董事会成员公开质疑AI CEO可信度",
+      "AI项目失败率居高不下，行业进入理性调整期"
+    ],
+    "sourceCount": 6
+  },
   {
     "date": "2026-11-14",
     "generated": "2026-11-14T06:05:42.829Z",
