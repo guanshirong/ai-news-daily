@@ -1,7 +1,65 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-11-15T06:12:53.095Z
+// 最后更新: 2026-11-16T06:10:31.810Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-11-16",
+    "generated": "2026-11-16T06:10:31.810Z",
+    "queryDate": "2026-11-15",
+    "summary": "英伟达CEO黄仁勋因间谍丑闻辞职，国会拟收紧AI芯片出口",
+    "headlines": [
+      {
+        "title": "英伟达CEO黄仁勋因间谍丑闻辞职，国会拟收紧AI芯片出口",
+        "summary": "英伟达CEO黄仁勋因与疑似中国间谍高管的关系辞职，引发国会两党推动收紧AI芯片出口规则。事件还涉及英伟达安全主管此前离职，以及黄仁勋可能寻求回归的传闻。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+          "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+          "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+          "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+          "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "AI发现可预测心脏性猝死的隐藏心脏信号",
+        "summary": "科学家利用AI在常规心脏扫描中发现一种隐藏预警信号，可预测心脏性猝死，性能优于传统筛查方法。该发现有望识别数千名高风险患者。",
+        "importance": "high",
+        "sources": [
+          "ScienceDaily AI"
+        ],
+        "sourceUrls": [
+          "https://www.sciencedaily.com/releases/2026/11/261112230456.htm"
+        ],
+        "credibility": 4,
+        "category": "学术突破"
+      },
+      {
+        "title": "印度芯片初创公司Bharat Semi获2400万美元种子轮融资",
+        "summary": "Bharat Semi获得2400万美元种子轮融资，其AI传感器技术已获General Atomics等公司设计订单，瞄准全球AI传感器市场。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      }
+    ],
+    "signals": [
+      "英伟达领导层危机与间谍丑闻正演变为政策风险，美国AI芯片出口管制可能进一步收紧",
+      "AI在医疗诊断领域持续突破，从常规检查中发现传统方法难以识别的风险信号",
+      "印度半导体初创企业崛起，AI传感器成为全球芯片竞争新细分赛道"
+    ],
+    "sourceCount": 4
+  },
   {
     "date": "2026-11-15",
     "generated": "2026-11-15T06:12:53.095Z",
