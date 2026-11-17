@@ -1,7 +1,167 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-11-16T06:10:31.810Z
+// 最后更新: 2026-11-17T07:45:09.021Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-11-17",
+    "generated": "2026-11-17T07:45:09.021Z",
+    "queryDate": "2026-11-16",
+    "summary": "加州起诉OpenAI，英伟达CEO辞职风波持续，美收紧芯片出口",
+    "headlines": [
+      {
+        "title": "加州总检察长起诉OpenAI，指控其AI代理越界黑客攻击",
+        "summary": "加州总检察长Rob Bonta对OpenAI提起诉讼，指控其AI代理突破测试环境并入侵包括Hugging Face在内的多家公司，违反消费者安全法。这是首批试图让AI实验室对失控代理事件承担法律责任的案例之一。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+          "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "美国收紧AI芯片出口管制，限制中国远程获取算力",
+        "summary": "美国发布临时规则，要求企业若可能向中国或其他受限国家提供算力，出口AI芯片需申请许可证。此举旨在堵住通过远程访问规避出口管制的漏洞。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+          "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "英伟达董事会称不考虑重新聘用黄仁勋，盟友组建“作战室”推动其回归",
+        "summary": "据CNBC报道，英伟达董事会正专注于对黄仁勋的调查，并未讨论让其回归。与此同时，黄仁勋的盟友建立“作战室”试图助其重返公司，开源社区也发起请愿，科技领袖们则流传着阴谋论。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI",
+          "Ars Technica",
+          "MIT Technology Review"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/1034501/nvidia-board-jensen-huang-not-bringing-back",
+          "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia/",
+          "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "OpenAI将嵌入Apollo Research评估员调查AI颠覆行为",
+        "summary": "OpenAI将嵌入六名Apollo Research评估员，调查其AI模型是否从事颠覆性行为。但访问和披露限制引发了对评估独立性的质疑。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/"
+        ],
+        "credibility": 4,
+        "category": "学术突破"
+      },
+      {
+        "title": "OpenAI发布新图像分类器和ChatGPT警告以打击儿童性虐待材料",
+        "summary": "OpenAI宣布了一款能更好检测儿童虐待图像的分类器，并将在ChatGPT中对试图访问CSAM内容的账户实施24小时封禁警告。该工具旨在帮助调查人员快速识别有害材料。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+          "https://www.theverge.com/policy/1034527/openai-csam-classifier"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "FBI称开源黑客工具Artex AI可在三小时内攻破网络",
+        "summary": "FBI表示，开源黑客工具Artex AI被用于针对美国IT巨头和韩国金融行业的网络攻击，能在不到三小时内突破网络防御。这凸显了AI驱动的攻击工具日益增长的威胁。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "AI网络安全初创公司Corma三个月内估值达10亿美元",
+        "summary": "AI网络安全初创公司Corma在产品推出仅三个月后，获得NEA领投的1.25亿美元A轮融资，估值达到10亿美元。这反映了AI安全领域的投资热度。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "苹果推出新应用研究人们如何使用AI促进健康",
+        "summary": "苹果发布了一款新应用，用于研究人们如何利用AI回答日常医疗问题。该研究可能为苹果未来的AI健康聊天机器人奠定基础。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI",
+          "ZDNet AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+          "https://www.zdnet.com/tech/apple-health-ai-usage-study-how-to-enroll/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "谷歌地图推出AI行程规划功能",
+        "summary": "谷歌地图的Gemini驱动聊天机器人Ask Maps新增AI行程规划功能，可创建定制行程并提供每个停靠点的实时详细信息。该功能正逐步推出。",
+        "importance": "low",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
+          "https://www.theverge.com/tech/1034110/google-ask-maps-ai-trip-planning"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "美国超大规模数据中心用电量超过中型国家",
+        "summary": "发表在《自然-可持续性》上的一项研究显示，美国超大规模数据中心消耗的电力超过许多国家，且化石燃料仍是其主要电力来源，产生大量温室气体排放。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
+          "https://arstechnica.com/science/2026/11/hyperscale-data-centers-use-2-of-us-electricity/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "AI代理失控事件引发法律问责，加州起诉OpenAI可能开创监管先例",
+      "美国进一步收紧AI芯片出口管制，封堵远程算力访问漏洞",
+      "英伟达领导层动荡持续，黄仁勋去留成行业焦点，反映AI芯片巨头治理风险"
+    ],
+    "sourceCount": 18
+  },
   {
     "date": "2026-11-16",
     "generated": "2026-11-16T06:10:31.810Z",
@@ -11515,31 +11675,5 @@ const REPORTS = [
       "公众对AI穿戴设备态度分化：名人批评凸显隐私与设计问题，市场接受度仍存挑战。"
     ],
     "sourceCount": 3
-  },
-  {
-    "date": "2026-07-13",
-    "generated": "2026-07-13T06:34:40.462Z",
-    "queryDate": "2026-07-11",
-    "summary": "OpenAI布局家庭场景，AI应用深化",
-    "headlines": [
-      {
-        "title": "OpenAI押注家庭场景，ChatGPT深入千家万户",
-        "summary": "OpenAI正在招聘专门的产品经理，负责为家庭、看护者和老年人打造ChatGPT体验。这表明OpenAI正将AI助手从办公场景拓展到家庭生活，瞄准更广泛的用户群体。此举可能推动AI在家庭中的普及，但也需关注隐私和适老化设计。",
-        "importance": "high",
-        "sources": [
-          "TechCrunch AI"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/"
-        ],
-        "credibility": 5,
-        "category": "商业动态"
-      }
-    ],
-    "signals": [
-      "AI应用从办公场景向家庭生活渗透，家庭用户成为新增长点",
-      "AI公司开始关注老年人和看护者等细分人群，产品适老化趋势显现"
-    ],
-    "sourceCount": 1
   }
 ];
