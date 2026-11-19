@@ -1,7 +1,155 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-11-18T07:10:22.247Z
+// 最后更新: 2026-11-19T07:12:04.964Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-11-19",
+    "generated": "2026-11-19T07:12:04.964Z",
+    "queryDate": "2026-11-18",
+    "summary": "英伟达CEO离职余波震荡AI界，Anthropic天价IPO引关注",
+    "headlines": [
+      {
+        "title": "Anthropic以每股83美元定价IPO，估值达1.5万亿美元",
+        "summary": "Anthropic的IPO定价为每股83美元，高于此前预期区间，完全稀释后估值高达1.5万亿美元。这标志着AI公司上市热潮达到新高度。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "英伟达停止向中国销售AI芯片",
+        "summary": "英伟达临时CEO Colette Kress在财报电话会上宣布，尽管白宫去年12月已批准，公司已停止向中国发送先进AI芯片。这标志着英伟达对华政策的重大转变。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "英伟达CEO黄仁勋离职引发行业震荡，多位科技领袖发声",
+        "summary": "英伟达创始人兼CEO黄仁勋因包括与疑似中国间谍有染在内的多项丑闻于上周离职。马斯克称罢免黄仁勋如同“把迈克尔·乔丹踢出球队”，Palmer Luckey认为中国会为此高兴，并呼吁恢复其职位。Sam Altman也表示“难以想象没有黄仁勋的AI行业”。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
+          "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/",
+          "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "英伟达创业投资组合价值飙升至650亿美元，但黄仁勋离职令未来交易存疑",
+        "summary": "过去九个月，英伟达的私人投资价值几乎翻了三倍，达到650亿美元，这得益于黄仁勋激进的交易策略和投资组合公司估值上涨。然而，随着黄仁勋离职，未来交易前景蒙上阴影。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "微软CEO纳德拉：AI代理将重塑网络经济",
+        "summary": "纳德拉预测AI代理可能颠覆广告驱动的商业模式，迫使亚马逊等公司重新思考如何争夺客户。他还表示，尽管AI带来新挑战，但对英伟达临时CEO Colette Kress充满信心。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+          "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "微软Copilot成为“工作新操作系统”，Office应用集成其中",
+        "summary": "在Ignite大会上，微软宣布Word、Excel和PowerPoint现已运行在Copilot内部，并将推出常驻AI代理。Copilot被定位为“工作的新操作系统”。",
+        "importance": "high",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "微软推出Licensed Weights，允许企业用自有数据定制AI模型",
+        "summary": "微软在Ignite 2026上发布Licensed Weights功能，使企业能够使用自己的数据对AI模型进行定制化训练，进一步推动AI模型的企业级应用。",
+        "importance": "medium",
+        "sources": [
+          "ZDNet AI"
+        ],
+        "sourceUrls": [
+          "https://www.zdnet.com/innovation/microsoft-licensed-weights-ai-models-ignite-2026/"
+        ],
+        "credibility": 4,
+        "category": "模型发布"
+      },
+      {
+        "title": "AI驱动的网络攻击威胁加剧，科技领袖警告防御滞后",
+        "summary": "微软CEO纳德拉指出大量关键基础设施“无法修补”，Anduril创始人Palmer Luckey警告AI网络攻击正超越防御能力，呼吁“该开始奔跑了”。这些言论凸显AI安全风险的紧迫性。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+          "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "美国最大学区考虑弃用谷歌搜索，因AI功能强制启用",
+        "summary": "纽约、洛杉矶和芝加哥的学区正在考虑谷歌替代方案，因为谷歌表示将禁止选择退出AI功能的学校使用搜索服务。从明年开始，学校将无法在不启用Gemini驱动功能的情况下禁用AI特性。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "谷歌搜索AI功能新增无痕模式",
+        "summary": "谷歌为搜索中的AI模式推出临时对话功能，用户可以在不将对话加入搜索历史或影响未来推荐的情况下与AI交互。这是对隐私担忧的回应。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "英伟达CEO黄仁勋离职引发行业连锁反应，从投资决策到对华芯片销售均受冲击，AI芯片霸主面临不确定性。",
+      "AI公司上市与融资热潮持续，Anthropic以1.5万亿美元估值IPO，英伟达投资组合价值飙升至650亿美元，资本市场对AI热情不减。",
+      "AI代理（AI Agents）正从概念走向落地，微软、谷歌等巨头推动代理重塑工作流程和网络经济，但银行等机构对代理安全风险持谨慎态度。"
+    ],
+    "sourceCount": 10
+  },
   {
     "date": "2026-11-18",
     "generated": "2026-11-18T07:10:22.247Z",
@@ -11626,163 +11774,5 @@ const REPORTS = [
       "AI企业服务深化：Anthropic与黑石成立合资公司、印度AI编程公司快速成为独角兽，表明AI正从提供工具向提供深度实施服务和解决方案转型。"
     ],
     "sourceCount": 15
-  },
-  {
-    "date": "2026-07-15",
-    "generated": "2026-07-15T03:24:08.590Z",
-    "queryDate": "2026-07-14",
-    "summary": "AI监管、硬件与模型安全成焦点",
-    "headlines": [
-      {
-        "title": "OpenAI首款硬件设备曝光：无屏可移动智能音箱",
-        "summary": "据彭博社报道，OpenAI首款硬件设备是一款无屏幕但可自主移动的智能音箱，旨在成为ChatGPT的物理化身，提供陪伴感。该设备将配备摄像头和传感器以理解环境，预计年内发布。",
-        "importance": "high",
-        "sources": [
-          "TechCrunch",
-          "The Verge"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
-          "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device"
-        ],
-        "credibility": 4,
-        "category": "商业动态"
-      },
-      {
-        "title": "OpenAI新旗舰模型GPT-5.6 Sol被曝自动删除文件",
-        "summary": "多位用户在社交媒体上报告称，OpenAI最新旗舰模型GPT-5.6 Sol会未经警告自动删除文件和数据。OpenAI早在6月就已披露该问题，但用户警告仍在持续。",
-        "importance": "high",
-        "sources": [
-          "TechCrunch"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/"
-        ],
-        "credibility": 4,
-        "category": "模型发布"
-      },
-      {
-        "title": "纽约州率先暂停大型数据中心建设，为期一年",
-        "summary": "纽约州州长霍楚签署命令，成为全美首个暂停审批超大规模数据中心的州，理由是AI建设热潮不应以抬高电价、消耗水资源或削弱地方控制为代价。此举可能成为反AI运动的样板。",
-        "importance": "high",
-        "sources": [
-          "TechCrunch",
-          "The Verge",
-          "Ars Technica"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers/",
-          "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
-          "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/"
-        ],
-        "credibility": 5,
-        "category": "政策监管"
-      },
-      {
-        "title": "DeepMind CEO呼吁建立独立AI标准机构",
-        "summary": "DeepMind CEO Demis Hassabis提议效仿美国金融业监管局（FINRA），成立一个独立的AI标准机构，负责测试前沿模型并制定发布最佳实践。他认为该机构应由美国主导，并有权在模型过于危险时叫停发布。",
-        "importance": "high",
-        "sources": [
-          "TechCrunch",
-          "The Verge"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
-          "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog"
-        ],
-        "credibility": 5,
-        "category": "政策监管"
-      },
-      {
-        "title": "苹果向公众开放iOS 27公测版，新版Siri AI上线",
-        "summary": "苹果发布iOS 27公测版，所有iPhone用户均可提前体验AI驱动的全新Siri。新版Siri是iOS 27的核心亮点，具备更强的对话能力和上下文理解能力，正式版将于秋季发布。",
-        "importance": "medium",
-        "sources": [
-          "TechCrunch",
-          "ZDNet"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/",
-          "https://www.zdnet.com/article/public-beta-ios-27-siri-ai-hands-on-testing/"
-        ],
-        "credibility": 5,
-        "category": "产业应用"
-      },
-      {
-        "title": "Meta被诉使用AI偏见算法进行大规模裁员",
-        "summary": "26名前Meta员工提起诉讼，指控公司使用AI工具不公平地针对休病假或残疾员工进行裁员。Meta否认使用AI决定解雇名单，称绩效数据由“一系列工具”收集。",
-        "importance": "high",
-        "sources": [
-          "The Verge",
-          "Ars Technica"
-        ],
-        "sourceUrls": [
-          "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
-          "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/"
-        ],
-        "credibility": 5,
-        "category": "政策监管"
-      },
-      {
-        "title": "SpaceXAI的Grok编程工具被曝上传用户完整代码库至云端",
-        "summary": "SpaceXAI的Grok Build AI编程工具被发现将用户完整代码库上传至谷歌云存储。该行为被曝光后，公司已关闭该功能。安全研究人员警告此类行为存在严重隐私风险。",
-        "importance": "medium",
-        "sources": [
-          "The Verge"
-        ],
-        "sourceUrls": [
-          "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload"
-        ],
-        "credibility": 4,
-        "category": "产业应用"
-      },
-      {
-        "title": "谷歌再遭出版商AI训练版权诉讼",
-        "summary": "阿歇特、圣智、爱思唯尔等多家大型出版商起诉谷歌，指控其未经授权使用受版权保护的作品训练AI模型。这是谷歌面临的又一起AI训练数据版权诉讼。",
-        "importance": "medium",
-        "sources": [
-          "TechCrunch"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/"
-        ],
-        "credibility": 5,
-        "category": "政策监管"
-      },
-      {
-        "title": "视频生成创企PixVerse融资4.39亿美元，估值超20亿",
-        "summary": "AI视频生成初创公司PixVerse完成4.39亿美元融资，估值突破20亿美元。资金将用于扩展世界模型产品并拓展全球市场。",
-        "importance": "medium",
-        "sources": [
-          "TechCrunch"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/"
-        ],
-        "credibility": 4,
-        "category": "资本市场"
-      },
-      {
-        "title": "Spotify推出类ChatGPT音乐助手",
-        "summary": "Spotify为Premium订阅用户推出AI对话功能，用户可通过聊天方式发现音乐、播客和有声书。该功能名为“Talk to Spotify”，标志着流媒体平台进一步拥抱AI。",
-        "importance": "medium",
-        "sources": [
-          "TechCrunch",
-          "The Verge"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/14/spotify-expands-its-ai-push-with-a-chatgpt-like-music-assistant/",
-          "https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts"
-        ],
-        "credibility": 5,
-        "category": "产业应用"
-      }
-    ],
-    "signals": [
-      "AI监管加速：纽约数据中心禁令与DeepMind独立机构提议显示，全球AI监管正从讨论走向实质行动，基础设施和模型安全成为监管重点。",
-      "AI硬件竞争升温：OpenAI、苹果等巨头纷纷推出或升级AI硬件（无屏音箱、新版Siri），AI从软件向物理形态渗透的趋势明显。",
-      "AI安全与伦理争议频发：GPT-5.6自动删文件、Meta AI裁员诉讼、Grok代码上传等事件集中爆发，凸显AI可靠性、隐私和公平性仍是行业痛点。"
-    ],
-    "sourceCount": 17
   }
 ];
