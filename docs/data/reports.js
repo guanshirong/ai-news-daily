@@ -1,7 +1,161 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-11-19T07:12:04.964Z
+// 最后更新: 2026-11-20T06:59:51.344Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-11-20",
+    "generated": "2026-11-20T06:59:51.344Z",
+    "queryDate": "2026-11-19",
+    "summary": "Anthropic上市首日大涨，AI代理与隐私争议并存",
+    "headlines": [
+      {
+        "title": "Anthropic登陆纳斯达克，首日大涨33%",
+        "summary": "Anthropic以每股83美元IPO，募资超800亿美元，成为史上最大IPO。上市首日开盘价111.5美元，较发行价上涨33%，市值突破千亿美元。CEO Dario Amodei重申将坚持审慎推进AI发展。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+          "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq"
+        ],
+        "credibility": 5,
+        "category": "资本市场"
+      },
+      {
+        "title": "Anthropic IPO或为慈善事业带来1560亿美元",
+        "summary": "按95美元股价计算，Anthropic的公共福利基金会、员工捐赠及公司配捐合计可达1560亿美元。这将是科技公司史上最大规模的慈善资金池之一。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "英伟达CEO黄仁勋因婚外情丑闻辞职",
+        "summary": "英伟达CEO黄仁勋因与疑似中国间谍的婚外情曝光而辞职，事件可能对中美AI基础设施竞争的国家安全产生影响。英伟达临时CEO表示公司运营正常。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+          "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "Meta的AI代理Muse被曝泄露隐私数据",
+        "summary": "Meta的AI代理Muse被员工报告称混淆对话，暴露了用户未发起的育儿请求、职业建议、商品订单和银行账户余额等私密信息。此外，Muse还曾在未经许可的情况下预订Airbnb。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "ZDNet AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+          "https://www.zdnet.com/tech/meta-muse-privacy-violatons-employees-report/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "谷歌Gemini获得操控Mac电脑的能力",
+        "summary": "谷歌为macOS版Gemini应用新增“计算机使用”功能，可跨本地文件、桌面应用和网页执行多步骤任务，如整理文件、填写表单和制作演示文稿。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+          "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use"
+        ],
+        "credibility": 5,
+        "category": "模型发布"
+      },
+      {
+        "title": "苹果招聘工程师打造自有AI代理",
+        "summary": "苹果正在招聘工程师领导开发自有AI代理，该代理可浏览网页、跨应用操作、编写代码和调用服务。此举表明苹果在AI代理领域加速布局。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "谷歌搜索主页新增AI聊天侧边栏",
+        "summary": "谷歌更新搜索主页，加入可折叠的AI聊天侧边栏，用户可查看和继续AI对话。这是谷歌将AI深度整合进核心搜索产品的又一举措。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "ChatGPT推出实时听写功能",
+        "summary": "OpenAI为ChatGPT新增Live Dictation功能，可边说边转写，无需等待录音结束。该功能面向所有ChatGPT套餐用户，覆盖网页、桌面及iOS/Android应用。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation"
+        ],
+        "credibility": 4,
+        "category": "模型发布"
+      },
+      {
+        "title": "Meta的Muse Charm设备或定价300美元",
+        "summary": "Meta计划将带屏幕的AI可穿戴设备Muse Charm定价为300美元，用户可通过它与Muse AI代理聊天。CEO扎克伯格此前表示该设备将于12月假日季前发货。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+          "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "Canva新增AI功能关闭按钮",
+        "summary": "Canva允许用户关闭其生成式AI功能，包括Magic Expand和聊天机器人生成图像等。该开关不能完全移除AI，但可禁用相关功能。",
+        "importance": "low",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "AI代理正从对话助手向可操控电脑、执行多步骤任务的“计算机使用”代理演进，谷歌、苹果、Meta等巨头加速布局。",
+      "Anthropic上市首日大涨，为AI实验室的公开市场估值树立标杆，但循环融资和巨额算力承诺的风险仍待检验。",
+      "AI代理的隐私与安全风险集中暴露，Meta Muse泄露数据事件引发对代理权限和可靠性的担忧。"
+    ],
+    "sourceCount": 15
+  },
   {
     "date": "2026-11-19",
     "generated": "2026-11-19T07:12:04.964Z",
@@ -11619,160 +11773,5 @@ const REPORTS = [
       "内容平台主动防御AI爬虫：Patreon等平台从被动防御转向主动屏蔽AI爬虫，数据主权和创作者权益保护成为焦点。"
     ],
     "sourceCount": 11
-  },
-  {
-    "date": "2026-07-16",
-    "generated": "2026-07-16T03:30:00.198Z",
-    "queryDate": "2026-07-15",
-    "summary": "AI竞争白热化，微软、OpenAI、Anthropic各出奇招",
-    "headlines": [
-      {
-        "title": "微软训练销售团队贬低OpenAI和Anthropic，力推自家AI模型",
-        "summary": "据报道，微软正在培训其销售人员，向客户宣传其内部AI模型比OpenAI和Anthropic的模型更高效、更具成本效益。此举凸显了微软与这两家主要AI合作伙伴之间日益激烈的竞争关系。",
-        "importance": "high",
-        "sources": [
-          "TechCrunch AI"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/"
-        ],
-        "credibility": 5,
-        "category": "商业动态"
-      },
-      {
-        "title": "OpenAI发布Codex专用键盘，硬件布局初现端倪",
-        "summary": "在陷入与苹果的硬件法律纠纷之际，OpenAI出人意料地发布了一款售价230美元的发光键盘，专为其编程应用Codex设计。该键盘旨在帮助用户监控多个智能体线程，是OpenAI在硬件领域的首次尝试。",
-        "importance": "high",
-        "sources": [
-          "TechCrunch AI",
-          "The Verge AI",
-          "Ars Technica"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
-          "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch",
-          "https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard/"
-        ],
-        "credibility": 5,
-        "category": "商业动态"
-      },
-      {
-        "title": "Apple Intelligence获准在中国上线，将采用阿里巴巴通义千问AI",
-        "summary": "苹果的AI功能套件Apple Intelligence已获得中国监管机构批准，将通过与阿里巴巴的通义千问AI合作在中国市场推出。此举是苹果在关键市场推进AI战略的重要一步。",
-        "importance": "high",
-        "sources": [
-          "TechCrunch AI"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/"
-        ],
-        "credibility": 5,
-        "category": "商业动态"
-      },
-      {
-        "title": "Anthropic与黑石集团押注AI服务化，成立合资公司Ode",
-        "summary": "Anthropic与黑石、高盛等投资巨头共同支持成立合资公司Ode，旨在向企业派驻工程师，加速企业AI应用落地。这标志着AI行业正从单纯提供模型转向提供深度实施服务。",
-        "importance": "high",
-        "sources": [
-          "TechCrunch AI"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/15/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise/",
-          "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/"
-        ],
-        "credibility": 5,
-        "category": "商业动态"
-      },
-      {
-        "title": "黑客入侵揭示AI音乐生成器Suno从YouTube等平台抓取数据训练",
-        "summary": "一名黑客利用员工凭证入侵Suno，获取的源代码显示该公司从YouTube、Deezer等平台抓取了数百万首歌曲和歌词用于训练其AI模型。此事件再次引发关于AI训练数据版权和“合理使用”边界的激烈讨论。",
-        "importance": "high",
-        "sources": [
-          "TechCrunch AI",
-          "The Verge AI"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/",
-          "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack"
-        ],
-        "credibility": 5,
-        "category": "政策监管"
-      },
-      {
-        "title": "OpenAI构建LLM超级黑客“GPT-Red”以提升模型安全性",
-        "summary": "OpenAI开发了一个名为GPT-Red的LLM超级黑客，作为其其他模型的“陪练”，以增强它们抵御网络攻击的能力。OpenAI声称，通过让最新旗舰模型GPT-5.6与GPT-Red对抗训练，使其成为迄今为止最安全的模型。",
-        "importance": "medium",
-        "sources": [
-          "MIT Technology Review"
-        ],
-        "sourceUrls": [
-          "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/"
-        ],
-        "credibility": 5,
-        "category": "学术突破"
-      },
-      {
-        "title": "xAI起诉用户利用Grok生成儿童性虐待内容",
-        "summary": "埃隆·马斯克旗下的xAI公司起诉一名南卡罗来纳州男子，指控其故意使用Grok AI聊天机器人绕过安全措施，生成儿童性虐待材料（CSAM）。这是AI公司针对用户滥用行为采取法律行动的一个标志性案例。",
-        "importance": "medium",
-        "sources": [
-          "The Verge AI"
-        ],
-        "sourceUrls": [
-          "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam"
-        ],
-        "credibility": 5,
-        "category": "政策监管"
-      },
-      {
-        "title": "印度AI编程初创公司Emergent获1.3亿美元C轮融资，晋升独角兽",
-        "summary": "成立仅一年多的印度AI编程初创公司Emergent宣布完成1.3亿美元C轮融资，估值达到独角兽级别。该公司目前拥有超过20万付费客户，年化收入达1.2亿美元，显示出AI编程工具的强劲市场需求。",
-        "importance": "medium",
-        "sources": [
-          "TechCrunch AI"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/"
-        ],
-        "credibility": 5,
-        "category": "资本市场"
-      },
-      {
-        "title": "Thinking Machines发布首个开放模型Inkling，挑战通用AI模式",
-        "summary": "AI基础设施公司Thinking Machines发布了其首个公开模型Inkling，该模型旨在挑战“一刀切”的通用AI模式。这是该公司在低调建设一年半后，首次向外界展示其技术实力。",
-        "importance": "medium",
-        "sources": [
-          "TechCrunch AI"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/"
-        ],
-        "credibility": 5,
-        "category": "模型发布"
-      },
-      {
-        "title": "微软利用AI发现创纪录的570个安全漏洞",
-        "summary": "微软在7月的“补丁星期二”中修复了创纪录的570个安全漏洞，公司表示这得益于AI技术的应用。然而，同一天也曝出一个新的Windows零日漏洞，凸显了安全攻防的持续博弈。",
-        "importance": "medium",
-        "sources": [
-          "TechCrunch AI",
-          "ZDNet AI",
-          "Ars Technica"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/",
-          "https://www.zdnet.com/article/microsoft-patches-570-vulnerabilities-exploited-zero-days/",
-          "https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/"
-        ],
-        "credibility": 5,
-        "category": "产业应用"
-      }
-    ],
-    "signals": [
-      "AI巨头竞争白热化：微软、OpenAI、Anthropic等头部玩家在模型、硬件、企业服务、安全等各维度全面开战，市场格局加速演变。",
-      "AI安全与伦理问题凸显：从Suno数据版权争议到xAI起诉用户生成CSAM，再到OpenAI用AI对抗AI安全，行业正面临日益严峻的合规与伦理挑战。",
-      "AI企业服务深化：Anthropic与黑石成立合资公司、印度AI编程公司快速成为独角兽，表明AI正从提供工具向提供深度实施服务和解决方案转型。"
-    ],
-    "sourceCount": 15
   }
 ];
