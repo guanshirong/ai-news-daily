@@ -1,7 +1,155 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-11-20T06:59:51.344Z
+// 最后更新: 2026-11-21T06:55:08.183Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-11-21",
+    "generated": "2026-11-21T06:55:08.183Z",
+    "queryDate": "2026-11-20",
+    "summary": "AI数学突破与商业资本化并行，监管与隐私博弈加剧",
+    "headlines": [
+      {
+        "title": "AI与人类同时宣称解决黎曼猜想",
+        "summary": "Anthropic数学家Levent Alpöge声称借助Claude证明了167年历史的黎曼猜想，同时有数学家独立提出人类解法。该事件引发数学界震动，但证明尚未经同行评审。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+          "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem"
+        ],
+        "credibility": 4,
+        "category": "学术突破"
+      },
+      {
+        "title": "Anthropic七位创始人IPO套现近20亿美元",
+        "summary": "Anthropic以每股83美元完成破纪录IPO，七位创始人每人套现2.8亿美元，公司募资近1050亿美元。这是AI公司迄今最大规模上市之一。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "特朗普威胁对海外AI数据中心征收“巨额税”",
+        "summary": "特朗普总统承诺对在美国境外建设数据中心的企业征收“巨额税”，与此同时美国多州和城市正限制新数据中心申请。此举可能影响AI基础设施全球布局。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "英伟达CEO黄仁勋丑闻持续发酵，公司停止对华销售H200芯片",
+        "summary": "英伟达在罢免CEO黄仁勋的余波中发布财报，增长健康但宣布停止在中国销售H200芯片。公司同时面临管理层动荡与地缘政治压力。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "METR报告更新AI能力增长曲线：编码能力突飞猛进，判断力仍不足",
+        "summary": "AI评估非营利组织METR发布报告，发现部分AI能力沿指数轨迹持续提升，但模型在需要判断力的任务上表现远不如编码任务。该报告更新了其著名的AI能力时间线图表。",
+        "importance": "medium",
+        "sources": [
+          "MIT Technology Review"
+        ],
+        "sourceUrls": [
+          "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/"
+        ],
+        "credibility": 5,
+        "category": "学术突破"
+      },
+      {
+        "title": "苹果或开发自主AI代理运行Mac",
+        "summary": "苹果似乎正在构建可与Meta Muse、Instinct、Claude和OpenAI Dots竞争的AI代理，能够操控Mac电脑。这标志着苹果在AI代理领域的重大布局。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/"
+        ],
+        "credibility": 4,
+        "category": "模型发布"
+      },
+      {
+        "title": "Signal限制截图功能以阻止AI代理读取用户屏幕",
+        "summary": "Signal在iOS和Android上限制截图功能，防止Gemini和Siri等AI代理扫描用户消息。这是隐私通讯应用对AI代理扩张的防御性回应。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI",
+          "ZDNet AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+          "https://www.zdnet.com/innovation/signal-restricts-screenshots-over-ai-agent-concerns/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "谷歌推出新版搜索主页：取消搜索按钮，增加AI聊天历史侧栏",
+        "summary": "谷歌搜索主页改版，移除传统搜索按钮，新增AI聊天历史侧栏，使用户更容易访问AI工具。这是谷歌搜索向AI优先转型的最新举措。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "Meta因AI数据中心创纪录排放重新考虑2030净零目标",
+        "summary": "Meta正在“重新评估”其2030年可持续发展目标，原因是AI数据中心导致排放量创纪录。这可能引发其他科技巨头跟进调整气候承诺。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "研究者在AI供应链植入200万个“金丝雀”令牌，揭露严重隐私泄露",
+        "summary": "一项安全实验在AI供应链中植入200万个可追踪的独特秘密提示，证明用户数据在AI处理过程中无法保持私密。该发现揭示了AI供应链中系统性的数据泄露风险。",
+        "importance": "medium",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      }
+    ],
+    "signals": [
+      "AI数学推理能力出现里程碑式突破，但证明验证与人类竞争并存，AI科研贡献的认定标准亟待建立",
+      "AI公司资本化加速：Anthropic创纪录IPO与英伟达管理层动荡形成鲜明对比，行业进入资本密集竞争阶段",
+      "AI基础设施的能源与地缘政治约束显性化：特朗普威胁对海外数据中心征税、Meta气候目标动摇、芯片对华禁售，算力扩张面临多重政策与物理边界"
+    ],
+    "sourceCount": 12
+  },
   {
     "date": "2026-11-20",
     "generated": "2026-11-20T06:59:51.344Z",
@@ -11627,151 +11775,5 @@ const REPORTS = [
       "开源、非营利AI项目兴起，试图打破巨头垄断"
     ],
     "sourceCount": 5
-  },
-  {
-    "date": "2026-07-18",
-    "generated": "2026-07-18T03:22:03.938Z",
-    "queryDate": "2026-07-17",
-    "summary": "AI行业资本、法律与安全事件密集爆发",
-    "headlines": [
-      {
-        "title": "Databricks估值达1880亿美元，巩固AI领域地位",
-        "summary": "Databricks估值飙升至1880亿美元，成功转型为AI公司，并发布研究显示开源权重模型在编程任务中可大幅降低成本。",
-        "importance": "high",
-        "sources": [
-          "TechCrunch AI"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/"
-        ],
-        "credibility": 5,
-        "category": "资本市场"
-      },
-      {
-        "title": "苹果起诉OpenAI，可能扰乱其IPO计划",
-        "summary": "苹果对OpenAI提起商业秘密诉讼，指控其系统性挖角超过400名前苹果员工，并涉及首席硬件官的不当行为。该诉讼可能对OpenAI的IPO计划造成重大影响。",
-        "importance": "high",
-        "sources": [
-          "TechCrunch AI",
-          "The Verge AI"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
-          "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast"
-        ],
-        "credibility": 5,
-        "category": "政策监管"
-      },
-      {
-        "title": "旧金山要求苹果和谷歌下架AI“脱衣”应用",
-        "summary": "旧金山地区检察官正式要求苹果和谷歌从其应用商店中移除AI“脱衣”应用，并指出这些平台可能从中获利数百万美元。此举标志着对AI滥用行为的监管进一步收紧。",
-        "importance": "high",
-        "sources": [
-          "Ars Technica"
-        ],
-        "sourceUrls": [
-          "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/"
-        ],
-        "credibility": 5,
-        "category": "政策监管"
-      },
-      {
-        "title": "Patreon联手Cloudflare主动屏蔽AI爬虫",
-        "summary": "Patreon不再依赖robots.txt，转而与Cloudflare合作主动阻止AI模型未经授权抓取创作者内容。这反映了内容平台对AI训练数据使用的防御策略升级。",
-        "importance": "medium",
-        "sources": [
-          "TechCrunch AI"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/"
-        ],
-        "credibility": 5,
-        "category": "产业应用"
-      },
-      {
-        "title": "GPU金融家转向推理芯片，达成4亿美元交易",
-        "summary": "首笔GPU融资机构完成一笔4亿美元的芯片抵押贷款，将投资重点转向AI推理芯片。这标志着AI基础设施投资从训练向推理的转变。",
-        "importance": "medium",
-        "sources": [
-          "TechCrunch AI"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/"
-        ],
-        "credibility": 5,
-        "category": "资本市场"
-      },
-      {
-        "title": "TikTok测试AI肖像检测工具",
-        "summary": "TikTok开始测试一项可选工具，可扫描AI生成的肖像并允许创作者向平台举报。该工具目前仅对部分美国创作者开放，旨在应对深度伪造问题。",
-        "importance": "medium",
-        "sources": [
-          "The Verge AI"
-        ],
-        "sourceUrls": [
-          "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool"
-        ],
-        "credibility": 5,
-        "category": "产业应用"
-      },
-      {
-        "title": "AI驱动内存短缺冲击印度智能手机市场",
-        "summary": "AI热潮导致内存芯片需求激增，进而引发印度智能手机市场放缓。报道分析了AI如何重塑消费电子产品的定价、需求和企业策略。",
-        "importance": "medium",
-        "sources": [
-          "TechCrunch AI"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/"
-        ],
-        "credibility": 5,
-        "category": "产业应用"
-      },
-      {
-        "title": "Agility Robotics在特斯拉后院开设机器人培训中心",
-        "summary": "Agility Robotics在加州弗里蒙特开设新的Digit机器人培训中心，该地点紧邻特斯拉工厂。此举显示了人形机器人领域的竞争加剧。",
-        "importance": "medium",
-        "sources": [
-          "TechCrunch AI"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/"
-        ],
-        "credibility": 5,
-        "category": "商业动态"
-      },
-      {
-        "title": "Moonshot开源Kimi K3模型在基准测试中超越Anthropic Fable 5",
-        "summary": "中国AI公司Moonshot发布开源模型Kimi K3，在特定基准测试中表现优于Anthropic的Fable 5模型。这显示了中国AI公司在开源领域的竞争力。",
-        "importance": "medium",
-        "sources": [
-          "ZDNet AI"
-        ],
-        "sourceUrls": [
-          "https://www.zdnet.com/article/ai-model-release-tracker/"
-        ],
-        "credibility": 4,
-        "category": "模型发布"
-      },
-      {
-        "title": "Vertu推出6880美元AI代理手机，面向高管市场",
-        "summary": "奢侈手机品牌Vertu推出一款售价6880美元的折叠手机，内置AI代理功能。TechCrunch评测了其AI工作流、电池续航和安全性能。",
-        "importance": "low",
-        "sources": [
-          "TechCrunch AI"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/"
-        ],
-        "credibility": 5,
-        "category": "产业应用"
-      }
-    ],
-    "signals": [
-      "AI巨头法律纠纷加剧：苹果起诉OpenAI及旧金山要求下架AI脱衣应用，表明监管和法律风险成为AI行业核心议题。",
-      "AI基础设施投资转向推理：首笔GPU融资机构转向推理芯片，标志着AI投资从训练算力向推理部署的转变。",
-      "内容平台主动防御AI爬虫：Patreon等平台从被动防御转向主动屏蔽AI爬虫，数据主权和创作者权益保护成为焦点。"
-    ],
-    "sourceCount": 11
   }
 ];
