@@ -1,7 +1,112 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-11-21T06:55:08.183Z
+// 最后更新: 2026-11-22T06:31:29.519Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-11-22",
+    "generated": "2026-11-22T06:31:29.519Z",
+    "queryDate": "2026-11-21",
+    "summary": "AI监管与安全争议升温，脑科学发现挑战认知",
+    "headlines": [
+      {
+        "title": "Signal限制移动端截图以应对AI监控威胁",
+        "summary": "加密通讯应用Signal在Android和iOS版本中限制用户截图功能，称此举是为了应对AI驱动的监控带来的“生存威胁”。这是主流通讯应用首次以AI监控为由主动削弱系统级功能。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "英伟达财报与业界呼声呈现两极叙事",
+        "summary": "英伟达最新财报与部分科技高管公开呼吁黄仁勋回归形成鲜明对比，TechCrunch称之为“两个英伟达的故事”。报道暗示公司内部治理或战略方向存在分歧，引发外界对其领导层稳定性的关注。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "联合国未能就“杀手机器人”规则达成一致",
+        "summary": "日内瓦联合国会议本周讨论自主武器监管，但谈判基本无果，代表们仅同意“开始讨论选项”。这意味着全球对致命性自主武器的约束仍停留在议程阶段，短期内难有具约束力的国际规则。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/1039554/un-regulations-killer-robots"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "研究：AI内部机制未必模拟人脑",
+        "summary": "科学家发现，即使AI模型能高度预测大脑活动，其内部计算过程也可能与大脑实际使用的方式不同，挑战了“AI类似人脑”的流行假设。该发现对神经科学启发的AI架构设计具有重要含义。",
+        "importance": "high",
+        "sources": [
+          "ScienceDaily AI"
+        ],
+        "sourceUrls": [
+          "https://www.sciencedaily.com/releases/2026/11/261120075701.htm"
+        ],
+        "credibility": 4,
+        "category": "学术突破"
+      },
+      {
+        "title": "Anthropic上市后能否坚持安全优先",
+        "summary": "The Verge播客讨论Anthropic上周四在纳斯达克IPO后的走向，聚焦其“安全优先”定位与商业压力之间的张力。节目探讨了巨额上市数字背后，公司治理结构能否支撑其安全承诺。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "短信内AI代理盘点：从通用助手到家庭旅行专用",
+        "summary": "TechCrunch梳理了可直接在短信中运行的AI代理，涵盖通用助手及面向家庭、旅行和工作场景的专用代理。这反映出AI代理正从独立应用向用户日常通讯入口迁移的趋势。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "演员出售AI面部授权给微短剧初创公司",
+        "summary": "一名演员将其面部授权给微短剧初创公司用于AI生成内容，这一在中国已流行的模式开始进入好莱坞视野。专家警告若成趋势，可能对演员权益和肖像权带来长期负面影响。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "AI监控与自主武器监管成为国际焦点，但联合国谈判无果，科技公司开始自行采取防御措施（如Signal限制截图）",
+      "AI与人脑认知机制的研究出现反转，提示当前AI可解释性与神经科学类比需重新审视",
+      "AI代理向短信等日常通讯入口渗透，同时AI生成内容引发肖像权与演员权益的新商业模式争议"
+    ],
+    "sourceCount": 7
+  },
   {
     "date": "2026-11-21",
     "generated": "2026-11-21T06:55:08.183Z",
@@ -11696,84 +11801,5 @@ const REPORTS = [
       "AI代理与本地化部署兴起：Perplexity将AI代理扩展至Windows，Recursive Superintelligence重金押注算力，AI从云端向边缘和本地化演进。"
     ],
     "sourceCount": 15
-  },
-  {
-    "date": "2026-07-20",
-    "generated": "2026-07-20T03:56:06.188Z",
-    "queryDate": "2026-07-19",
-    "summary": "AI硬件、诉讼与开源生态成焦点",
-    "headlines": [
-      {
-        "title": "黄仁勋日本之行达成多项AI生态合作",
-        "summary": "英伟达CEO黄仁勋结束日本访问，与日本科技生态系统达成多项合作协议，涵盖芯片、数据中心和AI应用。此举可能加速日本AI基础设施建设和产业升级。",
-        "importance": "high",
-        "sources": [
-          "TechCrunch AI"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/"
-        ],
-        "credibility": 5,
-        "category": "商业动态"
-      },
-      {
-        "title": "苹果诉讼或阻碍OpenAI硬件计划与上市",
-        "summary": "苹果对OpenAI提起的诉讼可能影响其进军硬件领域和IPO计划。该诉讼涉及技术专利或合作纠纷，引发市场对OpenAI未来战略的担忧。",
-        "importance": "high",
-        "sources": [
-          "TechCrunch AI"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/"
-        ],
-        "credibility": 5,
-        "category": "商业动态"
-      },
-      {
-        "title": "非营利组织Current AI致力于构建免费开放的AI“万维网”",
-        "summary": "非营利组织Current AI正在开发一个类似万维网的开放AI平台，旨在让全球用户免费使用，并避免文化偏见。该项目已在AI聊天和设备端应用上取得显著进展。",
-        "importance": "medium",
-        "sources": [
-          "TechCrunch AI"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/"
-        ],
-        "credibility": 5,
-        "category": "产业应用"
-      },
-      {
-        "title": "导演克里斯托弗·诺兰称AI是明显的“特洛伊木马”",
-        "summary": "著名导演克里斯托弗·诺兰在宣传新片《奥德赛》时，将AI比作特洛伊木马，暗示其表面有益但暗藏风险。该言论引发对AI安全与伦理的讨论。",
-        "importance": "low",
-        "sources": [
-          "TechCrunch AI"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/"
-        ],
-        "credibility": 5,
-        "category": "政策监管"
-      },
-      {
-        "title": "AI音乐生成工具Suno引发复杂感受：一首不讨厌的AI歌曲",
-        "summary": "一位评论者承认，尽管通常反感AI生成音乐，但对使用Suno制作的歌曲《Semiramis Dream》并不讨厌。这反映了AI音乐在质量上的进步以及公众态度的微妙变化。",
-        "importance": "low",
-        "sources": [
-          "The Verge AI"
-        ],
-        "sourceUrls": [
-          "https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music"
-        ],
-        "credibility": 4,
-        "category": "产业应用"
-      }
-    ],
-    "signals": [
-      "AI硬件与芯片生态竞争加剧，英伟达加速全球布局",
-      "科技巨头法律纠纷频发，可能重塑AI公司战略路径",
-      "开源、非营利AI项目兴起，试图打破巨头垄断"
-    ],
-    "sourceCount": 5
   }
 ];
