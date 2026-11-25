@@ -1,7 +1,159 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-11-24T09:42:28.640Z
+// 最后更新: 2026-11-25T08:16:32.963Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-11-25",
+    "generated": "2026-11-25T08:16:32.963Z",
+    "queryDate": "2026-11-24",
+    "summary": "英伟达CEO风波与AI代理商业化并进",
+    "headlines": [
+      {
+        "title": "英伟达CEO黄仁勋回归后首次全员大会：道歉并否认白宫干预",
+        "summary": "黄仁勋在回归英伟达后的首次全员大会上向员工道歉，并否认特朗普政府帮助其复职的传闻。此前有报道称，其盟友曾游说特朗普和万斯向英伟达董事会施压。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
+          "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
+          "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "Anthropic股价跌破IPO发行价，AI初创企业估值承压",
+        "summary": "Anthropic上市后股价持续低迷，已跌破IPO发行价，引发市场对AI初创企业高估值的担忧。这一信号可能促使投资者重新评估AI领域的投资风险。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "亚马逊收购Decart，以软件缩小与英伟达的芯片差距",
+        "summary": "亚马逊以据报道75亿美元收购Decart，旨在通过软件优化提升其Trainium芯片的效率，从而在AI芯片竞赛中缩小与英伟达的差距。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "Tidal将禁止并删除数百万首AI生成音乐",
+        "summary": "Tidal宣布从12月9日起禁止完全由AI生成的音乐，预计将删除约2700万至2900万首曲目，并每天拒绝约8万至8.5万首上传。此举旨在应对AI垃圾内容对音乐流媒体的冲击。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+          "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+          "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "英国警告AI驱动的网络攻击暴露多年安全薄弱环节",
+        "summary": "英国网络安全机构警告称，AI黑客工具正利用简单安全漏洞发起攻击，暴露出多年积累的安全缺陷。该机构强调“构建强大基础比以往任何时候都重要”。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "亚马逊称黑客AI代理以极少人工输入发现并利用零日漏洞",
+        "summary": "亚马逊披露，黑客利用AI代理框架Cairn以极少人工干预发现并利用了零日漏洞。该框架同时为防御方和攻击方带来优势，凸显AI在网络安全领域的双刃剑效应。",
+        "importance": "high",
+        "sources": [
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "沃尔玛与Meta合作，通过AI代理Muse提供黑五优惠",
+        "summary": "沃尔玛与Meta合作，允许顾客通过Meta的AI代理Muse直接购买黑色星期五优惠商品。这是AI代理在电商领域商业化的重要一步。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "Meta将Muse AI助手直接整合进Instagram私信",
+        "summary": "Meta宣布将AI助手Muse直接整合到Instagram私信中，用户无需切换应用即可与AI代理交互。此举旨在提升用户参与度和AI助手的使用便利性。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "新基准显示即使最先进的AI代理也难以可靠完成日常任务",
+        "summary": "一项新基准测试表明，尽管数百万用户开始使用个人AI助手，但最先进的AI模型在可靠、安全地完成日常任务方面仍存在困难，且可能引入新问题。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/"
+        ],
+        "credibility": 4,
+        "category": "学术突破"
+      },
+      {
+        "title": "数据中心自建天然气发电厂以绕过电网接入瓶颈",
+        "summary": "由于电网接入审批可能长达十年，部分数据中心开发商选择自建离网天然气发电厂为AI基础设施供电。这一趋势反映了AI算力需求激增与能源基础设施滞后之间的矛盾。",
+        "importance": "medium",
+        "sources": [
+          "MIT Technology Review"
+        ],
+        "sourceUrls": [
+          "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      }
+    ],
+    "signals": [
+      "AI代理商业化加速，但可靠性与安全性仍是主要瓶颈",
+      "AI生成内容泛滥引发平台监管收紧，音乐流媒体率先行动",
+      "AI驱动的网络攻击升级，安全防御面临新挑战"
+    ],
+    "sourceCount": 14
+  },
   {
     "date": "2026-11-24",
     "generated": "2026-11-24T09:42:28.640Z",
@@ -11618,123 +11770,5 @@ const REPORTS = [
       "AI巨头通过大规模云合作和自建基础设施争夺算力资源"
     ],
     "sourceCount": 14
-  },
-  {
-    "date": "2026-08-02",
-    "generated": "2026-08-02T03:44:51.996Z",
-    "queryDate": "2026-08-01",
-    "summary": "AI监管、应用争议与产业动态并存",
-    "headlines": [
-      {
-        "title": "法院驳回xAI请求，明尼苏达州“脱衣”应用禁令继续生效",
-        "summary": "明尼苏达州禁止“脱衣”应用的法律在xAI的诉讼中得以维持，法院驳回了xAI的禁令请求。该法律针对利用AI生成虚假裸照的应用，xAI认为其过于宽泛，但法院支持了州政府的立场。",
-        "importance": "high",
-        "sources": [
-          "TechCrunch"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/"
-        ],
-        "credibility": 5,
-        "category": "政策监管"
-      },
-      {
-        "title": "Reddit CEO质疑谷歌AI概览价值，或终止许可协议",
-        "summary": "Reddit股价下跌，CEO对谷歌AI概览带来的流量价值表示怀疑，并暗示可能重新评估与谷歌的许可协议。这反映了内容平台与AI搜索引擎之间日益紧张的商业关系。",
-        "importance": "high",
-        "sources": [
-          "Ars Technica"
-        ],
-        "sourceUrls": [
-          "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/"
-        ],
-        "credibility": 5,
-        "category": "商业动态"
-      },
-      {
-        "title": "Sam Altman再次倡导用ChatGPT辅助育儿",
-        "summary": "OpenAI CEO Sam Altman在社交媒体上分享了一个他认为“很酷”的育儿用例，即使用ChatGPT帮助父母应对育儿问题。这一言论引发了关于AI在家庭角色中的伦理讨论。",
-        "importance": "medium",
-        "sources": [
-          "TechCrunch"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/"
-        ],
-        "credibility": 5,
-        "category": "产业应用"
-      },
-      {
-        "title": "YouTuber Hank Green公开承认AI使用过度，称“不健康”",
-        "summary": "知名YouTuber Hank Green为过度使用AI工具道歉，称与LLM交互带来的多巴胺刺激对个人和世界都不健康。这一事件引发了对AI成瘾性和健康影响的公众讨论。",
-        "importance": "medium",
-        "sources": [
-          "TechCrunch"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/"
-        ],
-        "credibility": 5,
-        "category": "产业应用"
-      },
-      {
-        "title": "Fenix Flexin新歌被质疑为AI生成，引发音乐产业争议",
-        "summary": "说唱歌手Fenix Flexin的歌曲《Rubberz》登上Billboard Hot 100第58名，但被听众和评论家质疑是AI生成的“slop”。封面艺术也被认为几乎肯定由AI制作，这再次引发了对AI在音乐创作中角色的讨论。",
-        "importance": "medium",
-        "sources": [
-          "The Verge"
-        ],
-        "sourceUrls": [
-          "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop"
-        ],
-        "credibility": 4,
-        "category": "产业应用"
-      },
-      {
-        "title": "法院命令Waymo停止在圣莫尼卡夜间充电，因噪音扰民",
-        "summary": "由于居民投诉噪音，法院裁定Waymo必须停止在圣莫尼卡进行夜间充电操作。这凸显了自动驾驶汽车部署中与社区生活协调的挑战。",
-        "importance": "medium",
-        "sources": [
-          "Ars Technica"
-        ],
-        "sourceUrls": [
-          "https://arstechnica.com/tech-policy/2026/08/after-noise-complaints-judge-orders-waymo-to-stop-overnight-charging-in-santa-monica/"
-        ],
-        "credibility": 5,
-        "category": "政策监管"
-      },
-      {
-        "title": "Windows安装文件因AI功能而膨胀，小容量硬盘用户受影响",
-        "summary": "微软Windows的ISO下载文件越来越大，部分原因是内置了更多AI功能。这导致小容量固态硬盘用户面临存储压力，也反映了AI功能正成为操作系统标配的趋势。",
-        "importance": "low",
-        "sources": [
-          "ZDNet"
-        ],
-        "sourceUrls": [
-          "https://www.zdnet.com/article/windows-installation-files-getting-bigger-blame-ai/"
-        ],
-        "credibility": 4,
-        "category": "产业应用"
-      },
-      {
-        "title": "AI在F1赛车中的应用：人的参与仍是竞争优势关键",
-        "summary": "阿斯顿·马丁F1车队的高管和合作伙伴表示，AI和数据技术的价值释放依赖于专业人员的“手工技艺”。在F1这样的高竞争领域，人机协作是取得优势的核心。",
-        "importance": "low",
-        "sources": [
-          "ZDNet"
-        ],
-        "sourceUrls": [
-          "https://www.zdnet.com/article/ai-in-formula-one-competitive-advantage-is-all-about-the-human-in-the-loop/"
-        ],
-        "credibility": 4,
-        "category": "产业应用"
-      }
-    ],
-    "signals": [
-      "AI监管与法律挑战增多，涉及内容生成和自动驾驶等领域",
-      "AI在内容创作（音乐、育儿）中的伦理和健康影响引发公众讨论",
-      "AI功能正深度融入操作系统和行业应用，但人机协作和成本问题凸显"
-    ],
-    "sourceCount": 8
   }
 ];
