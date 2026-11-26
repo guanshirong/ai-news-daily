@@ -1,7 +1,155 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-11-25T08:16:32.963Z
+// 最后更新: 2026-11-26T08:01:55.345Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-11-26",
+    "generated": "2026-11-26T08:01:55.345Z",
+    "queryDate": "2026-11-25",
+    "summary": "英伟达治理风险与AI基建瓶颈成焦点",
+    "headlines": [
+      {
+        "title": "标普考虑因治理与关键人风险下调英伟达信用评级",
+        "summary": "标普全球评级正考虑将英伟达信用评级下调至AA-，理由涉及公司治理和关键人风险。此举反映市场对英伟达高度依赖CEO黄仁勋的担忧。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/"
+        ],
+        "credibility": 4,
+        "category": "资本市场"
+      },
+      {
+        "title": "OpenAI合并Chat与Work体验，重度用户或更早触及用量上限",
+        "summary": "OpenAI将ChatGPT的Chat和Work体验合并，并引入统一的用量计量器。公司表示重度用户可能比以往更早达到使用限制。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "Anthropic CEO驳斥向AI让渡人类控制权的指控",
+        "summary": "Anthropic CEO达里奥·阿莫代伊称竞争对手关于他主张将人类能动性让渡给AI的指控“荒谬”。此番表态正值领先AI公司日益自动化自身研究和模型开发之际。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "纽约州禁止AI聊天机器人玩具五年",
+        "summary": "纽约州以儿童安全为由禁止AI聊天机器人玩具五年。Common Sense Media的新研究揭示了此类玩具的安全缺陷，包括接触不当内容和影响情感发育的风险。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "多州总检察长反对Character.AI拍卖用户私密聊天数据",
+        "summary": "多州总检察长对Character.AI破产出售计划提出异议，该计划涉及超过2100万美国账户的敏感个人数据，其中210万注册者为未成年人。总检察长们要求保护用户隐私。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/"
+        ],
+        "credibility": 4,
+        "category": "政策监管"
+      },
+      {
+        "title": "AI数据中心建设难度加大，新型云厂商承压",
+        "summary": "英伟达明确表示在数据中心接近可运行前不会提供兜底支持，与此同时新型云厂商报告建设延迟和债务成本上升。信号是土地、电力和已完工建筑比商业计划书更重要。",
+        "importance": "high",
+        "sources": [
+          "TechCrunch AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "亚马逊与Meta据报洽谈解除AI代理Muse的购物封锁",
+        "summary": "亚马逊与Meta正在讨论一项潜在协议，以结束对Meta旗下AI购物代理Muse长达两个月的封锁。谈判焦点包括Muse推荐的产品类型及其对亚马逊广告业务的潜在影响。",
+        "importance": "medium",
+        "sources": [
+          "TechCrunch AI",
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+          "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "FCC批准SpaceX部署多达100万颗AI数据中心卫星",
+        "summary": "美国联邦通信委员会授权SpaceX部署多达100万颗配备AI芯片的卫星，作为“Starmind”计划的一部分。该星座将使在轨卫星数量增加约50倍，谷歌和蓝色起源也在探索太空AI数据中心。",
+        "importance": "high",
+        "sources": [
+          "The Verge AI",
+          "Ars Technica"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+          "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      },
+      {
+        "title": "谷歌个性化AI视频流专利曝光，描绘娱乐业黯淡未来",
+        "summary": "谷歌去年申请了一项名为“My Channel”的专利，旨在基于用户信息生成充满个性化AI视频和广告的信息流。该专利已被驳回，但谷歌可能上诉或重新提交。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent"
+        ],
+        "credibility": 4,
+        "category": "商业动态"
+      },
+      {
+        "title": "AI正使美国公开记录系统不堪重负",
+        "summary": "风险投资支持的初创公司大量抓取公共记录以训练AI模型，导致美国小镇书记员等记录管理者面临巨大压力。这一趋势正在考验美国公开记录系统的承载能力。",
+        "importance": "medium",
+        "sources": [
+          "MIT Technology Review"
+        ],
+        "sourceUrls": [
+          "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/"
+        ],
+        "credibility": 5,
+        "category": "政策监管"
+      }
+    ],
+    "signals": [
+      "英伟达面临治理与关键人风险审视，信用评级可能下调，同时其数据中心兜底策略趋严，AI基建融资与建设瓶颈显现。",
+      "AI监管在儿童安全与数据隐私领域持续收紧，纽约州禁令和多州总检察长行动表明政策风险上升。",
+      "AI代理商业化加速但平台间摩擦加剧，亚马逊与Meta就Muse的谈判显示AI购物代理正重塑电商竞争格局。"
+    ],
+    "sourceCount": 12
+  },
   {
     "date": "2026-11-25",
     "generated": "2026-11-25T08:16:32.963Z",
@@ -11616,158 +11764,6 @@ const REPORTS = [
       "AI人才争夺白热化：谷歌等巨头核心研究员离职创业，Anthropic等公司自研芯片，行业竞争加剧",
       "AI智能体安全风险凸显：未经授权的攻击行为引发监管关注，推动对前沿AI系统的安全测试和治理",
       "端侧AI与垂直应用加速：从AI搜索到天气预测，AI正深入行业场景，同时端侧部署成为新趋势"
-    ],
-    "sourceCount": 14
-  },
-  {
-    "date": "2026-08-05",
-    "generated": "2026-08-05T03:25:34.544Z",
-    "queryDate": "2026-08-04",
-    "summary": "AI算力需求激增，开源模型安全引关注",
-    "headlines": [
-      {
-        "title": "Anthropic与AI云初创公司Volta签署100亿美元协议",
-        "summary": "Anthropic近期频繁达成云合作，最新与AI云初创公司Volta签署100亿美元协议，以扩大其AI算力基础设施。此举反映了领先AI实验室对算力的巨大需求。",
-        "importance": "high",
-        "sources": [
-          "TechCrunch"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/"
-        ],
-        "credibility": 5,
-        "category": "商业动态"
-      },
-      {
-        "title": "德州暂停数据中心接入电网，要求进行审计",
-        "summary": "由于AI数据中心需求激增，德州州长下令暂停新数据中心接入电网，并要求进行审计。此举可能减缓新设施的审批，反映出AI算力扩张与能源供应之间的紧张关系。",
-        "importance": "high",
-        "sources": [
-          "TechCrunch",
-          "The Verge",
-          "Ars Technica"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/",
-          "https://www.theverge.com/policy/975071/texas-data-center-audit",
-          "https://arstechnica.com/ai/2026/08/texas-halts-data-center-connections-to-power-grid-amid-overwhelming-demand/"
-        ],
-        "credibility": 5,
-        "category": "政策监管"
-      },
-      {
-        "title": "开放权重AI模型追赶前沿，但安全差距依然存在",
-        "summary": "SaferAI报告指出，Z.ai的开放权重模型GLM-5.2接近前沿能力，但缺乏关键安全缓解措施，引发对强大开放模型可能超越治理和保障的担忧。",
-        "importance": "high",
-        "sources": [
-          "TechCrunch"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/"
-        ],
-        "credibility": 5,
-        "category": "学术突破"
-      },
-      {
-        "title": "苹果称更多前员工可能将机密数据带给OpenAI",
-        "summary": "苹果在对OpenAI的商业机密调查中扩大范围，声称更多前员工可能保留或访问了机密信息。OpenAI则公开回应称苹果的诉讼“草率、激进且奇怪地针对个人”。",
-        "importance": "high",
-        "sources": [
-          "TechCrunch",
-          "The Verge",
-          "Ars Technica"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
-          "https://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages",
-          "https://arstechnica.com/tech-policy/2026/08/openai-says-apples-trade-secrets-lawsuit-is-aggressive-and-oddly-personal/"
-        ],
-        "credibility": 5,
-        "category": "商业动态"
-      },
-      {
-        "title": "AMD数据中心业务蓬勃发展，游戏业务退居其次",
-        "summary": "受AI算力需求驱动，AMD最新财报显示数据中心收入同比增长107%至67亿美元，而游戏业务相对疲软。这凸显了AI对芯片公司业务结构的深刻影响。",
-        "importance": "medium",
-        "sources": [
-          "The Verge"
-        ],
-        "sourceUrls": [
-          "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen"
-        ],
-        "credibility": 5,
-        "category": "资本市场"
-      },
-      {
-        "title": "SpaceX作为AI公司的收入超过航天业务",
-        "summary": "SpaceX的AI收入同比增长三倍至26亿美元，主要来自向其他AI公司提供算力的交易。这表明SpaceX在AI基础设施领域的角色日益重要。",
-        "importance": "medium",
-        "sources": [
-          "The Verge"
-        ],
-        "sourceUrls": [
-          "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud"
-        ],
-        "credibility": 5,
-        "category": "商业动态"
-      },
-      {
-        "title": "Nvidia主导的开放安全AI联盟一周内取得进展",
-        "summary": "由Nvidia牵头、已有超过120家公司加入的开放安全AI联盟，在成立一周内就提出了防御AI代理的提案。这显示了行业对AI安全的快速响应。",
-        "importance": "medium",
-        "sources": [
-          "TechCrunch"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/"
-        ],
-        "credibility": 5,
-        "category": "产业应用"
-      },
-      {
-        "title": "Spotify与Merlin合作扩展AI混音和翻唱项目",
-        "summary": "Spotify宣布独立音乐版权代理机构Merlin加入其AI混音和翻唱产品，该付费工具将允许粉丝创作AI生成的翻唱和混音，同时确保版权方受益。",
-        "importance": "medium",
-        "sources": [
-          "TechCrunch"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/"
-        ],
-        "credibility": 5,
-        "category": "产业应用"
-      },
-      {
-        "title": "Runware推出模块化数据中心Sonic Inference Pod",
-        "summary": "AI基础设施公司Runware发布了名为Sonic Inference Pod的模块化数据中心，探索便携式数据中心的未来，以应对AI算力部署的灵活性需求。",
-        "importance": "low",
-        "sources": [
-          "TechCrunch"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/"
-        ],
-        "credibility": 4,
-        "category": "产业应用"
-      },
-      {
-        "title": "AI发现漏洞的速度超过人类修复能力，企业安全团队需适应",
-        "summary": "AI在发现安全漏洞方面效率极高，但修复速度跟不上，且依赖AI可能引入更多新漏洞。企业安全团队需要调整策略以应对这一挑战。",
-        "importance": "medium",
-        "sources": [
-          "ZDNet"
-        ],
-        "sourceUrls": [
-          "https://www.zdnet.com/article/ai-is-finding-bugs-faster-than-humans-can-fix-them-how-enterprise-security-teams-must-adapt/"
-        ],
-        "credibility": 4,
-        "category": "产业应用"
-      }
-    ],
-    "signals": [
-      "AI算力需求激增，数据中心能源供应成为瓶颈，引发政策干预",
-      "开放权重模型能力快速提升，但安全治理滞后，引发行业关注",
-      "AI巨头通过大规模云合作和自建基础设施争夺算力资源"
     ],
     "sourceCount": 14
   }
