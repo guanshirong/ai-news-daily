@@ -1,7 +1,60 @@
 // 🤖 自动生成 — 请勿手动编辑
-// 最后更新: 2026-11-27T08:08:16.839Z
+// 最后更新: 2026-11-28T07:33:42.892Z
 // 每天 8:00 AM (北京时间) GitHub Actions 自动运行
 const REPORTS = [
+  {
+    "date": "2026-11-28",
+    "generated": "2026-11-28T07:33:42.892Z",
+    "queryDate": "2026-11-27",
+    "summary": "今日AI新闻平淡，聚焦应用与人才",
+    "headlines": [
+      {
+        "title": "MIT科技评论2027年35岁以下创新者提名开启",
+        "summary": "MIT科技评论宣布启动2027年度“35岁以下创新者”评选提名，寻找全球顶尖年轻科学家、创业者和发明家。该评选每年表彰35位杰出青年，是科技界重要人才风向标。",
+        "importance": "medium",
+        "sources": [
+          "MIT Technology Review"
+        ],
+        "sourceUrls": [
+          "https://www.technologyreview.com/2026/11/27/1149857/2027-innovators-under-35-competition-nominate/"
+        ],
+        "credibility": 5,
+        "category": "产业应用"
+      },
+      {
+        "title": "Android DIY小组件：氛围编程的趣味实践",
+        "summary": "The Verge报道Android系统新增的DIY小组件功能，用户可通过自然语言描述需求，由AI生成个性化小组件，例如实时公交到站提醒。这体现了“氛围编程”趋势，让非开发者也能轻松创建实用工具。",
+        "importance": "medium",
+        "sources": [
+          "The Verge AI"
+        ],
+        "sourceUrls": [
+          "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini"
+        ],
+        "credibility": 4,
+        "category": "产业应用"
+      },
+      {
+        "title": "先进假肢技术助力探索人类心智",
+        "summary": "MIT科技评论讲述创伤治疗师Avi Davidson的故事，他借助先进仿生假肢不仅恢复部分功能，还成为研究大脑与机器接口的窗口。该报道探讨了神经假肢如何帮助科学家理解人类心智。",
+        "importance": "low",
+        "sources": [
+          "MIT Technology Review"
+        ],
+        "sourceUrls": [
+          "https://www.technologyreview.com/2026/11/27/1149946/cutting-edge-prosthetics-allow-researchers-to-probe-the-human-mind/"
+        ],
+        "credibility": 5,
+        "category": "学术突破"
+      }
+    ],
+    "signals": [
+      "AI工具平民化：自然语言生成小组件等“氛围编程”降低开发门槛",
+      "人才竞争持续：科技媒体年度创新者评选关注年轻AI人才",
+      "脑机接口与AI结合：仿生假肢成为探索认知的新途径"
+    ],
+    "sourceCount": 3
+  },
   {
     "date": "2026-11-27",
     "generated": "2026-11-27T08:08:16.839Z",
@@ -11537,161 +11590,5 @@ const REPORTS = [
       "AI代理自主行为引发伦理和监管讨论"
     ],
     "sourceCount": 12
-  },
-  {
-    "date": "2026-08-07",
-    "generated": "2026-08-07T03:12:26.585Z",
-    "queryDate": "2026-08-06",
-    "summary": "AI硬件竞赛加剧，OpenAI设备细节曝光，Anthropic自研芯片",
-    "headlines": [
-      {
-        "title": "OpenAI与Jony Ive合作的AI设备细节曝光：曲棍球大小的智能音箱",
-        "summary": "据彭博社记者Mark Gurman报道，OpenAI与苹果前设计总监Jony Ive合作的首款AI设备是一款电池供电、甜甜圈形状、大小类似曲棍球的智能音箱，无显示屏，预计2027年发布，售价在300-400美元之间。该设备将深度集成ChatGPT，标志着OpenAI进军消费硬件领域。",
-        "importance": "high",
-        "sources": [
-          "TechCrunch",
-          "The Verge"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
-          "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor"
-        ],
-        "credibility": 4,
-        "category": "商业动态"
-      },
-      {
-        "title": "Anthropic确认自研芯片，减少对英伟达依赖",
-        "summary": "Anthropic证实将组建内部芯片团队，设计自有硬件以支持Claude模型。此举与OpenAI类似，旨在扩大规模的同时降低对英伟达的依赖，反映顶级AI实验室正加速向垂直整合方向发展。",
-        "importance": "high",
-        "sources": [
-          "Ars Technica"
-        ],
-        "sourceUrls": [
-          "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/"
-        ],
-        "credibility": 4,
-        "category": "商业动态"
-      },
-      {
-        "title": "ChatGPT免费用户获无限文本聊天，新增“思考”按钮",
-        "summary": "OpenAI宣布从下周起，ChatGPT免费版和Go版用户将享受无限文本聊天，不再受速率限制。同时新增“思考”按钮，用于处理复杂查询，提升免费用户体验，可能吸引更多用户。",
-        "importance": "medium",
-        "sources": [
-          "TechCrunch",
-          "The Verge"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
-          "https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats"
-        ],
-        "credibility": 5,
-        "category": "商业动态"
-      },
-      {
-        "title": "Suno宣布为AI音乐添加水印，应对法律纠纷与滥用",
-        "summary": "AI音乐公司Suno在面临多起诉讼之际，宣布将采用水印技术和下载限制，以防止大规模滥用并提高透明度。此举旨在“合法化”其服务，缓解与唱片公司的紧张关系。",
-        "importance": "medium",
-        "sources": [
-          "TechCrunch",
-          "The Verge",
-          "Ars Technica"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/08/06/amid-legal-battles-suno-says-it-will-start-watermarking-songs/",
-          "https://www.theverge.com/ai-artificial-intelligence/976289/suno-ai-music-spam-watermark",
-          "https://arstechnica.com/ai/2026/08/suno-hopes-to-go-legit-with-watermarks-for-ai-generated-music/"
-        ],
-        "credibility": 5,
-        "category": "政策监管"
-      },
-      {
-        "title": "OpenAI反驳苹果商业机密诉讼，称苹果自身安全实践有问题",
-        "summary": "OpenAI请求联邦法官驳回苹果的诉讼，称其指控“毫无根据”。OpenAI指出苹果自身的安全和离职流程存在漏洞，例如允许经理访问前工程师的iCloud账户，削弱了其商业机密主张。",
-        "importance": "medium",
-        "sources": [
-          "TechCrunch",
-          "The Verge"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case/",
-          "https://www.theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request"
-        ],
-        "credibility": 5,
-        "category": "政策监管"
-      },
-      {
-        "title": "Google Maps新增代理功能，支持订餐和酒店预订",
-        "summary": "Google Maps推出新的代理功能，用户可直接在应用内完成订餐和酒店预订。这标志着Google Maps从导航工具向能完成现实世界任务的AI助手转型，是Google在代理式AI领域的重要布局。",
-        "importance": "medium",
-        "sources": [
-          "TechCrunch",
-          "ZDNet"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/",
-          "https://www.zdnet.com/article/googles-new-ask-maps-features-may-be-more-exciting-than-the-upcoming-pixel-drop/"
-        ],
-        "credibility": 5,
-        "category": "产业应用"
-      },
-      {
-        "title": "Mirendil与Google Cloud签署超1亿美元协议，扩展自改进AI研究",
-        "summary": "AI初创公司Mirendil与Google Cloud达成超过1亿美元的合作伙伴关系，以扩展其计算基础设施，支持自改进AI系统的研究，旨在加速科学发现和AI发展。",
-        "importance": "medium",
-        "sources": [
-          "TechCrunch"
-        ],
-        "sourceUrls": [
-          "https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai/"
-        ],
-        "credibility": 4,
-        "category": "商业动态"
-      },
-      {
-        "title": "Cloudflare开源“vibe-coding”平台，面向非程序员",
-        "summary": "Cloudflare将其内部使用的AI代理工作区开源，该平台旨在帮助非程序员通过自然语言构建应用。此举将推动“vibe-coding”普及，降低编程门槛。",
-        "importance": "low",
-        "sources": [
-          "Ars Technica"
-        ],
-        "sourceUrls": [
-          "https://arstechnica.com/ai/2026/08/cloudflare-open-sources-vibe-coding-platform-for-people-who-arent-coders/"
-        ],
-        "credibility": 4,
-        "category": "产业应用"
-      },
-      {
-        "title": "Adobe为ChatGPT推出插件，可在对话中调用70多种工具",
-        "summary": "Adobe发布ChatGPT插件，用户无需离开ChatGPT即可使用70多种Adobe工具，涵盖设计、文档处理等。该插件同时支持Work和Codex，今日上线，标志着AI与创意工具深度集成。",
-        "importance": "low",
-        "sources": [
-          "ZDNet"
-        ],
-        "sourceUrls": [
-          "https://www.zdnet.com/article/adobe-launches-plugin-for-chatgpt-how-it-works/"
-        ],
-        "credibility": 4,
-        "category": "产业应用"
-      },
-      {
-        "title": "研究显示AI修复软件漏洞失败率高达74%",
-        "summary": "1Password的研究警告，AI在自动修复软件漏洞方面表现不佳，74%的情况下未能正确修复。该研究提醒业界在网络安全领域应谨慎使用AI，不能完全依赖自动化。",
-        "importance": "medium",
-        "sources": [
-          "ZDNet"
-        ],
-        "sourceUrls": [
-          "https://www.zdnet.com/article/ai-isnt-ready-to-patch-your-software-74-of-them-miss-the-mark/"
-        ],
-        "credibility": 4,
-        "category": "学术突破"
-      }
-    ],
-    "signals": [
-      "AI硬件竞赛白热化：OpenAI、Anthropic等头部实验室纷纷布局自研硬件，减少对英伟达依赖，垂直整合成为趋势",
-      "AI应用加速落地：Google Maps、Adobe等主流产品深度集成AI代理功能，从工具向智能助手转型",
-      "AI治理与合规成焦点：Suno水印、OpenAI与苹果诉讼等事件凸显AI版权、安全与责任问题日益重要"
-    ],
-    "sourceCount": 16
   }
 ];
